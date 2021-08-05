@@ -16,3 +16,7 @@ INFO 2021-08-05 17:35:32,997 urls 27 info
 INFO 2021-08-05 17:35:32,997 basehttp 161 "GET / HTTP/1.1" 200 4
 INFO 2021-08-05 18:15:14,233 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\urls.py changed, reloading.
 INFO 2021-08-05 18:15:15,929 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-05 18:16:02,528 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\urls.py changed, reloading.
+INFO 2021-08-05 18:16:04,144 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-05 22:33:38,215 urls 27 info
+INFO 2021-08-05 22:33:38,217 basehttp 161 "GET / HTTP/1.1" 200 4

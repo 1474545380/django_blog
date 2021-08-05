@@ -24,7 +24,7 @@ logger=logging.getLogger('django')
 
 def log(request):
     #使用日志器记录信息
-    logger.info('info') 
+    logger.info('info')
     return HttpResponse('test')
 urlpatterns = [
     path('admin/', admin.site.urls),
