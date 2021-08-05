@@ -1,0 +1,16 @@
+INFO 2021-08-05 17:24:42,161 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-05 17:24:44,895 basehttp 161 "GET / HTTP/1.1" 200 10633
+INFO 2021-08-05 17:25:03,614 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\settings.py changed, reloading.
+INFO 2021-08-05 17:28:59,710 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-05 17:29:18,394 basehttp 161 "GET / HTTP/1.1" 200 10633
+INFO 2021-08-05 17:29:55,720 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\settings.py changed, reloading.
+INFO 2021-08-05 17:30:22,768 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-05 17:32:58,192 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\urls.py changed, reloading.
+INFO 2021-08-05 17:32:59,768 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-05 17:33:01,503 basehttp 161 "GET / HTTP/1.1" 200 4
+INFO 2021-08-05 17:35:28,126 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\urls.py changed, reloading.
+INFO 2021-08-05 17:35:29,744 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-05 17:35:30,110 urls 27 info
+INFO 2021-08-05 17:35:30,110 basehttp 161 "GET / HTTP/1.1" 200 4
+INFO 2021-08-05 17:35:32,997 urls 27 info
+INFO 2021-08-05 17:35:32,997 basehttp 161 "GET / HTTP/1.1" 200 4
