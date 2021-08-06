@@ -20,3 +20,70 @@ INFO 2021-08-05 18:16:02,528 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pr
 INFO 2021-08-05 18:16:04,144 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-08-05 22:33:38,215 urls 27 info
 INFO 2021-08-05 22:33:38,217 basehttp 161 "GET / HTTP/1.1" 200 4
+INFO 2021-08-06 17:07:40,215 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-06 17:09:21,846 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\settings.py changed, reloading.
+INFO 2021-08-06 17:09:23,506 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-06 17:10:49,793 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\settings.py changed, reloading.
+INFO 2021-08-06 17:10:51,688 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-06 17:11:22,233 urls 27 info
+INFO 2021-08-06 17:11:22,235 basehttp 161 "GET / HTTP/1.1" 200 4
+WARNING 2021-08-06 17:11:22,762 log 224 Not Found: /favicon.ico
+WARNING 2021-08-06 17:11:22,763 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2211
+WARNING 2021-08-06 17:11:36,783 basehttp 161 "GET /static/index.html HTTP/1.1" 404 1789
+INFO 2021-08-06 17:12:48,767 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\settings.py changed, reloading.
+INFO 2021-08-06 17:12:50,519 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-06 17:12:54,256 urls 27 info
+INFO 2021-08-06 17:12:54,257 basehttp 161 "GET / HTTP/1.1" 200 4
+WARNING 2021-08-06 17:12:57,025 basehttp 161 "GET /static/index.html HTTP/1.1" 404 1789
+INFO 2021-08-06 17:14:48,927 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-06 17:14:50,449 urls 27 info
+INFO 2021-08-06 17:14:50,450 basehttp 161 "GET / HTTP/1.1" 200 4
+WARNING 2021-08-06 17:14:53,271 basehttp 161 "GET /static/index.html HTTP/1.1" 404 1789
+WARNING 2021-08-06 17:14:54,088 basehttp 161 "GET /static/index.html HTTP/1.1" 404 1789
+WARNING 2021-08-06 17:14:54,341 basehttp 161 "GET /static/index.html HTTP/1.1" 404 1789
+WARNING 2021-08-06 17:14:54,703 basehttp 161 "GET /static/index.html HTTP/1.1" 404 1789
+WARNING 2021-08-06 17:14:54,904 basehttp 161 "GET /static/index.html HTTP/1.1" 404 1789
+WARNING 2021-08-06 17:15:11,063 basehttp 161 "GET /static/index.index HTTP/1.1" 404 1792
+WARNING 2021-08-06 17:15:19,778 basehttp 161 "GET /static/index.html HTTP/1.1" 404 1789
+INFO 2021-08-06 17:18:22,692 urls 27 info
+INFO 2021-08-06 17:18:22,693 basehttp 161 "GET / HTTP/1.1" 200 4
+WARNING 2021-08-06 17:18:35,017 basehttp 161 "GET /static/index.html HTTP/1.1" 404 1789
+INFO 2021-08-06 17:20:27,990 urls 27 info
+INFO 2021-08-06 17:20:27,991 basehttp 161 "GET / HTTP/1.1" 200 4
+INFO 2021-08-06 17:20:28,578 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\settings.py changed, reloading.
+INFO 2021-08-06 17:20:30,455 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-06 17:20:39,638 basehttp 161 "GET /static/index.html HTTP/1.1" 200 11998
+INFO 2021-08-06 17:20:39,672 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-08-06 17:20:39,676 basehttp 161 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-08-06 17:20:39,677 basehttp 161 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-08-06 17:20:39,679 basehttp 161 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2021-08-06 17:20:39,679 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-08-06 17:20:39,689 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-08-06 17:20:39,691 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-08-06 17:20:39,692 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-08-06 17:20:39,694 basehttp 161 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2021-08-06 17:20:39,695 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-08-06 17:20:39,696 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-08-06 17:20:39,698 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-08-06 17:20:58,086 basehttp 161 "GET /static/write_blog.html HTTP/1.1" 200 5722
+INFO 2021-08-06 17:20:58,118 basehttp 161 "GET /static/js/write_blog.js HTTP/1.1" 200 521
+INFO 2021-08-06 17:20:58,119 basehttp 161 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2021-08-06 17:20:58,125 basehttp 161 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+INFO 2021-08-06 17:20:58,270 basehttp 161 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2021-08-06 17:20:58,291 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2021-08-06 17:20:58,295 basehttp 161 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 200 18818
+INFO 2021-08-06 17:20:58,308 basehttp 161 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2021-08-06 17:20:58,325 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2021-08-06 17:20:58,328 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2021-08-06 17:20:58,328 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2021-08-06 17:20:58,329 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2021-08-06 17:20:58,330 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2021-08-06 17:20:58,352 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2021-08-06 17:20:58,383 basehttp 161 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2021-08-06 17:20:59,248 basehttp 161 "GET /static/login.html HTTP/1.1" 200 3089
+INFO 2021-08-06 17:20:59,279 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2021-08-06 17:21:01,972 basehttp 161 "POST /static/login.html HTTP/1.1" 200 3089
+INFO 2021-08-06 17:21:04,230 basehttp 161 "POST /static/login.html HTTP/1.1" 200 3089
+INFO 2021-08-06 17:21:05,360 basehttp 161 "GET /static/register.html HTTP/1.1" 200 5235
+INFO 2021-08-06 17:21:05,381 basehttp 161 "GET /static/img/image_code.png HTTP/1.1" 200 3483
+INFO 2021-08-06 17:21:05,401 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6407
