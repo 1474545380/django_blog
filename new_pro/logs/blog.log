@@ -87,3 +87,130 @@ INFO 2021-08-06 17:21:04,230 basehttp 161 "POST /static/login.html HTTP/1.1" 200
 INFO 2021-08-06 17:21:05,360 basehttp 161 "GET /static/register.html HTTP/1.1" 200 5235
 INFO 2021-08-06 17:21:05,381 basehttp 161 "GET /static/img/image_code.png HTTP/1.1" 200 3483
 INFO 2021-08-06 17:21:05,401 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2021-08-06 17:30:11,755 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\settings.py changed, reloading.
+INFO 2021-08-06 17:30:13,557 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-06 17:41:53,788 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\urls.py changed, reloading.
+INFO 2021-08-06 17:41:55,722 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-06 17:42:00,617 basehttp 161 "GET /static/register.html HTTP/1.1" 404 1798
+WARNING 2021-08-06 17:42:05,815 log 224 Not Found: /egister.html
+WARNING 2021-08-06 17:42:05,816 basehttp 161 "GET /egister.html HTTP/1.1" 404 2287
+WARNING 2021-08-06 17:42:08,356 log 224 Not Found: /egister
+WARNING 2021-08-06 17:42:08,357 basehttp 161 "GET /egister HTTP/1.1" 404 2272
+WARNING 2021-08-06 17:42:10,427 log 224 Not Found: /egister
+WARNING 2021-08-06 17:42:10,427 basehttp 161 "GET /egister HTTP/1.1" 404 2272
+INFO 2021-08-06 17:42:18,328 basehttp 161 "GET /register HTTP/1.1" 301 0
+INFO 2021-08-06 17:42:18,422 basehttp 161 "GET /register/ HTTP/1.1" 200 5217
+ERROR 2021-08-06 17:49:12,397 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-06 17:49:12,418 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+INFO 2021-08-06 17:49:12,421 basehttp 75 - Broken pipe from ('127.0.0.1', 11989)
+
+INFO 2021-08-06 17:49:12,424 basehttp 75 - Broken pipe from ('127.0.0.1', 14332)
+
