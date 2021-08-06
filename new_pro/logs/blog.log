@@ -214,3 +214,6 @@ INFO 2021-08-06 17:49:12,421 basehttp 75 - Broken pipe from ('127.0.0.1', 11989)
 
 INFO 2021-08-06 17:49:12,424 basehttp 75 - Broken pipe from ('127.0.0.1', 14332)
 
+INFO 2021-08-06 17:55:41,631 autoreload 251 F:\git ¿â\django_blog\new_pro\users\models.py changed, reloading.
+INFO 2021-08-06 17:55:43,743 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-06 17:59:16,416 basehttp 161 "GET /static/login.html HTTP/1.1" 200 3102
