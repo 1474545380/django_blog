@@ -145,8 +145,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 #静态资源配置
-STATICFILES_DIRS=[
-    os.path.join(BASE_DIR,'static')
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
 ]
 
 # Default primary key field type
@@ -204,3 +204,5 @@ LOGGING={
         }
     }
 }
+#替换自带的user模型
+AUTH_USER_MODEL='users.User'

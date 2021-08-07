@@ -217,3 +217,1679 @@ INFO 2021-08-06 17:49:12,424 basehttp 75 - Broken pipe from ('127.0.0.1', 14332)
 INFO 2021-08-06 17:55:41,631 autoreload 251 F:\git ¿â\django_blog\new_pro\users\models.py changed, reloading.
 INFO 2021-08-06 17:55:43,743 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-08-06 17:59:16,416 basehttp 161 "GET /static/login.html HTTP/1.1" 200 3102
+INFO 2021-08-07 15:27:12,945 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-07 15:27:15,449 log 224 Not Found: /
+WARNING 2021-08-07 15:27:15,450 basehttp 161 "GET / HTTP/1.1" 404 2233
+WARNING 2021-08-07 15:27:15,664 log 224 Not Found: /favicon.ico
+WARNING 2021-08-07 15:27:15,664 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2284
+ERROR 2021-08-07 15:27:26,194 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:27:26,197 basehttp 161 "GET /register/ HTTP/1.1" 500 155145
+ERROR 2021-08-07 15:28:17,187 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:28:17,190 basehttp 161 "GET /register/ HTTP/1.1" 500 155282
+ERROR 2021-08-07 15:28:28,918 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:28:28,919 basehttp 161 "GET /register/ HTTP/1.1" 500 155282
+ERROR 2021-08-07 15:28:29,340 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:28:29,342 basehttp 161 "GET /register/ HTTP/1.1" 500 155282
+ERROR 2021-08-07 15:28:29,527 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:28:29,529 basehttp 161 "GET /register/ HTTP/1.1" 500 155282
+ERROR 2021-08-07 15:28:29,714 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:28:29,717 basehttp 161 "GET /register/ HTTP/1.1" 500 155282
+ERROR 2021-08-07 15:30:10,493 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:30:10,495 basehttp 161 "GET /register/ HTTP/1.1" 500 155282
+ERROR 2021-08-07 15:30:52,836 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:30:52,838 basehttp 161 "GET /register/ HTTP/1.1" 500 155282
+ERROR 2021-08-07 15:30:53,438 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:30:53,440 basehttp 161 "GET /register/ HTTP/1.1" 500 155282
+ERROR 2021-08-07 15:30:53,751 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:30:53,753 basehttp 161 "GET /register/ HTTP/1.1" 500 155282
+ERROR 2021-08-07 15:30:54,103 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:30:54,105 basehttp 161 "GET /register/ HTTP/1.1" 500 155282
+ERROR 2021-08-07 15:30:54,351 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:30:54,353 basehttp 161 "GET /register/ HTTP/1.1" 500 155282
+ERROR 2021-08-07 15:30:56,580 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:30:56,582 basehttp 161 "GET /register/ HTTP/1.1" 500 155282
+INFO 2021-08-07 15:31:25,284 basehttp 161 "GET /register/ HTTP/1.1" 200 5210
+WARNING 2021-08-07 15:31:25,383 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+WARNING 2021-08-07 15:31:25,390 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:31:25,441 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:31:36,396 basehttp 161 "GET /register/ HTTP/1.1" 200 5210
+WARNING 2021-08-07 15:31:36,426 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:31:36,480 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:31:36,882 basehttp 161 "GET /register/ HTTP/1.1" 200 5210
+WARNING 2021-08-07 15:31:36,907 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:31:36,916 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:31:37,011 basehttp 161 "GET /register/ HTTP/1.1" 200 5210
+WARNING 2021-08-07 15:31:37,035 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:31:37,045 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:32:34,168 basehttp 161 "GET /register/ HTTP/1.1" 200 5210
+WARNING 2021-08-07 15:32:34,200 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:32:34,207 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:32:34,813 basehttp 161 "GET /register/ HTTP/1.1" 200 5210
+WARNING 2021-08-07 15:32:34,842 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:32:34,856 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+WARNING 2021-08-07 15:33:28,201 log 224 Not Found: /
+WARNING 2021-08-07 15:33:28,203 basehttp 161 "GET / HTTP/1.1" 404 2233
+INFO 2021-08-07 15:33:40,237 basehttp 161 "GET /register/ HTTP/1.1" 200 5210
+WARNING 2021-08-07 15:33:40,320 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:33:40,321 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+WARNING 2021-08-07 15:33:40,373 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+ERROR 2021-08-07 15:34:02,234 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:34:02,236 basehttp 161 "GET /register/ HTTP/1.1" 500 155282
+ERROR 2021-08-07 15:34:03,145 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:34:03,147 basehttp 161 "GET /register/ HTTP/1.1" 500 155282
+INFO 2021-08-07 15:34:11,094 basehttp 161 "GET /register/ HTTP/1.1" 200 5210
+WARNING 2021-08-07 15:34:11,165 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:34:11,167 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:38:52,197 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\settings.py changed, reloading.
+INFO 2021-08-07 15:38:54,012 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-08-07 15:40:23,121 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:40:23,141 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:40:23,147 basehttp 161 "GET /register/ HTTP/1.1" 500 156063
+INFO 2021-08-07 15:40:23,155 basehttp 75 - Broken pipe from ('127.0.0.1', 6558)
+
+INFO 2021-08-07 15:40:45,025 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-07 15:40:46,608 log 224 Not Found: /
+WARNING 2021-08-07 15:40:46,608 basehttp 161 "GET / HTTP/1.1" 404 2233
+ERROR 2021-08-07 15:40:58,621 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 6, in get
+    return render(request,'register.html')
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-07 15:40:58,624 basehttp 161 "GET /register/ HTTP/1.1" 500 155925
+INFO 2021-08-07 15:41:12,585 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+WARNING 2021-08-07 15:41:12,678 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+WARNING 2021-08-07 15:41:12,679 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:41:12,715 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:45:20,839 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+WARNING 2021-08-07 15:45:20,869 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:45:20,923 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:45:21,295 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+WARNING 2021-08-07 15:45:21,318 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:45:21,340 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:45:21,759 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+WARNING 2021-08-07 15:45:21,782 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:45:21,816 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:45:21,894 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+WARNING 2021-08-07 15:45:21,919 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:45:21,928 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:45:22,068 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+WARNING 2021-08-07 15:45:22,092 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:45:22,102 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:45:22,272 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+WARNING 2021-08-07 15:45:22,295 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:45:22,320 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:45:22,406 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+WARNING 2021-08-07 15:45:22,429 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:45:22,441 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:45:22,578 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+WARNING 2021-08-07 15:45:22,602 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:45:22,619 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+INFO 2021-08-07 15:46:33,805 basehttp 161 "GET /register/ HTTP/1.1" 200 5211
+WARNING 2021-08-07 15:46:33,834 basehttp 161 "GET /static/img/image_code.png%7D HTTP/1.1" 404 1818
+WARNING 2021-08-07 15:46:33,853 basehttp 161 "GET /static/js/register.js%7D HTTP/1.1" 404 1806
+WARNING 2021-08-07 15:51:16,276 log 224 Not Found: /
+WARNING 2021-08-07 15:51:16,277 basehttp 161 "GET / HTTP/1.1" 404 2233
+INFO 2021-08-07 15:51:34,994 basehttp 161 "GET /register/ HTTP/1.1" 200 5136
+WARNING 2021-08-07 15:51:35,021 log 224 Not Found: /register/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:51:35,022 basehttp 161 "GET /register/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2371
+WARNING 2021-08-07 15:51:35,036 log 224 Not Found: /register/js/vue-2.5.16.js
+WARNING 2021-08-07 15:51:35,037 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:51:35,037 basehttp 161 "GET /register/js/vue-2.5.16.js HTTP/1.1" 404 2326
+WARNING 2021-08-07 15:51:35,038 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:51:35,063 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:51:35,065 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:51:35,065 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:51:35,066 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:51:35,067 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:51:35,068 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:51:35,069 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:51:35,069 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:51:39,371 basehttp 161 "GET /register/ HTTP/1.1" 200 5136
+WARNING 2021-08-07 15:51:39,395 log 224 Not Found: /register/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:51:39,396 basehttp 161 "GET /register/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2371
+WARNING 2021-08-07 15:51:39,412 log 224 Not Found: /register/js/vue-2.5.16.js
+WARNING 2021-08-07 15:51:39,412 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:51:39,413 basehttp 161 "GET /register/js/vue-2.5.16.js HTTP/1.1" 404 2326
+WARNING 2021-08-07 15:51:39,413 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:51:39,424 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:51:39,425 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:51:39,443 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:51:39,444 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:51:39,445 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:51:39,445 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:51:39,446 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:51:39,446 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:51:39,453 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:51:39,453 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:51:39,461 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:51:39,461 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:51:39,520 basehttp 161 "GET /register/ HTTP/1.1" 200 5136
+WARNING 2021-08-07 15:51:39,544 log 224 Not Found: /register/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:51:39,545 basehttp 161 "GET /register/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2371
+WARNING 2021-08-07 15:51:39,568 log 224 Not Found: /register/js/vue-2.5.16.js
+WARNING 2021-08-07 15:51:39,569 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:51:39,570 basehttp 161 "GET /register/js/vue-2.5.16.js HTTP/1.1" 404 2326
+WARNING 2021-08-07 15:51:39,570 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:51:39,581 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:51:39,586 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:51:39,592 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:51:39,593 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:51:39,594 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:51:39,594 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:51:39,595 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:51:39,596 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:06,941 basehttp 161 "GET /register/ HTTP/1.1" 200 5143
+WARNING 2021-08-07 15:52:06,968 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:06,969 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:06,990 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:06,991 log 224 Not Found: /register/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:06,992 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:52:06,992 basehttp 161 "GET /register/js/vue-2.5.16.js HTTP/1.1" 404 2326
+WARNING 2021-08-07 15:52:07,031 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:07,032 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:07,033 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:07,035 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:07,035 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:07,035 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:07,037 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:07,037 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:07,047 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:07,047 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:07,534 basehttp 161 "GET /register/ HTTP/1.1" 200 5143
+WARNING 2021-08-07 15:52:07,559 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:07,560 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:07,571 log 224 Not Found: /register/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:07,572 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:07,572 basehttp 161 "GET /register/js/vue-2.5.16.js HTTP/1.1" 404 2326
+WARNING 2021-08-07 15:52:07,573 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:52:07,597 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:07,598 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:07,600 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:07,601 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:07,601 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:07,601 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:07,602 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:07,603 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:07,863 basehttp 161 "GET /register/ HTTP/1.1" 200 5143
+WARNING 2021-08-07 15:52:07,888 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:07,888 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:07,914 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:07,915 log 224 Not Found: /register/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:07,915 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:52:07,916 basehttp 161 "GET /register/js/vue-2.5.16.js HTTP/1.1" 404 2326
+WARNING 2021-08-07 15:52:07,952 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:07,953 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:07,954 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:07,954 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:07,955 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:07,956 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:52:07,968 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:07,969 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:07,970 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:07,970 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:07,972 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:07,972 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:07,980 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:07,980 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:07,989 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:07,989 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:08,032 basehttp 161 "GET /register/ HTTP/1.1" 200 5143
+WARNING 2021-08-07 15:52:08,056 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:08,056 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:08,087 log 224 Not Found: /register/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:08,088 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:08,088 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:52:08,088 basehttp 161 "GET /register/js/vue-2.5.16.js HTTP/1.1" 404 2326
+WARNING 2021-08-07 15:52:08,116 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:08,117 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:08,118 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:08,118 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:52:08,120 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:08,121 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:08,129 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:08,132 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:08,134 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:08,135 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:08,136 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:08,137 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:08,144 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:08,145 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:08,153 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:08,153 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:08,189 basehttp 161 "GET /register/ HTTP/1.1" 200 5143
+WARNING 2021-08-07 15:52:08,212 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:08,213 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:08,233 log 224 Not Found: /register/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:08,234 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:08,235 basehttp 161 "GET /register/js/vue-2.5.16.js HTTP/1.1" 404 2326
+WARNING 2021-08-07 15:52:08,235 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:52:08,243 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:08,243 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:08,262 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:08,263 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:08,264 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:08,265 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:08,266 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:08,266 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:08,273 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:08,273 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:08,281 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:08,281 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:08,335 basehttp 161 "GET /register/ HTTP/1.1" 200 5143
+WARNING 2021-08-07 15:52:08,359 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:08,360 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:08,385 log 224 Not Found: /register/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:08,386 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:08,387 basehttp 161 "GET /register/js/vue-2.5.16.js HTTP/1.1" 404 2326
+WARNING 2021-08-07 15:52:08,387 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:52:08,395 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:08,395 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:08,414 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:08,415 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:08,416 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:08,417 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:08,418 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:08,418 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:08,425 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:08,426 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:08,479 basehttp 161 "GET /register/ HTTP/1.1" 200 5143
+WARNING 2021-08-07 15:52:08,504 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:08,504 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:08,531 log 224 Not Found: /register/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:08,532 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:08,532 basehttp 161 "GET /register/js/vue-2.5.16.js HTTP/1.1" 404 2326
+WARNING 2021-08-07 15:52:08,533 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:52:08,541 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:08,541 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:08,560 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:08,561 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:08,562 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:08,563 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:08,563 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:08,563 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:08,571 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:08,571 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:08,906 basehttp 161 "GET /register/ HTTP/1.1" 200 5143
+WARNING 2021-08-07 15:52:08,930 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:08,931 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:08,958 log 224 Not Found: /register/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:08,959 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:08,959 basehttp 161 "GET /register/js/vue-2.5.16.js HTTP/1.1" 404 2326
+WARNING 2021-08-07 15:52:08,959 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:52:08,990 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:08,991 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:08,992 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:08,993 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:08,994 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:52:08,994 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:09,005 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:09,007 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:09,010 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:09,010 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:09,013 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:09,013 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:09,022 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:09,023 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:09,030 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:09,030 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:09,275 basehttp 161 "GET /register/ HTTP/1.1" 200 5143
+WARNING 2021-08-07 15:52:09,298 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:09,298 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:09,329 log 224 Not Found: /register/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:09,330 log 224 Not Found: /register/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:09,331 basehttp 161 "GET /register/js/vue-2.5.16.js HTTP/1.1" 404 2326
+WARNING 2021-08-07 15:52:09,332 basehttp 161 "GET /register/js/axios-0.18.0.min.js HTTP/1.1" 404 2344
+WARNING 2021-08-07 15:52:09,340 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:09,340 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:09,361 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:09,362 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:09,363 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:09,364 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:09,364 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:09,365 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:09,371 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:09,371 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:09,380 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:09,380 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:22,353 basehttp 161 "GET /register/ HTTP/1.1" 200 5157
+WARNING 2021-08-07 15:52:22,381 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:22,381 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:22,398 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:22,399 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:22,399 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:22,400 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:22,440 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:22,442 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:22,443 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:22,444 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:22,445 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:22,445 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:22,445 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:22,446 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+INFO 2021-08-07 15:52:22,968 basehttp 161 "GET /register/ HTTP/1.1" 200 5157
+WARNING 2021-08-07 15:52:22,996 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:22,997 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:23,008 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:23,009 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:23,010 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:23,010 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:23,036 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:23,037 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:23,037 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:23,038 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:23,039 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:23,040 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:23,040 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:23,041 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:23,053 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:23,053 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:23,426 basehttp 161 "GET /register/ HTTP/1.1" 200 5157
+WARNING 2021-08-07 15:52:23,452 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:23,452 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:23,464 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:23,465 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:23,466 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:23,466 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:23,487 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:23,488 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:23,489 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:23,490 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:23,490 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:23,491 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:23,492 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:23,493 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:23,875 basehttp 161 "GET /register/ HTTP/1.1" 200 5157
+WARNING 2021-08-07 15:52:23,899 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:23,900 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:23,910 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:23,911 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:23,912 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:23,913 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:23,936 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:23,937 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:23,938 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:23,939 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:23,939 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:23,940 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:23,941 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:23,941 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:23,952 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:23,953 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:24,094 basehttp 161 "GET /register/ HTTP/1.1" 200 5157
+WARNING 2021-08-07 15:52:24,120 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:24,121 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:24,133 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:24,134 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:24,135 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:24,135 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:24,160 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:24,161 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:24,163 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:24,164 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:24,165 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:24,166 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:24,166 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:24,168 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:24,289 basehttp 161 "GET /register/ HTTP/1.1" 200 5157
+WARNING 2021-08-07 15:52:24,313 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:24,313 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:24,326 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:24,327 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:24,328 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:24,328 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:24,347 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:24,348 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:24,349 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:24,350 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:24,350 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:24,352 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:24,353 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:24,353 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:24,358 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:24,358 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:24,365 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:24,366 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:24,490 basehttp 161 "GET /register/ HTTP/1.1" 200 5157
+WARNING 2021-08-07 15:52:24,514 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:24,515 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:24,528 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:24,529 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:24,530 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:24,531 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:24,551 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:24,552 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:24,553 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:24,554 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:24,555 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:24,555 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:24,555 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:24,557 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:24,566 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:24,566 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:24,903 basehttp 161 "GET /register/ HTTP/1.1" 200 5157
+WARNING 2021-08-07 15:52:24,927 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:24,928 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:24,955 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:24,956 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:24,957 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:24,957 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:24,965 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:24,965 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:24,984 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:24,986 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:24,986 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:24,987 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:24,987 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:24,988 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:25,161 basehttp 161 "GET /register/ HTTP/1.1" 200 5157
+WARNING 2021-08-07 15:52:25,185 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:25,185 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:25,210 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:25,211 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:25,212 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:25,212 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:25,221 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:25,222 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:25,239 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:25,241 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:25,242 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:25,243 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:25,244 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:25,245 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:25,253 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:25,254 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:25,262 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:25,263 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:25,322 basehttp 161 "GET /register/ HTTP/1.1" 200 5157
+WARNING 2021-08-07 15:52:25,346 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:25,346 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:25,378 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:25,379 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:25,380 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:25,380 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:25,389 log 224 Not Found: /register/img/image_code.png
+WARNING 2021-08-07 15:52:25,389 basehttp 161 "GET /register/img/image_code.png HTTP/1.1" 404 2332
+WARNING 2021-08-07 15:52:25,406 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:25,407 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:25,408 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:25,409 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:25,409 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:25,409 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:25,418 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:25,418 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:25,425 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:25,426 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:40,151 basehttp 161 "GET /register/ HTTP/1.1" 200 5164
+WARNING 2021-08-07 15:52:40,178 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:40,178 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:40,204 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:40,205 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:40,206 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:40,206 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:40,232 log 224 Not Found: /register/static/img/image_code.png
+WARNING 2021-08-07 15:52:40,237 basehttp 161 "GET /register/static/img/image_code.png HTTP/1.1" 404 2353
+WARNING 2021-08-07 15:52:40,243 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:40,244 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:40,245 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:40,246 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:40,246 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:40,246 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:40,257 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:40,258 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:40,265 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:40,265 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:40,579 basehttp 161 "GET /register/ HTTP/1.1" 200 5164
+WARNING 2021-08-07 15:52:40,603 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:40,603 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:40,635 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:40,636 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:40,636 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:40,637 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:40,645 log 224 Not Found: /register/static/img/image_code.png
+WARNING 2021-08-07 15:52:40,646 basehttp 161 "GET /register/static/img/image_code.png HTTP/1.1" 404 2353
+WARNING 2021-08-07 15:52:40,666 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:40,667 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:40,668 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:40,669 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:40,669 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:40,670 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:40,677 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:40,677 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:40,766 basehttp 161 "GET /register/ HTTP/1.1" 200 5164
+WARNING 2021-08-07 15:52:40,791 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:40,792 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:40,816 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:40,817 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:40,817 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:40,817 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:40,828 log 224 Not Found: /register/static/img/image_code.png
+WARNING 2021-08-07 15:52:40,829 basehttp 161 "GET /register/static/img/image_code.png HTTP/1.1" 404 2353
+WARNING 2021-08-07 15:52:40,844 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:40,846 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:40,847 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:40,847 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:40,848 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:40,848 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:40,857 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:40,858 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:40,865 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:40,865 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:40,962 basehttp 161 "GET /register/ HTTP/1.1" 200 5164
+WARNING 2021-08-07 15:52:40,987 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:40,988 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:41,010 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:41,011 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:41,012 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:41,012 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:41,023 log 224 Not Found: /register/static/img/image_code.png
+WARNING 2021-08-07 15:52:41,024 basehttp 161 "GET /register/static/img/image_code.png HTTP/1.1" 404 2353
+WARNING 2021-08-07 15:52:41,042 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:41,043 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:41,044 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:41,044 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:41,045 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:41,045 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:41,054 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:41,054 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:41,128 basehttp 161 "GET /register/ HTTP/1.1" 200 5164
+WARNING 2021-08-07 15:52:41,150 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:41,150 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:41,179 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:41,180 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:41,181 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:41,182 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:41,192 log 224 Not Found: /register/static/img/image_code.png
+WARNING 2021-08-07 15:52:41,193 basehttp 161 "GET /register/static/img/image_code.png HTTP/1.1" 404 2353
+WARNING 2021-08-07 15:52:41,209 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:41,211 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:41,212 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:41,213 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:41,213 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:41,215 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:52:41,267 basehttp 161 "GET /register/ HTTP/1.1" 200 5164
+WARNING 2021-08-07 15:52:41,291 log 224 Not Found: /register/static/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-07 15:52:41,291 basehttp 161 "GET /register/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2392
+WARNING 2021-08-07 15:52:41,315 log 224 Not Found: /register/static/js/vue-2.5.16.js
+WARNING 2021-08-07 15:52:41,316 log 224 Not Found: /register/static/js/axios-0.18.0.min.js
+WARNING 2021-08-07 15:52:41,316 basehttp 161 "GET /register/static/js/vue-2.5.16.js HTTP/1.1" 404 2347
+WARNING 2021-08-07 15:52:41,317 basehttp 161 "GET /register/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2365
+WARNING 2021-08-07 15:52:41,326 log 224 Not Found: /register/static/img/image_code.png
+WARNING 2021-08-07 15:52:41,327 basehttp 161 "GET /register/static/img/image_code.png HTTP/1.1" 404 2353
+WARNING 2021-08-07 15:52:41,344 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:52:41,345 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:41,346 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:52:41,347 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:52:41,347 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:52:41,348 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+WARNING 2021-08-07 15:52:41,356 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:52:41,357 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+INFO 2021-08-07 15:53:20,149 basehttp 161 "GET /register/ HTTP/1.1" 200 5176
+WARNING 2021-08-07 15:53:20,230 log 224 Not Found: /register/js/host.js
+WARNING 2021-08-07 15:53:20,233 basehttp 161 "GET /register/js/host.js HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:53:20,239 log 224 Not Found: /register/js/common.js
+WARNING 2021-08-07 15:53:20,240 log 224 Not Found: /register/js/register.js
+WARNING 2021-08-07 15:53:20,240 basehttp 161 "GET /register/js/register.js HTTP/1.1" 404 2320
+WARNING 2021-08-07 15:53:20,240 basehttp 161 "GET /register/js/common.js HTTP/1.1" 404 2314
+INFO 2021-08-07 15:55:12,634 basehttp 161 "GET /register/ HTTP/1.1" 200 5206
+WARNING 2021-08-07 15:57:05,814 log 224 Not Found: /register/login.html
+WARNING 2021-08-07 15:57:05,815 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:57:32,560 log 224 Not Found: /register/login.html
+WARNING 2021-08-07 15:57:32,560 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:57:32,724 log 224 Not Found: /register/login.html
+WARNING 2021-08-07 15:57:32,724 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:57:32,896 log 224 Not Found: /register/login.html
+WARNING 2021-08-07 15:57:32,897 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:57:33,037 log 224 Not Found: /register/login.html
+WARNING 2021-08-07 15:57:33,037 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:57:33,201 log 224 Not Found: /register/login.html
+WARNING 2021-08-07 15:57:33,202 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2308
+WARNING 2021-08-07 15:59:53,110 log 224 Not Found: /register/login.html
+WARNING 2021-08-07 15:59:53,111 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2308
+WARNING 2021-08-07 16:02:44,479 log 224 Not Found: /
+WARNING 2021-08-07 16:02:44,480 basehttp 161 "GET / HTTP/1.1" 404 2233
+INFO 2021-08-07 16:02:53,883 basehttp 161 "GET /register/ HTTP/1.1" 200 5206
+WARNING 2021-08-07 16:02:55,840 log 224 Not Found: /register/login.html
+WARNING 2021-08-07 16:02:55,841 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2308
+INFO 2021-08-07 16:06:03,552 autoreload 251 F:\git ¿â\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-07 16:06:05,382 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-07 16:08:03,209 log 224 Not Found: /login.html
+WARNING 2021-08-07 16:08:03,209 basehttp 161 "GET /login.html HTTP/1.1" 404 2281
+INFO 2021-08-07 16:08:11,829 basehttp 161 "GET /static/login.html HTTP/1.1" 304 0
+INFO 2021-08-07 16:08:15,692 basehttp 161 "GET /static/index.html HTTP/1.1" 304 0
+INFO 2021-08-07 16:08:17,040 basehttp 161 "GET /static/detail.html HTTP/1.1" 200 8814
+INFO 2021-08-07 16:08:17,106 basehttp 161 "GET /static/prism/prism.css HTTP/1.1" 200 4033
+INFO 2021-08-07 16:08:17,123 basehttp 161 "GET /static/js/detail.js HTTP/1.1" 200 1294
+INFO 2021-08-07 16:08:17,192 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99487
+INFO 2021-08-07 16:08:17,375 basehttp 161 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19035
+INFO 2021-08-07 16:08:17,416 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4333
+INFO 2021-08-07 16:08:17,424 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3824
+INFO 2021-08-07 16:08:17,461 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 369
+INFO 2021-08-07 16:08:17,499 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2021-08-07 16:08:17,527 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2063
+WARNING 2021-08-07 16:08:20,594 log 224 Not Found: /templates/register.html
+WARNING 2021-08-07 16:08:20,595 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-07 16:11:47,917 log 224 Not Found: /templates/register.html
+WARNING 2021-08-07 16:11:47,917 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-07 16:11:48,681 log 224 Not Found: /templates/register.html
+WARNING 2021-08-07 16:11:48,682 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-07 16:11:49,094 log 224 Not Found: /templates/register.html
+WARNING 2021-08-07 16:11:49,094 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-07 16:11:49,349 log 224 Not Found: /templates/register.html
+WARNING 2021-08-07 16:11:49,350 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-07 16:11:49,505 log 224 Not Found: /templates/register.html
+WARNING 2021-08-07 16:11:49,506 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-07 16:12:05,061 log 224 Not Found: /
+WARNING 2021-08-07 16:12:05,062 basehttp 161 "GET / HTTP/1.1" 404 2233
+INFO 2021-08-07 16:12:10,482 basehttp 161 "GET /register/ HTTP/1.1" 200 5192
+WARNING 2021-08-07 16:12:14,018 log 224 Not Found: /register/login.html
+WARNING 2021-08-07 16:12:14,019 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2308
+WARNING 2021-08-07 16:13:39,494 log 224 Not Found: /register/login.html
+WARNING 2021-08-07 16:13:39,494 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2308
+WARNING 2021-08-07 16:13:40,282 log 224 Not Found: /register/login.html
+WARNING 2021-08-07 16:13:40,283 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2308
+WARNING 2021-08-07 16:13:40,633 log 224 Not Found: /register/login.html
+WARNING 2021-08-07 16:13:40,633 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2308
+WARNING 2021-08-07 16:13:40,821 log 224 Not Found: /register/login.html
+WARNING 2021-08-07 16:13:40,821 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2308
+WARNING 2021-08-07 16:13:44,221 log 224 Not Found: /register/index.html
+WARNING 2021-08-07 16:13:44,221 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2308
+WARNING 2021-08-07 16:13:49,640 log 224 Not Found: /register/index.html
+WARNING 2021-08-07 16:13:49,641 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2308
+INFO 2021-08-07 16:19:00,221 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\settings.py changed, reloading.
+INFO 2021-08-07 16:19:02,000 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-07 16:19:02,630 basehttp 161 "GET /static/index.html HTTP/1.1" 304 0
+INFO 2021-08-07 16:19:03,352 basehttp 161 "GET /static/index.html HTTP/1.1" 304 0
+INFO 2021-08-07 16:19:03,537 basehttp 161 "GET /static/index.html HTTP/1.1" 304 0
+INFO 2021-08-07 16:19:09,326 basehttp 161 "GET /register/ HTTP/1.1" 200 5192
+WARNING 2021-08-07 16:19:12,274 log 224 Not Found: /register/index.html
+WARNING 2021-08-07 16:19:12,275 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2308
+INFO 2021-08-07 16:27:52,837 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\settings.py changed, reloading.
+INFO 2021-08-07 16:27:54,710 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-07 16:27:55,061 basehttp 161 "GET /register/ HTTP/1.1" 200 5192
+WARNING 2021-08-07 16:27:55,830 log 224 Not Found: /register/index.html
+WARNING 2021-08-07 16:27:55,831 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2308
+INFO 2021-08-07 16:29:20,522 basehttp 161 "GET /static/index.html HTTP/1.1" 304 0
+INFO 2021-08-07 16:29:26,625 basehttp 161 "GET /register/ HTTP/1.1" 200 5200
+INFO 2021-08-07 16:29:26,776 basehttp 161 "GET /register/ HTTP/1.1" 200 5200
+INFO 2021-08-07 16:29:42,018 basehttp 161 "GET /static/index.html HTTP/1.1" 304 0
+INFO 2021-08-07 16:29:43,945 basehttp 161 "GET /register/ HTTP/1.1" 200 5208
+INFO 2021-08-07 16:29:44,252 basehttp 161 "GET /register/ HTTP/1.1" 200 5208
+INFO 2021-08-07 16:29:44,408 basehttp 161 "GET /register/ HTTP/1.1" 200 5208
+INFO 2021-08-07 16:30:21,095 basehttp 161 "GET /static/center.html HTTP/1.1" 200 4136
+INFO 2021-08-07 16:30:21,143 basehttp 161 "GET /static/js/center.js HTTP/1.1" 200 522
+INFO 2021-08-07 16:30:21,146 basehttp 161 "GET /static/img/mei.png HTTP/1.1" 200 230847
+INFO 2021-08-07 16:39:08,303 autoreload 251 F:\git ¿â\django_blog\new_pro\users\models.py changed, reloading.
+INFO 2021-08-07 16:39:10,228 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-07 16:46:21,358 autoreload 251 F:\git ¿â\django_blog\new_pro\users\models.py changed, reloading.
+INFO 2021-08-07 16:46:23,211 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-07 16:49:17,268 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\settings.py changed, reloading.
+INFO 2021-08-07 16:49:19,044 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-07 16:50:26,362 autoreload 637 Watching for file changes with StatReloader
