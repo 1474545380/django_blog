@@ -2168,3 +2168,2280 @@ INFO 2021-08-08 17:16:02,958 autoreload 637 Watching for file changes with StatR
 INFO 2021-08-08 17:16:03,986 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-08-08 17:37:45,264 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
 INFO 2021-08-08 17:37:46,322 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 17:39:38,999 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+WARNING 2021-08-08 17:39:39,119 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 17:39:39,126 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 17:39:39,172 basehttp 161 "GET /imagecode/?uuid=698d2f09-587f-4d39-87b1-b8db7cc1b710 HTTP/1.1" 200 9546
+INFO 2021-08-08 17:39:39,856 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+WARNING 2021-08-08 17:39:39,963 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 17:39:39,983 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 17:39:40,011 basehttp 161 "GET /imagecode/?uuid=80e2d9e9-24cb-4a29-b8c4-6ce18c0cdd2d HTTP/1.1" 200 9259
+INFO 2021-08-08 17:39:41,411 basehttp 161 "GET /imagecode/?uuid=84603c5c-7c64-4eec-93a0-81049c386cdd HTTP/1.1" 200 7811
+INFO 2021-08-08 17:39:41,636 basehttp 161 "GET /imagecode/?uuid=060a641d-5686-42e2-990a-6bc557f4219e HTTP/1.1" 200 8388
+INFO 2021-08-08 17:39:41,803 basehttp 161 "GET /imagecode/?uuid=29b4a7e5-f2fd-412b-afc5-9610ff8e37c4 HTTP/1.1" 200 9497
+INFO 2021-08-08 17:39:41,997 basehttp 161 "GET /imagecode/?uuid=cbfef759-9ca7-4405-bce1-cb59cb872e2a HTTP/1.1" 200 8806
+INFO 2021-08-08 17:39:42,770 basehttp 161 "GET /imagecode/?uuid=3df5cb21-b191-4f5e-8fd5-0afc0b420521 HTTP/1.1" 200 8290
+INFO 2021-08-08 17:39:42,935 basehttp 161 "GET /imagecode/?uuid=d0977a7b-2ff8-456b-b99f-1b60ed38b892 HTTP/1.1" 200 8661
+INFO 2021-08-08 17:39:43,121 basehttp 161 "GET /imagecode/?uuid=b1ce02ce-7d87-4cfa-b42d-8378e4ae07c1 HTTP/1.1" 200 8312
+INFO 2021-08-08 17:39:57,541 basehttp 161 "GET /imagecode/?uuid=2b8f0e33-1011-4af7-a41a-44d1f5611360 HTTP/1.1" 200 9985
+INFO 2021-08-08 17:39:58,166 basehttp 161 "GET /imagecode/?uuid=4ba0d576-2a5e-4c04-9329-dbfe9e76409c HTTP/1.1" 200 10416
+INFO 2021-08-08 17:39:58,322 basehttp 161 "GET /imagecode/?uuid=60c9015a-ca57-4645-bf20-49c6b1e2fa71 HTTP/1.1" 200 9544
+INFO 2021-08-08 17:39:58,471 basehttp 161 "GET /imagecode/?uuid=9c34418e-19c8-4d35-a410-91da26dc58f7 HTTP/1.1" 200 9356
+INFO 2021-08-08 17:39:58,592 basehttp 161 "GET /imagecode/?uuid=5296148a-0deb-4ec1-ad9a-9bfc63e5831c HTTP/1.1" 200 8908
+INFO 2021-08-08 17:39:58,756 basehttp 161 "GET /imagecode/?uuid=fd15eb65-48f8-4e29-9e11-979ea3f77403 HTTP/1.1" 200 10997
+INFO 2021-08-08 17:39:59,104 basehttp 161 "GET /imagecode/?uuid=ede9b474-56cd-4772-9c03-fc797c1f0527 HTTP/1.1" 200 8568
+INFO 2021-08-08 17:39:59,276 basehttp 161 "GET /imagecode/?uuid=639944e5-21f1-4e4c-8391-a4c7df242dbb HTTP/1.1" 200 8920
+INFO 2021-08-08 17:39:59,433 basehttp 161 "GET /imagecode/?uuid=1aea8938-4942-4ded-aa3a-7af7314bc14d HTTP/1.1" 200 9922
+WARNING 2021-08-08 17:40:13,221 log 224 Not Found: /
+WARNING 2021-08-08 17:40:13,222 basehttp 161 "GET / HTTP/1.1" 404 2408
+WARNING 2021-08-08 17:40:14,803 log 224 Not Found: /
+WARNING 2021-08-08 17:40:14,804 basehttp 161 "GET / HTTP/1.1" 404 2408
+INFO 2021-08-08 17:40:25,226 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 17:40:25,827 basehttp 161 "GET /imagecode/?uuid=5a8e97d3-b6a1-4817-9104-5d410c0fc35b HTTP/1.1" 200 8291
+INFO 2021-08-08 17:40:29,065 basehttp 161 "GET /imagecode/?uuid=4bf60386-88ed-4b95-afaf-f96978bf755a HTTP/1.1" 200 9013
+WARNING 2021-08-08 17:40:43,840 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 17:40:43,850 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 17:40:48,674 basehttp 161 "GET /imagecode/?uuid=91628ba2-0e28-4e6c-9d83-6201677a8fc8 HTTP/1.1" 200 8806
+INFO 2021-08-08 17:40:49,572 basehttp 161 "GET /imagecode/?uuid=4c6971d5-24a4-4e9f-babc-e7d984d7033d HTTP/1.1" 200 9076
+INFO 2021-08-08 17:41:10,430 basehttp 161 "GET /imagecode/?uuid=6c07ba21-950e-4160-a32c-1c9d32b2e5b1 HTTP/1.1" 200 8531
+INFO 2021-08-08 17:41:10,833 basehttp 161 "GET /imagecode/?uuid=0f602edd-3aea-410a-b472-bc1ac38db126 HTTP/1.1" 200 9096
+INFO 2021-08-08 17:41:11,072 basehttp 161 "GET /imagecode/?uuid=b10ab7c8-a40b-45dd-8c80-2d074a61a731 HTTP/1.1" 200 10122
+INFO 2021-08-08 17:41:12,135 basehttp 161 "GET /imagecode/?uuid=0f602edd-3aea-410a-b472-bc1ac38db126 HTTP/1.1" 200 8759
+INFO 2021-08-08 17:41:40,923 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+WARNING 2021-08-08 17:41:41,022 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 17:41:41,044 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 17:41:41,064 basehttp 161 "GET /imagecode/?uuid=46758c87-547e-47e7-a1a1-6a65544bf17c HTTP/1.1" 200 8539
+INFO 2021-08-08 17:41:41,949 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+WARNING 2021-08-08 17:41:42,046 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 17:41:42,065 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 17:41:42,088 basehttp 161 "GET /imagecode/?uuid=e834941c-6674-4d99-8494-8c62766b8eed HTTP/1.1" 200 8919
+INFO 2021-08-08 17:41:42,645 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+WARNING 2021-08-08 17:41:42,735 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 17:41:42,751 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 17:41:42,776 basehttp 161 "GET /imagecode/?uuid=f696544c-82d6-481c-8ace-e89ce89937b5 HTTP/1.1" 200 10319
+INFO 2021-08-08 17:41:43,171 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+WARNING 2021-08-08 17:41:43,277 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 17:41:43,281 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 17:41:43,305 basehttp 161 "GET /imagecode/?uuid=f64a509c-40e3-47de-a2e6-179bdb32aec7 HTTP/1.1" 200 9507
+INFO 2021-08-08 17:41:43,667 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+WARNING 2021-08-08 17:41:43,754 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 17:41:43,772 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 17:41:43,797 basehttp 161 "GET /imagecode/?uuid=554bfd35-62f2-4fd2-ad33-813fae222d03 HTTP/1.1" 200 9732
+INFO 2021-08-08 17:41:45,210 basehttp 161 "GET /imagecode/?uuid=0ead407b-6d77-4d98-b253-77bd0499175b HTTP/1.1" 200 9655
+INFO 2021-08-08 17:41:46,227 basehttp 161 "GET /imagecode/?uuid=aba90348-504b-46b9-9a41-23cccb0ffbc9 HTTP/1.1" 200 9473
+INFO 2021-08-08 17:41:46,750 basehttp 161 "GET /imagecode/?uuid=f72fa8c1-df70-44fe-92ee-66ab37cde31a HTTP/1.1" 200 8666
+INFO 2021-08-08 17:43:18,639 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-08 17:43:19,650 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-08 17:43:21,798 log 224 Not Found: /
+WARNING 2021-08-08 17:43:21,799 basehttp 161 "GET / HTTP/1.1" 404 2408
+WARNING 2021-08-08 17:43:22,170 log 224 Not Found: /favicon.ico
+WARNING 2021-08-08 17:43:22,171 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2459
+INFO 2021-08-08 17:43:32,060 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+ERROR 2021-08-08 17:43:36,159 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:36,162 basehttp 75 - Broken pipe from ('127.0.0.1', 14729)
+
+ERROR 2021-08-08 17:43:37,996 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 17:43:37,997 basehttp 161 "GET /imagecode/?uuid=59a5fd44-2811-4b4d-977f-5b4ae50edf10 HTTP/1.1" 500 115932
+ERROR 2021-08-08 17:43:38,234 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:38,235 basehttp 75 - Broken pipe from ('127.0.0.1', 11953)
+
+ERROR 2021-08-08 17:43:38,871 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:38,872 basehttp 75 - Broken pipe from ('127.0.0.1', 7543)
+
+ERROR 2021-08-08 17:43:40,349 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:40,353 basehttp 75 - Broken pipe from ('127.0.0.1', 4746)
+
+WARNING 2021-08-08 17:43:40,355 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 17:43:40,358 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+ERROR 2021-08-08 17:43:40,474 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 17:43:40,476 basehttp 161 "GET /imagecode/?uuid=8194233a-9771-4320-9099-5f7a1aca252e HTTP/1.1" 500 115918
+ERROR 2021-08-08 17:43:43,619 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 17:43:43,620 basehttp 161 "GET /imagecode/?uuid=6d7a597b-d694-4b00-865f-6f05b59fa8ad HTTP/1.1" 500 115912
+ERROR 2021-08-08 17:43:44,082 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:44,083 basehttp 75 - Broken pipe from ('127.0.0.1', 10675)
+
+ERROR 2021-08-08 17:43:44,240 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 17:43:44,241 basehttp 161 "GET /imagecode/?uuid=b04e5d98-d53f-45e1-b423-dd0fd3c0e5aa HTTP/1.1" 500 115943
+ERROR 2021-08-08 17:43:48,752 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 17:43:48,753 basehttp 161 "GET /imagecode/?uuid=0baff3ef-843c-4049-b3ab-74efb10565cb HTTP/1.1" 500 115955
+ERROR 2021-08-08 17:43:49,096 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:49,097 basehttp 75 - Broken pipe from ('127.0.0.1', 14115)
+
+ERROR 2021-08-08 17:43:49,481 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:49,485 basehttp 75 - Broken pipe from ('127.0.0.1', 3627)
+
+ERROR 2021-08-08 17:43:49,770 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:49,773 basehttp 75 - Broken pipe from ('127.0.0.1', 7710)
+
+ERROR 2021-08-08 17:43:49,894 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:49,896 basehttp 75 - Broken pipe from ('127.0.0.1', 2394)
+
+ERROR 2021-08-08 17:43:50,070 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:50,071 basehttp 75 - Broken pipe from ('127.0.0.1', 13507)
+
+ERROR 2021-08-08 17:43:50,212 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:50,213 basehttp 75 - Broken pipe from ('127.0.0.1', 7162)
+
+ERROR 2021-08-08 17:43:50,591 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:50,592 basehttp 75 - Broken pipe from ('127.0.0.1', 13351)
+
+ERROR 2021-08-08 17:43:50,797 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:50,798 basehttp 75 - Broken pipe from ('127.0.0.1', 13955)
+
+ERROR 2021-08-08 17:43:50,938 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:50,940 basehttp 75 - Broken pipe from ('127.0.0.1', 9813)
+
+ERROR 2021-08-08 17:43:51,111 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:51,113 basehttp 75 - Broken pipe from ('127.0.0.1', 3934)
+
+ERROR 2021-08-08 17:43:51,404 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 17:43:51,405 basehttp 75 - Broken pipe from ('127.0.0.1', 13020)
+
+ERROR 2021-08-08 17:43:51,538 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 17:43:51,539 basehttp 161 "GET /imagecode/?uuid=16d032f3-be48-4d8b-aa3e-b8f32210b008 HTTP/1.1" 500 115924
+INFO 2021-08-08 17:44:30,505 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-08 17:44:31,628 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 17:57:21,727 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-08 17:57:24,830 log 224 Not Found: /
+WARNING 2021-08-08 17:57:24,831 basehttp 161 "GET / HTTP/1.1" 404 2408
+WARNING 2021-08-08 17:57:25,126 log 224 Not Found: /favicon.ico
+WARNING 2021-08-08 17:57:25,127 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2459
+INFO 2021-08-08 17:57:28,782 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+ERROR 2021-08-08 17:57:36,332 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 17:57:36,336 basehttp 161 "GET /imagecode/?uuid=34e5b4d9-3bb3-41d2-82de-28898d96d747 HTTP/1.1" 500 115491
+INFO 2021-08-08 17:57:53,076 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 17:57:53,193 basehttp 161 "GET /imagecode/?uuid=b6a9a057-2e84-40d3-895d-84494462de5c HTTP/1.1" 200 8488
+INFO 2021-08-08 17:57:53,772 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 17:57:53,847 basehttp 161 "GET /imagecode/?uuid=1ccb18e3-b21b-44f9-8a3c-626cfe500871 HTTP/1.1" 200 8461
+INFO 2021-08-08 17:57:54,035 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 17:57:54,107 basehttp 161 "GET /imagecode/?uuid=66dc01c1-9a2a-467f-b269-1c9747e4c57b HTTP/1.1" 200 9020
+INFO 2021-08-08 17:57:54,147 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 17:57:54,212 basehttp 161 "GET /imagecode/?uuid=2f298e33-1f31-4d6b-b7bb-9feb7101a84e HTTP/1.1" 200 8782
+INFO 2021-08-08 17:57:54,298 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 17:57:54,365 basehttp 161 "GET /imagecode/?uuid=09f18283-e0f7-4f2b-a0d8-ef286cbf0ef4 HTTP/1.1" 200 9049
+INFO 2021-08-08 17:57:55,431 basehttp 161 "GET /imagecode/?uuid=0609f1eb-6262-49a1-ac5a-ab17993e8858 HTTP/1.1" 200 9502
+INFO 2021-08-08 17:57:55,935 basehttp 161 "GET /imagecode/?uuid=3047f9c7-37dd-40ec-a529-bc20327206cd HTTP/1.1" 200 9270
+INFO 2021-08-08 17:57:56,101 basehttp 161 "GET /imagecode/?uuid=134d04de-18b1-47c7-adf3-488121a194ab HTTP/1.1" 200 9958
+INFO 2021-08-08 17:57:56,578 basehttp 161 "GET /imagecode/?uuid=49677055-4dae-4047-bfb3-2af7d0208ad9 HTTP/1.1" 200 8500
+WARNING 2021-08-08 18:33:05,983 log 224 Not Found: /
+WARNING 2021-08-08 18:33:05,983 basehttp 161 "GET / HTTP/1.1" 404 2408
+INFO 2021-08-08 18:33:11,185 basehttp 161 "GET /register/ HTTP/1.1" 200 5196
+INFO 2021-08-08 18:33:12,174 basehttp 161 "GET /register/ HTTP/1.1" 200 5196
+ERROR 2021-08-08 18:33:13,399 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1198, in get_connection
+    if connection.can_read():
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1202, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 18:33:13,401 basehttp 75 - Broken pipe from ('127.0.0.1', 14852)
+
+ERROR 2021-08-08 18:33:14,316 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 18:33:14,317 basehttp 161 "GET /imagecode/?uuid=89127ffd-a29d-47d2-a667-3a4230396739 HTTP/1.1" 500 115474
+INFO 2021-08-08 18:33:16,660 basehttp 161 "GET /register/ HTTP/1.1" 200 5196
+INFO 2021-08-08 18:33:17,450 basehttp 161 "GET /register/ HTTP/1.1" 200 5196
+ERROR 2021-08-08 18:33:18,788 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 18:33:18,790 basehttp 75 - Broken pipe from ('127.0.0.1', 10440)
+
+ERROR 2021-08-08 18:33:19,569 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 18:33:19,571 basehttp 75 - Broken pipe from ('127.0.0.1', 1062)
+
+ERROR 2021-08-08 18:33:20,620 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 18:33:20,622 basehttp 161 "GET /imagecode/?uuid=488d893a-4e09-4dd7-969d-a76d91215532 HTTP/1.1" 500 115485
+ERROR 2021-08-08 18:33:21,239 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 18:33:21,240 basehttp 75 - Broken pipe from ('127.0.0.1', 12975)
+
+ERROR 2021-08-08 18:33:22,055 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 18:33:22,056 basehttp 75 - Broken pipe from ('127.0.0.1', 10666)
+
+ERROR 2021-08-08 18:33:22,213 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 18:33:22,215 basehttp 161 "GET /imagecode/?uuid=a7d97988-b11f-434d-9bac-432f753a5414 HTTP/1.1" 500 115472
+INFO 2021-08-08 18:33:26,374 basehttp 161 "GET /register/ HTTP/1.1" 200 5196
+ERROR 2021-08-08 18:33:29,304 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 18:33:29,305 basehttp 161 "GET /imagecode/?uuid=41d6b44b-3f68-48ee-bee4-9dc46b679050 HTTP/1.1" 500 115487
+INFO 2021-08-08 18:34:50,442 basehttp 161 "GET /register/ HTTP/1.1" 200 5196
+ERROR 2021-08-08 18:34:52,605 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 18:34:52,606 basehttp 75 - Broken pipe from ('127.0.0.1', 9169)
+
+ERROR 2021-08-08 18:34:54,472 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 18:34:54,473 basehttp 161 "GET /imagecode/?uuid=d1e04bec-2973-4118-8586-f849dd84bd43 HTTP/1.1" 500 115490
+ERROR 2021-08-08 18:34:55,366 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 18:34:55,367 basehttp 75 - Broken pipe from ('127.0.0.1', 11817)
+
+ERROR 2021-08-08 18:34:56,588 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 18:34:56,589 basehttp 161 "GET /imagecode/?uuid=ff1dee98-c6bd-4eec-9c6c-bdaa43ef1955 HTTP/1.1" 500 115491
+ERROR 2021-08-08 18:34:59,242 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 18:34:59,244 basehttp 161 "GET /imagecode/?uuid=9c1ab7f8-4bb0-4611-b17f-719504f7617a HTTP/1.1" 500 115496
+ERROR 2021-08-08 18:34:59,841 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 18:34:59,842 basehttp 161 "GET /imagecode/?uuid=21107a6f-35e8-4fe4-8178-83831be25755 HTTP/1.1" 500 115457
+INFO 2021-08-08 20:26:11,042 basehttp 161 "GET /register/ HTTP/1.1" 200 5196
+ERROR 2021-08-08 20:26:13,276 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 20:26:13,277 basehttp 161 "GET /imagecode/?uuid=5d618032-b97c-48be-a30e-22b9409bbfe3 HTTP/1.1" 500 115489
+WARNING 2021-08-08 20:26:17,462 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 20:26:17,472 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+ERROR 2021-08-08 20:26:26,841 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 20:26:26,842 basehttp 161 "GET /imagecode/?uuid=e4893503-ffc0-4539-8508-1802173f3941 HTTP/1.1" 500 115473
+INFO 2021-08-08 20:32:36,711 basehttp 161 "GET /imagecode/?uuid=4c1bebdd-cea1-4c9f-b13f-dc23eb5f7e74 HTTP/1.1" 200 9160
+INFO 2021-08-08 20:32:40,724 basehttp 161 "GET /imagecode/?uuid=ec264f9c-6b97-44da-8fcc-ddae67e0f80d HTTP/1.1" 200 9475
+INFO 2021-08-08 20:32:41,414 basehttp 161 "GET /imagecode/?uuid=01a1e105-2321-418e-aaeb-75864412479c HTTP/1.1" 200 8642
+INFO 2021-08-08 20:32:41,745 basehttp 161 "GET /imagecode/?uuid=808b7249-6384-415d-82f3-b15f9278be25 HTTP/1.1" 200 8294
+INFO 2021-08-08 20:32:43,672 basehttp 161 "GET /imagecode/?uuid=6355bd46-21f9-4cf8-8d77-3c6011a26623 HTTP/1.1" 200 9546
+INFO 2021-08-08 20:32:43,838 basehttp 161 "GET /imagecode/?uuid=cd0f8cfc-ebf9-4f36-8a33-b215652e2b95 HTTP/1.1" 200 9926
+INFO 2021-08-08 20:32:44,031 basehttp 161 "GET /imagecode/?uuid=6a5a034d-7b11-40fe-a02b-eb8daccf37f0 HTTP/1.1" 200 9730
+INFO 2021-08-08 20:32:44,219 basehttp 161 "GET /imagecode/?uuid=940aab9a-90bc-4e61-a4bc-0e135418ba50 HTTP/1.1" 200 8677
+INFO 2021-08-08 20:32:44,401 basehttp 161 "GET /imagecode/?uuid=c30d3952-1296-4237-9713-3eab5bfc7626 HTTP/1.1" 200 8534
+INFO 2021-08-08 20:32:44,551 basehttp 161 "GET /imagecode/?uuid=ddf91c4c-ec17-4128-9b2a-a8ac99d66059 HTTP/1.1" 200 9397
+INFO 2021-08-08 20:32:44,724 basehttp 161 "GET /imagecode/?uuid=3e6672d6-e2d7-4812-a154-77251e36eed4 HTTP/1.1" 200 8195
+INFO 2021-08-08 20:32:44,916 basehttp 161 "GET /imagecode/?uuid=874a0500-d340-4e40-ab65-8d62e7f54992 HTTP/1.1" 200 9915
+INFO 2021-08-08 20:32:45,028 basehttp 161 "GET /imagecode/?uuid=43be4ff4-0726-47b2-8cd2-ea2aadf18be4 HTTP/1.1" 200 9257
+INFO 2021-08-08 22:27:41,614 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-08 22:27:43,070 log 224 Not Found: /
+WARNING 2021-08-08 22:27:43,071 basehttp 161 "GET / HTTP/1.1" 404 2408
+WARNING 2021-08-08 22:27:43,276 log 224 Not Found: /favicon.ico
+WARNING 2021-08-08 22:27:43,277 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2459
+INFO 2021-08-08 22:27:48,053 basehttp 161 "GET /register/ HTTP/1.1" 200 5196
+INFO 2021-08-08 22:27:49,575 basehttp 161 "GET /imagecode/?uuid=e78f95f8-2072-48ae-aa80-cea4be99d8de HTTP/1.1" 200 8507
+INFO 2021-08-08 22:27:51,386 basehttp 161 "GET /imagecode/?uuid=05b62640-fe89-457c-994f-f39ba05ef1eb HTTP/1.1" 200 8461
+WARNING 2021-08-08 22:27:53,099 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 22:27:53,107 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 22:28:01,943 basehttp 161 "GET /imagecode/?uuid=1884fae3-f213-4808-8848-dd226cdb874a HTTP/1.1" 200 9866
+INFO 2021-08-08 22:28:05,370 basehttp 161 "GET /imagecode/?uuid=ae6faefa-2cdf-4482-9614-6383e195794c HTTP/1.1" 200 9338
+INFO 2021-08-08 22:28:06,448 basehttp 161 "GET /imagecode/?uuid=633a8a45-e5c7-4ddb-bf40-4dc8750575b2 HTTP/1.1" 200 8442
+INFO 2021-08-08 22:28:06,700 basehttp 161 "GET /imagecode/?uuid=90057ffc-57b2-4a7b-9b6a-ae3125ee1702 HTTP/1.1" 200 8992
+INFO 2021-08-08 22:28:06,904 basehttp 161 "GET /imagecode/?uuid=3b4b57ae-cc99-43a6-b018-7399fa47cf77 HTTP/1.1" 200 9303
+INFO 2021-08-08 22:28:07,061 basehttp 161 "GET /imagecode/?uuid=42c799dc-b0a0-4bd6-a700-ca319880f530 HTTP/1.1" 200 8946
+INFO 2021-08-08 22:28:07,248 basehttp 161 "GET /imagecode/?uuid=2bc1068f-3cf2-4c2c-889f-f6656446b694 HTTP/1.1" 200 8560
+INFO 2021-08-08 22:28:07,466 basehttp 161 "GET /imagecode/?uuid=165d568a-05f9-440f-9978-f1bccac7a440 HTTP/1.1" 200 9182
+INFO 2021-08-08 22:28:08,031 basehttp 161 "GET /imagecode/?uuid=f567d31a-495d-4eb8-8366-739565d0a450 HTTP/1.1" 200 9535
+INFO 2021-08-08 22:28:08,162 basehttp 161 "GET /imagecode/?uuid=4406b048-b89f-4f29-b8cf-97a7749575c1 HTTP/1.1" 200 8599
+INFO 2021-08-08 22:28:08,343 basehttp 161 "GET /imagecode/?uuid=b627f652-e90b-45de-807f-6f5789a2e155 HTTP/1.1" 200 9512
+INFO 2021-08-08 22:28:08,546 basehttp 161 "GET /imagecode/?uuid=732c784c-04ec-40ee-a097-45d6e97bc756 HTTP/1.1" 200 8198
+INFO 2021-08-08 22:28:08,741 basehttp 161 "GET /imagecode/?uuid=848f442d-f4ec-47a2-b894-54068cdfd471 HTTP/1.1" 200 9148
+INFO 2021-08-08 22:28:08,891 basehttp 161 "GET /imagecode/?uuid=7e0fb368-7046-4aef-8118-718a40822d83 HTTP/1.1" 200 9167
+INFO 2021-08-08 22:28:12,251 basehttp 161 "GET /imagecode/?uuid=43294ed8-aa0c-40d7-9b9f-625cf40c7c86 HTTP/1.1" 200 8826
+INFO 2021-08-08 22:30:28,885 basehttp 161 "GET /imagecode/?uuid=b06932e3-7197-4277-a7a7-070ec23f3bda HTTP/1.1" 200 9108
+INFO 2021-08-08 22:31:04,340 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:04,426 basehttp 161 "GET /imagecode/?uuid=90db0a3d-c171-41dc-8a74-c18c4f2f69c1 HTTP/1.1" 200 10135
+INFO 2021-08-08 22:31:05,017 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:05,091 basehttp 161 "GET /imagecode/?uuid=93a99bcc-3b2f-480a-8fa7-39aaae3cef2f HTTP/1.1" 200 9081
+INFO 2021-08-08 22:31:05,420 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:05,489 basehttp 161 "GET /imagecode/?uuid=1cfa2974-9a02-4943-8cf7-e86090cfa20d HTTP/1.1" 200 9662
+INFO 2021-08-08 22:31:05,653 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:05,731 basehttp 161 "GET /imagecode/?uuid=3a8b7c5c-4610-4848-8844-c741d31583d6 HTTP/1.1" 200 8568
+INFO 2021-08-08 22:31:07,066 basehttp 161 "GET /imagecode/?uuid=23dce1d6-c2fd-41d2-aebc-0345cbafb061 HTTP/1.1" 200 9187
+INFO 2021-08-08 22:31:07,354 basehttp 161 "GET /imagecode/?uuid=0194de3b-a2f3-4713-a749-ad0d6c83f8ed HTTP/1.1" 200 9150
+INFO 2021-08-08 22:31:07,526 basehttp 161 "GET /imagecode/?uuid=7561e0bf-bc39-4a13-ab46-160e9d426b7e HTTP/1.1" 200 10465
+INFO 2021-08-08 22:31:07,728 basehttp 161 "GET /imagecode/?uuid=954d4a65-1325-4f90-ba25-8f5a9df561ab HTTP/1.1" 200 9701
+INFO 2021-08-08 22:31:07,869 basehttp 161 "GET /imagecode/?uuid=ac8a6ec3-eeb6-4e59-ba02-768fd99a325c HTTP/1.1" 200 8728
+INFO 2021-08-08 22:31:08,013 basehttp 161 "GET /imagecode/?uuid=97d059f7-494f-4e74-968e-91fcb6ccff4e HTTP/1.1" 200 9733
+INFO 2021-08-08 22:31:09,051 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:09,119 basehttp 161 "GET /imagecode/?uuid=6cfcc710-19ee-4184-9ea8-3ecc56466d48 HTTP/1.1" 200 10051
+INFO 2021-08-08 22:31:09,509 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:09,577 basehttp 161 "GET /imagecode/?uuid=1f2bc0ce-3aed-4592-b946-b5aa074424f6 HTTP/1.1" 200 9865
+INFO 2021-08-08 22:31:09,912 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:09,979 basehttp 161 "GET /imagecode/?uuid=4464bb15-466d-42a9-9f89-b74dff87dd3d HTTP/1.1" 200 8413
+INFO 2021-08-08 22:31:10,280 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:10,347 basehttp 161 "GET /imagecode/?uuid=eb1dac41-8efe-4df6-82d4-20e6223f0c23 HTTP/1.1" 200 9423
+INFO 2021-08-08 22:31:10,429 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:10,497 basehttp 161 "GET /imagecode/?uuid=818f1c92-860f-494e-a5a7-45bbd9f6a1fd HTTP/1.1" 200 10594
+INFO 2021-08-08 22:31:10,617 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:10,684 basehttp 161 "GET /imagecode/?uuid=faa7f38b-47ee-482d-bccc-cdbef9b87da5 HTTP/1.1" 200 9233
+INFO 2021-08-08 22:31:10,828 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:10,896 basehttp 161 "GET /imagecode/?uuid=1d3d4b94-e49c-4426-b02d-9181071d8dca HTTP/1.1" 200 8691
+INFO 2021-08-08 22:31:10,948 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:11,013 basehttp 161 "GET /imagecode/?uuid=dd251296-4aea-43be-a821-3a502a16a3a0 HTTP/1.1" 200 9490
+INFO 2021-08-08 22:31:11,120 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:11,184 basehttp 161 "GET /imagecode/?uuid=eddb365a-2db2-43d1-b2eb-2b5f90925925 HTTP/1.1" 200 8831
+INFO 2021-08-08 22:31:11,291 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:11,356 basehttp 161 "GET /imagecode/?uuid=f734df0d-cc1e-4e99-86ca-c4c1dc9847bc HTTP/1.1" 200 8201
+INFO 2021-08-08 22:31:11,440 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:11,505 basehttp 161 "GET /imagecode/?uuid=63667de8-e851-4a95-8b22-2acef0dce65b HTTP/1.1" 200 8860
+INFO 2021-08-08 22:31:11,591 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:11,658 basehttp 161 "GET /imagecode/?uuid=48183427-b32b-403f-bc41-b6fc11d85d51 HTTP/1.1" 200 8650
+INFO 2021-08-08 22:31:11,744 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:31:11,810 basehttp 161 "GET /imagecode/?uuid=3242e73c-3590-40cc-8a28-1f7c57afcb88 HTTP/1.1" 200 9752
+INFO 2021-08-08 22:31:13,189 basehttp 161 "GET /imagecode/?uuid=c0235938-ec84-4b42-9c5b-c64cfffc5dcd HTTP/1.1" 200 10281
+WARNING 2021-08-08 22:31:16,937 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 22:31:16,948 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 22:31:22,987 basehttp 161 "GET /imagecode/?uuid=4ab70cde-fe07-433e-b474-924c3e89100c HTTP/1.1" 200 8632
+INFO 2021-08-08 22:31:23,682 basehttp 161 "GET /imagecode/?uuid=e3620b51-e413-4e06-b28c-e13e8a3b4654 HTTP/1.1" 200 9407
+INFO 2021-08-08 22:31:24,468 basehttp 161 "GET /imagecode/?uuid=f46b4342-a468-42cf-9b1c-f810fad7a072 HTTP/1.1" 200 9285
+WARNING 2021-08-08 22:32:25,046 log 224 Not Found: /
+WARNING 2021-08-08 22:32:25,047 basehttp 161 "GET / HTTP/1.1" 404 2408
+INFO 2021-08-08 22:32:34,895 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+ERROR 2021-08-08 22:32:37,173 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1198, in get_connection
+    if connection.can_read():
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1202, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 22:32:37,177 basehttp 75 - Broken pipe from ('127.0.0.1', 8544)
+
+ERROR 2021-08-08 22:32:39,233 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 22:32:39,234 basehttp 161 "GET /imagecode/?uuid=7f32c55e-52c9-4a92-93a8-1a2bb89541d8 HTTP/1.1" 500 115625
+ERROR 2021-08-08 22:32:39,452 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 22:32:39,453 basehttp 75 - Broken pipe from ('127.0.0.1', 4202)
+
+ERROR 2021-08-08 22:32:39,671 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 22:32:39,673 basehttp 75 - Broken pipe from ('127.0.0.1', 4706)
+
+ERROR 2021-08-08 22:32:40,454 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 22:32:40,455 basehttp 161 "GET /imagecode/?uuid=30f8309d-d05d-48a1-8e51-00340136188f HTTP/1.1" 500 115605
+WARNING 2021-08-08 22:32:40,535 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 22:32:40,544 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+ERROR 2021-08-08 22:32:43,740 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 22:32:43,742 basehttp 161 "GET /imagecode/?uuid=4a7d529e-caf6-4bb6-9fb4-5ed232c3b2bc HTTP/1.1" 500 115622
+ERROR 2021-08-08 22:32:44,340 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 22:32:44,342 basehttp 75 - Broken pipe from ('127.0.0.1', 1368)
+
+ERROR 2021-08-08 22:32:44,524 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 22:32:44,526 basehttp 75 - Broken pipe from ('127.0.0.1', 12324)
+
+ERROR 2021-08-08 22:32:45,034 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 22:32:45,035 basehttp 161 "GET /imagecode/?uuid=23e74e5a-ab90-4987-bf77-5ed55f3f36a7 HTTP/1.1" 500 115620
+ERROR 2021-08-08 22:32:57,400 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 22:32:57,401 basehttp 161 "GET /imagecode/?uuid=23e74e5a-ab90-4987-bf77-5ed55f3f36a7 HTTP/1.1" 500 115781
+ERROR 2021-08-08 22:32:59,766 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 22:32:59,767 basehttp 161 "GET /imagecode/?uuid=23e74e5a-ab90-4987-bf77-5ed55f3f36a7 HTTP/1.1" 500 115933
+ERROR 2021-08-08 22:34:10,104 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 22:34:10,105 basehttp 75 - Broken pipe from ('127.0.0.1', 13846)
+
+ERROR 2021-08-08 22:34:11,448 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 22:34:11,449 basehttp 161 "GET /imagecode/?uuid=23e74e5a-ab90-4987-bf77-5ed55f3f36a7 HTTP/1.1" 500 115952
+ERROR 2021-08-08 22:43:50,731 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 22:43:50,732 basehttp 75 - Broken pipe from ('127.0.0.1', 2518)
+
+ERROR 2021-08-08 22:43:51,476 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 22:43:51,477 basehttp 161 "GET /imagecode/?uuid=23e74e5a-ab90-4987-bf77-5ed55f3f36a7 HTTP/1.1" 500 115946
+ERROR 2021-08-08 22:46:03,134 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 22:46:03,136 basehttp 161 "GET /imagecode/?uuid=01d53cf5-4dff-4400-b371-ce4ade8acfa9 HTTP/1.1" 500 115611
+ERROR 2021-08-08 22:46:03,721 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-08 22:46:03,723 basehttp 75 - Broken pipe from ('127.0.0.1', 1603)
+
+ERROR 2021-08-08 22:46:04,184 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 22:46:04,185 basehttp 161 "GET /imagecode/?uuid=442d5bba-63ff-4fbf-ac48-7eb980ad6026 HTTP/1.1" 500 115617
+ERROR 2021-08-08 22:46:10,058 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex(uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-08 22:46:10,059 basehttp 161 "GET /imagecode/?uuid=442d5bba-63ff-4fbf-ac48-7eb980ad6026 HTTP/1.1" 500 115800
+INFO 2021-08-08 22:57:31,187 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-08 22:57:33,585 log 224 Not Found: /
+WARNING 2021-08-08 22:57:33,585 basehttp 161 "GET / HTTP/1.1" 404 2408
+WARNING 2021-08-08 22:57:33,787 log 224 Not Found: /favicon.ico
+WARNING 2021-08-08 22:57:33,788 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2459
+INFO 2021-08-08 22:57:37,163 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 22:57:38,457 basehttp 161 "GET /imagecode/?uuid=519b196d-6add-4dfd-9d4f-8e928c2fb4a0 HTTP/1.1" 200 9910
+WARNING 2021-08-08 22:57:41,913 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 22:57:41,921 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 22:57:48,895 basehttp 161 "GET /imagecode/?uuid=519b196d-6add-4dfd-9d4f-8e928c2fb4a0 HTTP/1.1" 200 8907
+INFO 2021-08-08 22:58:04,940 basehttp 161 "GET /imagecode/?uuid=519b196d-6add-4dfd-9d4f-8e928c2fb4a0 HTTP/1.1" 200 9453
+INFO 2021-08-08 22:58:05,353 basehttp 161 "GET /imagecode/?uuid=519b196d-6add-4dfd-9d4f-8e928c2fb4a0 HTTP/1.1" 200 8414
+INFO 2021-08-08 22:58:05,487 basehttp 161 "GET /imagecode/?uuid=519b196d-6add-4dfd-9d4f-8e928c2fb4a0 HTTP/1.1" 200 8349
+INFO 2021-08-08 22:58:17,644 basehttp 161 "GET /imagecode/?uuid=0c91fc26-e898-47c0-8b81-0fde0fc3006b HTTP/1.1" 200 9533
+INFO 2021-08-08 22:58:23,164 basehttp 161 "GET /imagecode/?uuid=2d05b5b7-c299-4efc-b87c-89d3818abc6c HTTP/1.1" 200 8155
+INFO 2021-08-08 22:58:23,936 basehttp 161 "GET /imagecode/?uuid=efc7ca13-7680-4295-bdce-a5777672b3ff HTTP/1.1" 200 9782
+INFO 2021-08-08 22:58:24,513 basehttp 161 "GET /imagecode/?uuid=824eb462-8efb-4b81-81f3-a4a9721d50f6 HTTP/1.1" 200 9395
+INFO 2021-08-08 22:58:25,000 basehttp 161 "GET /imagecode/?uuid=607e0eff-d420-4f01-82ca-458292fb1453 HTTP/1.1" 200 8800
+INFO 2021-08-08 22:58:25,406 basehttp 161 "GET /imagecode/?uuid=a3a4a146-6118-4462-b01c-ff82136aff65 HTTP/1.1" 200 8368
+INFO 2021-08-08 22:58:25,714 basehttp 161 "GET /imagecode/?uuid=e1c52c6b-90d5-47d6-9cbc-e0e7721e5593 HTTP/1.1" 200 9135
+INFO 2021-08-08 22:58:25,922 basehttp 161 "GET /imagecode/?uuid=1c84588f-a703-48f4-b742-0d8922a19cae HTTP/1.1" 200 8304
+INFO 2021-08-08 22:58:26,269 basehttp 161 "GET /imagecode/?uuid=fad62d0a-3ab8-4407-80fe-1d677e32885b HTTP/1.1" 200 9638
+INFO 2021-08-08 22:58:33,085 basehttp 161 "GET /imagecode/?uuid=fad62d0a-3ab8-4407-80fe-1d677e32885b HTTP/1.1" 200 8537
+INFO 2021-08-08 23:00:46,963 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+WARNING 2021-08-08 23:00:47,065 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 23:00:47,072 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 23:00:47,110 basehttp 161 "GET /imagecode/?uuid=066e8a58-709e-45c2-81db-2fed150ac5a9 HTTP/1.1" 200 8926
+INFO 2021-08-08 23:00:47,787 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+WARNING 2021-08-08 23:00:47,885 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 23:00:47,894 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 23:00:47,931 basehttp 161 "GET /imagecode/?uuid=4a5fcb91-5c44-4aeb-8cc2-d10c7107ff69 HTTP/1.1" 200 9628
+INFO 2021-08-08 23:00:48,261 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+WARNING 2021-08-08 23:00:48,355 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 23:00:48,364 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 23:00:48,396 basehttp 161 "GET /imagecode/?uuid=3f0ea28e-7435-4b00-ad50-435f6d1cc758 HTTP/1.1" 200 9242
+INFO 2021-08-08 23:00:48,673 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+WARNING 2021-08-08 23:00:48,768 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 23:00:48,775 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 23:00:48,807 basehttp 161 "GET /imagecode/?uuid=7c03da80-a144-45b9-a6f0-927c147cc023 HTTP/1.1" 200 8237
+INFO 2021-08-08 23:00:49,092 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+WARNING 2021-08-08 23:00:49,188 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 23:00:49,196 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 23:00:49,232 basehttp 161 "GET /imagecode/?uuid=7434f2de-788b-47d5-b496-762ba000fa0b HTTP/1.1" 200 8631
+INFO 2021-08-08 23:06:42,311 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-08 23:06:43,483 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 23:06:44,143 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+WARNING 2021-08-08 23:06:44,243 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 23:06:44,249 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 23:06:44,304 basehttp 161 "GET /imagecode/?uuid=8096ea35-3ac6-4b25-8aa2-33f4fc40cba7 HTTP/1.1" 200 3106
+WARNING 2021-08-08 23:07:22,292 log 224 Not Found: /smscode/
+WARNING 2021-08-08 23:07:22,292 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=jedv&uuid=8096ea35-3ac6-4b25-8aa2-33f4fc40cba7 HTTP/1.1" 404 2535
+INFO 2021-08-08 23:09:20,085 autoreload 251 F:\git 库\django_blog\new_pro\users\urls.py changed, reloading.
+INFO 2021-08-08 23:09:21,205 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 23:10:35,728 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 23:12:51,690 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 23:13:00,196 autoreload 251 F:\git 库\django_blog\new_pro\users\urls.py changed, reloading.
+INFO 2021-08-08 23:13:01,142 autoreload 637 Watching for file changes with StatReloader

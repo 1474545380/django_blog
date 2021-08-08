@@ -26,10 +26,10 @@ class ImageCodeView(View):
         #将图片保存到redis中
         #uuid为key，图片内容作为value，同时设置一个实效
         redis_connection=get_redis_connection('default')
-        redis_connection.setex(uuid,300,text)
+        redis_connection.setex('img:%s'%uuid,300,text)
         #返回二进制图片
-        return HttpResponse('img:%s'%image,content_type='image/jpeg')
-#短信验证码
+        return HttpResponse(image,content_type='image/jpeg')
+# 短信验证码
 class SmsCodeView(View):
     def get(self,request):
         """
