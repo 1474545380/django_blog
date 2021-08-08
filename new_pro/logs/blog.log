@@ -1893,3 +1893,278 @@ INFO 2021-08-07 16:46:23,211 autoreload 637 Watching for file changes with StatR
 INFO 2021-08-07 16:49:17,268 autoreload 251 F:\git ¿â\django_blog\new_pro\new_pro\settings.py changed, reloading.
 INFO 2021-08-07 16:49:19,044 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-08-07 16:50:26,362 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 15:34:11,787 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-08 15:34:15,412 log 224 Not Found: /
+WARNING 2021-08-08 15:34:15,413 basehttp 161 "GET / HTTP/1.1" 404 2233
+WARNING 2021-08-08 15:34:15,663 log 224 Not Found: /favicon.ico
+WARNING 2021-08-08 15:34:15,664 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2284
+INFO 2021-08-08 15:34:25,141 basehttp 161 "GET /register/ HTTP/1.1" 200 5208
+INFO 2021-08-08 15:34:28,197 basehttp 161 "GET /static/login.html HTTP/1.1" 304 0
+WARNING 2021-08-08 15:34:32,309 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:34:32,310 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:36:36,524 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:36:36,525 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:36:42,981 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:36:42,981 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:37:08,092 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:37:08,092 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:37:08,721 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:37:08,722 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:37:08,885 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:37:08,885 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:37:09,044 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:37:09,045 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:37:09,832 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:37:09,832 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:37:09,988 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:37:09,988 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:37:10,161 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:37:10,161 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:37:10,514 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:37:10,515 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:37:10,701 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:37:10,702 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:37:35,213 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:37:35,213 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:37:35,850 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:37:35,850 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:37:35,984 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:37:35,984 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:37:55,379 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:37:55,379 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:01,428 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 15:38:01,436 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-08-08 15:38:03,229 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:03,229 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:32,077 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:32,077 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:32,419 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:32,419 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:32,632 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:32,633 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:32,780 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:32,780 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:32,947 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:32,947 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:33,119 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:33,119 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:33,270 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:33,271 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:33,426 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:33,426 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:33,584 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:33,584 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:33,749 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:33,749 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:34,026 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:34,026 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:34,176 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:34,176 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:34,327 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:34,328 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:34,474 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:34,475 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:37,727 log 224 Not Found: /templates/register.html
+WARNING 2021-08-08 15:38:37,727 basehttp 161 "GET /templates/register.html HTTP/1.1" 404 2320
+WARNING 2021-08-08 15:38:41,348 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 15:38:41,354 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 15:38:51,045 basehttp 161 "GET /static/login.html HTTP/1.1" 200 3084
+WARNING 2021-08-08 15:38:51,149 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 15:38:51,159 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 15:38:51,687 basehttp 161 "GET /static/login.html HTTP/1.1" 304 0
+WARNING 2021-08-08 15:38:51,789 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 15:38:51,808 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-08-08 15:38:52,559 basehttp 161 "GET /static/register HTTP/1.1" 404 1783
+WARNING 2021-08-08 15:39:12,187 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 15:39:12,201 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 15:39:12,914 basehttp 161 "GET /static/login.html HTTP/1.1" 200 3087
+WARNING 2021-08-08 15:39:13,014 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 15:39:13,023 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 15:39:13,429 basehttp 161 "GET /static/login.html HTTP/1.1" 304 0
+WARNING 2021-08-08 15:39:13,528 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 15:39:13,538 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 15:39:13,811 basehttp 161 "GET /static/login.html HTTP/1.1" 304 0
+WARNING 2021-08-08 15:39:13,907 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 15:39:13,917 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 15:39:14,568 basehttp 161 "GET /register/ HTTP/1.1" 200 5208
+WARNING 2021-08-08 15:39:14,662 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 15:39:14,675 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 15:39:15,851 basehttp 161 "GET /static/login.html HTTP/1.1" 304 0
+WARNING 2021-08-08 15:39:15,947 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 15:39:15,965 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 15:39:17,544 basehttp 161 "GET /register/ HTTP/1.1" 200 5208
+WARNING 2021-08-08 15:39:17,640 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 15:39:17,653 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 15:39:18,441 basehttp 161 "GET /static/login.html HTTP/1.1" 304 0
+WARNING 2021-08-08 15:39:18,535 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 15:39:18,554 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 15:39:19,710 basehttp 161 "GET /register/ HTTP/1.1" 200 5208
+WARNING 2021-08-08 15:39:19,805 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 15:39:19,817 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-08-08 15:39:27,528 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 15:39:27,537 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 15:47:05,085 autoreload 251 F:\git ¿â\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-08 15:47:06,224 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 16:03:08,294 autoreload 251 F:\git ¿â\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-08 16:03:09,421 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 16:03:37,403 basehttp 161 "GET /register/ HTTP/1.1" 200 5208
+WARNING 2021-08-08 16:03:37,552 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 16:03:37,585 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-08-08 16:04:15,588 log 224 Not Found: /imagecode/>uuid=123
+WARNING 2021-08-08 16:04:15,589 basehttp 161 "GET /imagecode/%3Euuid=123 HTTP/1.1" 404 2493
+WARNING 2021-08-08 16:04:33,098 log 224 Not Found: /imagecode/uuid=123
+WARNING 2021-08-08 16:04:33,098 basehttp 161 "GET /imagecode/uuid=123 HTTP/1.1" 404 2482
+INFO 2021-08-08 16:04:37,041 basehttp 161 "GET /imagecode HTTP/1.1" 301 0
+WARNING 2021-08-08 16:04:37,045 log 224 Bad Request: /imagecode/
+WARNING 2021-08-08 16:04:37,046 basehttp 161 "GET /imagecode/ HTTP/1.1" 400 12
+INFO 2021-08-08 16:05:51,569 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-08 16:06:12,572 log 224 Not Found: /imagecode/uuid=123
+WARNING 2021-08-08 16:06:12,573 basehttp 161 "GET /imagecode/uuid=123 HTTP/1.1" 404 2482
+ERROR 2021-08-08 16:06:29,134 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 24, in get
+    redis_connection.setex(key=uuid,seconds=300,value=text)
+TypeError: setex() got an unexpected keyword argument 'key'
+ERROR 2021-08-08 16:06:29,135 basehttp 161 "GET /imagecode/?uuid=123 HTTP/1.1" 500 83400
+ERROR 2021-08-08 16:07:26,753 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 24, in get
+    redis_connection.setex(key=uuid,seconds=300,value=text)
+TypeError: setex() got an unexpected keyword argument 'key'
+ERROR 2021-08-08 16:07:26,754 basehttp 161 "GET /imagecode/?uuid=123 HTTP/1.1" 500 83537
+ERROR 2021-08-08 16:07:27,185 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 24, in get
+    redis_connection.setex(key=uuid,seconds=300,value=text)
+TypeError: setex() got an unexpected keyword argument 'key'
+ERROR 2021-08-08 16:07:27,186 basehttp 161 "GET /imagecode/?uuid=123 HTTP/1.1" 500 83549
+ERROR 2021-08-08 16:07:27,725 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git ¿â\django_blog\new_pro\users\views.py", line 24, in get
+    redis_connection.setex(key=uuid,seconds=300,value=text)
+TypeError: setex() got an unexpected keyword argument 'key'
+ERROR 2021-08-08 16:07:27,727 basehttp 161 "GET /imagecode/?uuid=123 HTTP/1.1" 500 83555
+INFO 2021-08-08 16:12:39,579 autoreload 251 F:\git ¿â\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-08 16:12:40,671 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 16:12:51,143 basehttp 161 "GET /imagecode/?uuid=123 HTTP/1.1" 200 2922
+INFO 2021-08-08 16:13:02,548 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 16:13:09,294 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-08 16:13:12,821 log 224 Not Found: /
+WARNING 2021-08-08 16:13:12,821 basehttp 161 "GET / HTTP/1.1" 404 2408
+WARNING 2021-08-08 16:13:41,166 log 224 Not Found: /
+WARNING 2021-08-08 16:13:41,166 basehttp 161 "GET / HTTP/1.1" 404 2408
+WARNING 2021-08-08 16:13:41,584 log 224 Not Found: /
+WARNING 2021-08-08 16:13:41,584 basehttp 161 "GET / HTTP/1.1" 404 2408
+WARNING 2021-08-08 16:13:41,757 log 224 Not Found: /
+WARNING 2021-08-08 16:13:41,757 basehttp 161 "GET / HTTP/1.1" 404 2408
+INFO 2021-08-08 16:14:00,063 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-08-08 16:14:00,303 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2216
+INFO 2021-08-08 16:14:00,352 basehttp 161 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-08-08 16:14:00,352 basehttp 161 "GET /static/admin/css/login.css HTTP/1.1" 200 939
+INFO 2021-08-08 16:14:00,352 basehttp 161 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-08-08 16:14:00,353 basehttp 161 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-08-08 16:14:00,381 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-08-08 16:14:00,401 basehttp 161 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-08-08 16:14:00,415 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-08-08 16:14:00,417 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+WARNING 2021-08-08 16:14:15,498 log 224 Not Found: /
+WARNING 2021-08-08 16:14:15,499 basehttp 161 "GET / HTTP/1.1" 404 2408
+INFO 2021-08-08 16:14:32,799 basehttp 161 "GET /imagecode/?uuid=123 HTTP/1.1" 200 3348
+INFO 2021-08-08 16:14:38,547 basehttp 161 "GET /imagecode/?uuid=234 HTTP/1.1" 200 3268
+INFO 2021-08-08 16:17:09,947 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+WARNING 2021-08-08 16:17:10,084 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-08 16:17:10,088 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-08 16:17:10,111 basehttp 161 "GET /imagecode/?uuid=63a34ffd-f94a-4b79-aabe-08a7a74cfcf3 HTTP/1.1" 200 3266
+INFO 2021-08-08 16:17:15,253 basehttp 161 "GET /imagecode/?uuid=a276d2ad-2a6a-4b44-9395-fab994e2eb77 HTTP/1.1" 200 3192
+INFO 2021-08-08 16:17:15,410 basehttp 161 "GET /imagecode/?uuid=38583687-7640-458d-ae34-6a7b8d8c31e5 HTTP/1.1" 200 3154
+INFO 2021-08-08 16:17:15,943 basehttp 161 "GET /imagecode/?uuid=a8537ecd-4f79-45cf-9433-11393522645a HTTP/1.1" 200 3330
+INFO 2021-08-08 16:17:16,353 basehttp 161 "GET /imagecode/?uuid=1d7a6099-d465-42a0-96a6-599c4d83f5f9 HTTP/1.1" 200 3002
+INFO 2021-08-08 16:17:16,759 basehttp 161 "GET /imagecode/?uuid=faaa6a79-47de-4a80-9755-c73c8bcc03aa HTTP/1.1" 200 3375
+INFO 2021-08-08 16:17:17,066 basehttp 161 "GET /imagecode/?uuid=b3799da7-ffff-4060-9602-41dfe5e2d516 HTTP/1.1" 200 3518
+INFO 2021-08-08 16:17:17,276 basehttp 161 "GET /imagecode/?uuid=eafa54b4-549d-401f-8b6b-b2e1e2592605 HTTP/1.1" 200 3210
+INFO 2021-08-08 16:17:17,405 basehttp 161 "GET /imagecode/?uuid=52d0c495-cb80-4e79-81ee-609479141c07 HTTP/1.1" 200 2873
+INFO 2021-08-08 16:17:17,577 basehttp 161 "GET /imagecode/?uuid=cdbd1f89-5eb9-42bf-83d0-e9095c958c4b HTTP/1.1" 200 3372
+INFO 2021-08-08 16:17:17,720 basehttp 161 "GET /imagecode/?uuid=9971b907-d1b4-4795-99a8-db5cef86c0d5 HTTP/1.1" 200 3200
+INFO 2021-08-08 16:17:17,885 basehttp 161 "GET /imagecode/?uuid=53eea860-9936-455e-8f4e-8a88245e0981 HTTP/1.1" 200 3176
+INFO 2021-08-08 16:17:18,297 basehttp 161 "GET /imagecode/?uuid=e6727dec-055b-4899-9c83-3ca994166adc HTTP/1.1" 200 3202
+INFO 2021-08-08 16:17:18,498 basehttp 161 "GET /imagecode/?uuid=174d2477-00e5-4ee3-a24d-8ea2bb59dfb2 HTTP/1.1" 200 3062
+INFO 2021-08-08 16:17:18,619 basehttp 161 "GET /imagecode/?uuid=788baeef-cd1a-40ca-8872-9267c58f7a79 HTTP/1.1" 200 2764
+INFO 2021-08-08 16:17:18,942 basehttp 161 "GET /imagecode/?uuid=86177453-8bd5-4b3e-9396-70f34f6397ae HTTP/1.1" 200 3535
+INFO 2021-08-08 16:17:19,114 basehttp 161 "GET /imagecode/?uuid=ec26f68f-93ab-442f-b52e-0e416f7d19c3 HTTP/1.1" 200 3227
+INFO 2021-08-08 16:17:19,250 basehttp 161 "GET /imagecode/?uuid=cfc4b086-e831-4256-b303-48349c1584b5 HTTP/1.1" 200 3079
+INFO 2021-08-08 16:17:19,424 basehttp 161 "GET /imagecode/?uuid=966531dc-0612-45a2-b247-113d2e41b2ca HTTP/1.1" 200 3381
+INFO 2021-08-08 16:17:19,744 basehttp 161 "GET /imagecode/?uuid=7d2dadac-95fc-483d-a4c8-6b6093b2fdf3 HTTP/1.1" 200 3947
+INFO 2021-08-08 16:17:19,930 basehttp 161 "GET /imagecode/?uuid=947697cb-0793-4166-83c2-2b84d9da0073 HTTP/1.1" 200 3241
+INFO 2021-08-08 16:17:20,052 basehttp 161 "GET /imagecode/?uuid=29cb53b2-5362-4e71-bdd3-665e9ff843b4 HTTP/1.1" 200 3046
+INFO 2021-08-08 16:17:20,193 basehttp 161 "GET /imagecode/?uuid=7b1f1abb-70a5-46b6-b4fa-516446237495 HTTP/1.1" 200 2974
+INFO 2021-08-08 16:17:20,357 basehttp 161 "GET /imagecode/?uuid=7f806b22-8e7b-463c-97c5-f5bc6d53d766 HTTP/1.1" 200 3106
+INFO 2021-08-08 16:17:20,547 basehttp 161 "GET /imagecode/?uuid=a4fd2e5a-e0e0-4201-a857-d505a58e79eb HTTP/1.1" 200 3122
+INFO 2021-08-08 16:17:20,673 basehttp 161 "GET /imagecode/?uuid=0bebd11f-a82c-4b30-810b-5131ad215f11 HTTP/1.1" 200 3092
+INFO 2021-08-08 16:17:20,855 basehttp 161 "GET /imagecode/?uuid=ad38822a-4f85-4ce3-9eae-46b3fe246892 HTTP/1.1" 200 3556
+INFO 2021-08-08 16:17:21,057 basehttp 161 "GET /imagecode/?uuid=148cb9b6-f99e-4109-b59b-697de870b68a HTTP/1.1" 200 3329
+INFO 2021-08-08 16:17:21,179 basehttp 161 "GET /imagecode/?uuid=b2507102-2b0d-4271-8595-e2d21c6e2cc3 HTTP/1.1" 200 3465
+INFO 2021-08-08 16:17:21,363 basehttp 161 "GET /imagecode/?uuid=3550c159-8bf0-4959-a8fe-500a0ad4ace2 HTTP/1.1" 200 2867
+INFO 2021-08-08 16:17:21,552 basehttp 161 "GET /imagecode/?uuid=c97c96ef-04c4-4baf-8c4f-541b2aaf4f7f HTTP/1.1" 200 3064
+INFO 2021-08-08 16:17:21,979 basehttp 161 "GET /imagecode/?uuid=19f52ad5-2f19-4cff-b3b1-a1a8c7d66d5f HTTP/1.1" 200 3216
+INFO 2021-08-08 16:17:22,113 basehttp 161 "GET /imagecode/?uuid=9bc71f46-8458-47bb-9c61-43e9d07ec42f HTTP/1.1" 200 3294
+INFO 2021-08-08 16:17:22,295 basehttp 161 "GET /imagecode/?uuid=bab354a5-6fa9-475c-8f87-19cdb739c115 HTTP/1.1" 200 2890
+INFO 2021-08-08 16:17:22,474 basehttp 161 "GET /imagecode/?uuid=410d6f8f-cbf5-4e84-b1ed-da47f3d135f4 HTTP/1.1" 200 3172
+INFO 2021-08-08 16:17:22,781 basehttp 161 "GET /imagecode/?uuid=b80bbd6f-cb4f-4a1d-92d1-0e5f58e79c1c HTTP/1.1" 200 3055
+INFO 2021-08-08 16:17:22,924 basehttp 161 "GET /imagecode/?uuid=c633cfa0-23a6-43a0-b310-cf65d79fc832 HTTP/1.1" 200 3934
+INFO 2021-08-08 16:17:23,089 basehttp 161 "GET /imagecode/?uuid=729e4623-c07a-4c88-a23f-8b3bd17f746b HTTP/1.1" 200 3171
+INFO 2021-08-08 16:17:23,255 basehttp 161 "GET /imagecode/?uuid=9dd37e67-aec2-42bc-81e0-157b9c1e7b49 HTTP/1.1" 200 2991
+INFO 2021-08-08 16:17:23,419 basehttp 161 "GET /imagecode/?uuid=7dc73544-d046-4cae-8bbc-6e324ea12df5 HTTP/1.1" 200 3246
+INFO 2021-08-08 16:17:23,673 basehttp 161 "GET /imagecode/?uuid=488854a4-d811-4755-b9aa-3db1d840abbd HTTP/1.1" 200 3667
+INFO 2021-08-08 16:17:23,837 basehttp 161 "GET /imagecode/?uuid=c9e94da6-6d34-404b-a1ac-1a6bb4d39355 HTTP/1.1" 200 2863
+INFO 2021-08-08 16:17:27,200 basehttp 161 "GET /imagecode/?uuid=346b803f-7db6-4985-a281-6c83fc0630b8 HTTP/1.1" 200 3722
+INFO 2021-08-08 16:17:27,342 basehttp 161 "GET /imagecode/?uuid=89fee863-8947-4ea2-87f6-9d27020e7274 HTTP/1.1" 200 3589
+INFO 2021-08-08 16:17:29,044 basehttp 161 "GET /imagecode/?uuid=a6fcb7b5-ba1f-4268-abc4-c1c76c1b8439 HTTP/1.1" 200 3410
+INFO 2021-08-08 16:17:29,451 basehttp 161 "GET /imagecode/?uuid=1161dc9b-b51d-44a1-9c73-564795977893 HTTP/1.1" 200 2774
+INFO 2021-08-08 16:17:29,795 basehttp 161 "GET /imagecode/?uuid=34a2f640-d67f-4c4f-b3c5-d4df6c199724 HTTP/1.1" 200 3558
+INFO 2021-08-08 16:17:29,989 basehttp 161 "GET /imagecode/?uuid=87957c4e-366d-406a-a0e0-b54e0d143a7d HTTP/1.1" 200 3570
+INFO 2021-08-08 16:17:30,357 basehttp 161 "GET /imagecode/?uuid=d2001a51-08b7-4634-bd1b-f69898864ad5 HTTP/1.1" 200 3353
+INFO 2021-08-08 16:17:30,573 basehttp 161 "GET /imagecode/?uuid=99471b72-b10c-4e14-b461-46a6087e066e HTTP/1.1" 200 2951
+INFO 2021-08-08 16:17:30,731 basehttp 161 "GET /imagecode/?uuid=fdb1762d-aa0c-47c9-b98c-1949a826550f HTTP/1.1" 200 3056
+INFO 2021-08-08 16:17:31,226 basehttp 161 "GET /imagecode/?uuid=b35d02aa-0a50-44d7-9491-4990d0c76753 HTTP/1.1" 200 3283
+INFO 2021-08-08 17:12:53,946 autoreload 251 F:\git ¿â\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-08 17:12:54,503 autoreload 251 F:\git ¿â\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-08 17:12:55,284 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 17:12:56,447 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 17:16:01,844 autoreload 251 F:\git ¿â\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-08 17:16:02,150 autoreload 251 F:\git ¿â\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-08 17:16:02,958 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 17:16:03,986 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 17:37:45,264 autoreload 251 F:\git ¿â\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-08 17:37:46,322 autoreload 637 Watching for file changes with StatReloader

@@ -195,7 +195,7 @@ LOGGING={
     'loggers':{
         #定义名为django的日志器
         'django':{
-            #同时向终端和文件中输出日志
+            #向文件中输出日志
             'handlers':['file'],
             #是否继续传递日志信息
             'propagate':True,
