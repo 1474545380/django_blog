@@ -4445,3 +4445,127 @@ INFO 2021-08-08 23:10:35,728 autoreload 637 Watching for file changes with StatR
 INFO 2021-08-08 23:12:51,690 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-08-08 23:13:00,196 autoreload 251 F:\git 库\django_blog\new_pro\users\urls.py changed, reloading.
 INFO 2021-08-08 23:13:01,142 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-08 23:13:08,803 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-08 23:13:09,002 basehttp 161 "GET /imagecode/?uuid=320889ca-2c66-43ca-a7cd-b665cb42ae44 HTTP/1.1" 200 3602
+INFO 2021-08-08 23:13:36,309 views 73 033540
+INFO 2021-08-08 23:13:36,618 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=xkew&uuid=320889ca-2c66-43ca-a7cd-b665cb42ae44 HTTP/1.1" 200 63
+WARNING 2021-08-08 23:13:55,842 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-08-08 23:13:55,842 basehttp 161 "POST /register/ HTTP/1.1" 403 2514
+INFO 2021-08-08 23:13:58,862 basehttp 161 "GET /imagecode/?uuid=4e307036-b410-4e8d-a48a-8657abd3d5a5 HTTP/1.1" 200 2806
+INFO 2021-08-09 15:02:44,588 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-09 15:08:59,724 log 224 Not Found: /
+WARNING 2021-08-09 15:08:59,725 basehttp 161 "GET / HTTP/1.1" 404 2579
+WARNING 2021-08-09 15:08:59,952 log 224 Not Found: /favicon.ico
+WARNING 2021-08-09 15:08:59,953 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2630
+INFO 2021-08-09 15:09:03,890 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+ERROR 2021-08-09 15:09:11,700 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 29, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-09 15:09:11,702 basehttp 161 "GET /imagecode/?uuid=803ae4ee-0dfe-4da5-93ad-edd521e67faf HTTP/1.1" 500 115645
+INFO 2021-08-09 15:09:36,967 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-09 15:09:37,091 basehttp 161 "GET /imagecode/?uuid=bc3568c3-0080-4714-a5ea-cebc7e12e460 HTTP/1.1" 200 3219
+INFO 2021-08-09 15:34:33,812 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-09 15:34:34,926 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-09 15:41:21,009 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-09 15:41:22,080 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-09 15:42:58,479 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-09 15:42:59,506 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-09 15:46:58,381 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-09 15:46:59,520 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-09 15:47:00,715 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-09 15:47:00,869 basehttp 161 "GET /imagecode/?uuid=40b56029-961f-4b72-b797-050f3f6ad6a1 HTTP/1.1" 200 3041
+INFO 2021-08-09 15:47:01,639 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-08-09 15:47:01,719 basehttp 161 "GET /imagecode/?uuid=2d1b88f4-9de1-40dd-8fa1-a011db0010a4 HTTP/1.1" 200 3409
+INFO 2021-08-09 15:47:17,469 basehttp 161 "GET /admin/login/ HTTP/1.1" 200 2203
+INFO 2021-08-09 15:47:17,499 basehttp 161 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2021-08-09 15:47:17,499 basehttp 161 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-08-09 15:47:17,499 basehttp 161 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-08-09 15:47:17,500 basehttp 161 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2021-08-09 15:47:17,546 basehttp 161 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2021-08-09 15:47:17,546 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-08-09 15:47:17,598 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-08-09 15:47:17,599 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-08-09 15:48:40,393 views 121 077835
+INFO 2021-08-09 15:48:40,677 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=dino&uuid=2d1b88f4-9de1-40dd-8fa1-a011db0010a4 HTTP/1.1" 200 63
+WARNING 2021-08-09 15:48:55,316 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-08-09 15:48:55,317 basehttp 161 "POST /register/ HTTP/1.1" 403 2514
+WARNING 2021-08-09 15:51:12,958 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-08-09 15:51:12,959 basehttp 161 "POST /register/ HTTP/1.1" 403 2514
+WARNING 2021-08-09 15:51:16,610 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-08-09 15:51:16,611 basehttp 161 "POST /register/ HTTP/1.1" 403 2514
+INFO 2021-08-09 15:51:17,636 basehttp 161 "GET /imagecode/?uuid=3e998a98-a079-4c0d-ab42-2cfb87090675 HTTP/1.1" 200 3185
+INFO 2021-08-09 15:51:18,427 basehttp 161 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-08-09 15:51:18,494 basehttp 161 "GET /imagecode/?uuid=f7114273-a660-4539-b66f-f8195ca4c1e6 HTTP/1.1" 200 3014
+INFO 2021-08-09 15:51:18,906 basehttp 161 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-08-09 15:51:18,980 basehttp 161 "GET /imagecode/?uuid=1d3f8b48-0e2b-424f-a77c-2eae4ecf3869 HTTP/1.1" 200 3317
+INFO 2021-08-09 15:51:19,064 basehttp 161 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-08-09 15:51:19,131 basehttp 161 "GET /imagecode/?uuid=29fa52e0-4599-48c6-8cc5-a0a4581b2b8f HTTP/1.1" 200 3165
+INFO 2021-08-09 15:51:19,205 basehttp 161 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-08-09 15:51:19,273 basehttp 161 "GET /imagecode/?uuid=647cf4f7-02b9-4f90-aae5-b4f48636b53e HTTP/1.1" 200 3363
+INFO 2021-08-09 15:51:19,372 basehttp 161 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-08-09 15:51:19,439 basehttp 161 "GET /imagecode/?uuid=66d20383-e932-4e59-8c7c-94a355e0e16b HTTP/1.1" 200 2767
+INFO 2021-08-09 15:51:22,550 basehttp 161 "GET /imagecode/?uuid=0c076f2c-7bd4-41f5-9da0-19f4e99d32e8 HTTP/1.1" 200 3277
+INFO 2021-08-09 15:51:46,122 views 121 044168
+INFO 2021-08-09 15:51:46,496 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=lmor&uuid=0c076f2c-7bd4-41f5-9da0-19f4e99d32e8 HTTP/1.1" 200 63
+WARNING 2021-08-09 15:52:16,283 log 224 Bad Request: /register/
+WARNING 2021-08-09 15:52:16,284 basehttp 161 "POST /register/ HTTP/1.1" 400 18
+INFO 2021-08-09 15:52:20,338 basehttp 161 "GET /imagecode/?uuid=810a5fe1-2602-4a20-bf52-82b028b29fab HTTP/1.1" 200 3112
+INFO 2021-08-09 15:53:01,343 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-09 15:53:02,416 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-09 15:53:17,729 basehttp 161 "GET /imagecode/?uuid=f7e6b787-8d81-404a-9227-e381ea5990f7 HTTP/1.1" 200 3188
+INFO 2021-08-09 15:53:24,418 views 121 082740
+INFO 2021-08-09 15:53:24,609 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=bpgu&uuid=f7e6b787-8d81-404a-9227-e381ea5990f7 HTTP/1.1" 200 63
+WARNING 2021-08-09 15:53:37,628 log 224 Bad Request: /register/
+WARNING 2021-08-09 15:53:37,628 basehttp 161 "POST /register/ HTTP/1.1" 400 18
+INFO 2021-08-09 15:55:00,713 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-09 15:55:01,764 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-09 15:55:04,268 log 224 Bad Request: /register/
+WARNING 2021-08-09 15:55:04,268 basehttp 161 "POST /register/ HTTP/1.1" 400 24
+INFO 2021-08-09 15:55:05,458 basehttp 161 "GET /imagecode/?uuid=72a27472-f986-4877-b376-59264b2bb7f6 HTTP/1.1" 200 2927
+INFO 2021-08-09 15:55:06,036 basehttp 161 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-08-09 15:55:06,114 basehttp 161 "GET /imagecode/?uuid=5fa83dcd-ed12-4961-ac43-0b5770a98814 HTTP/1.1" 200 3253
+INFO 2021-08-09 15:55:28,687 basehttp 161 "GET /imagecode/?uuid=57f74ba7-077d-4e15-a9eb-665b6fdb259f HTTP/1.1" 200 3063
+INFO 2021-08-09 15:55:34,243 views 121 097481
+INFO 2021-08-09 15:55:34,475 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=tw3g&uuid=57f74ba7-077d-4e15-a9eb-665b6fdb259f HTTP/1.1" 200 63
+WARNING 2021-08-09 15:55:46,321 log 224 Bad Request: /register/
+WARNING 2021-08-09 15:55:46,321 basehttp 161 "POST /register/ HTTP/1.1" 400 24
+INFO 2021-08-09 15:56:47,848 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-09 15:56:49,000 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-09 15:56:53,829 log 224 Bad Request: /register/
+WARNING 2021-08-09 15:56:53,829 basehttp 161 "POST /register/ HTTP/1.1" 400 24
+INFO 2021-08-09 15:56:55,274 basehttp 161 "GET /imagecode/?uuid=9fb3e958-2d2d-4013-9f10-63a2d09f6753 HTTP/1.1" 200 2906
+INFO 2021-08-09 15:57:10,312 views 121 077490
+INFO 2021-08-09 15:57:11,064 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=x7ua&uuid=9fb3e958-2d2d-4013-9f10-63a2d09f6753 HTTP/1.1" 200 63
+WARNING 2021-08-09 15:57:21,759 log 224 Bad Request: /register/
+WARNING 2021-08-09 15:57:21,760 basehttp 161 "POST /register/ HTTP/1.1" 400 24
+INFO 2021-08-09 15:58:31,859 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-09 15:58:32,969 autoreload 637 Watching for file changes with StatReloader

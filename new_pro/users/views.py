@@ -8,11 +8,59 @@ from utils.response_code import RETCODE
 import logging
 from random import randint
 from libs.yuntongxun.sms import CCP
+import re
+from users.models import User
+from django.db import DatabaseError
 logger=logging.getLogger('django')
 # Create your views here.
 class RegisterView(View):
     def get(self,request):
         return render(request,'register.html')
+    def post(self,request):
+        """
+        接收数据
+        验证数据
+            参数是否齐全
+            手机号格式是否正确
+            密码是否符合格式
+            两个密码是否一致
+            短信验证码和Reids中的是否相同
+        保存注册信息
+        返回响应跳转到页面
+        :param request:
+        :return:
+        """
+        #接收数据
+        mobile=request.POST.get('mobile')
+        password=request.POST.get('password')
+        password2=request.POST.get('password2')
+        smscode=request.POST.get('sms_code')
+        #验证参数是否齐全
+        if not all([mobile,password,password2,smscode]):
+            return HttpResponseBadRequest('缺少必要参数')
+        #判断手机号格式
+        if not re.match(r'^1[3-9]\d{9}$',mobile):
+            return HttpResponseBadRequest("手机号不符合规则")
+        #验证密码
+        if not re.match(r'^[0-9A-Za-z]{8,20}$',password):
+            return HttpResponseBadRequest("请输入8-20位密码")
+        #两个密码是否一致
+        if password!=password2:
+            return HttpResponseBadRequest('两次密码不一致')
+        #短信和reids中的是否一致
+        redis_conn=get_redis_connection('default')
+        redis_sms_code=redis_conn.get('sms:%s'%mobile)
+        if redis_sms_code is None:
+            return HttpResponseBadRequest("短信验证码过期")
+        if smscode != redis_sms_code.decode():
+            return HttpResponseBadRequest("短信验证码错误")
+        #保存注册信息
+        try:
+            user=User.objects.create_user(username=mobile,mobile=mobile,password=password)
+        except DatabaseError as e:
+            logger.error(e)
+            return HttpResponseBadRequest('注册失败')
+        return HttpResponse("注册成功")
 #注册图片验证码
 class ImageCodeView(View):
     def get(self,request):
