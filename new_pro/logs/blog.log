@@ -4569,3 +4569,4 @@ WARNING 2021-08-09 15:57:21,759 log 224 Bad Request: /register/
 WARNING 2021-08-09 15:57:21,760 basehttp 161 "POST /register/ HTTP/1.1" 400 24
 INFO 2021-08-09 15:58:31,859 autoreload 251 F:\git ¿â\django_blog\new_pro\users\views.py changed, reloading.
 INFO 2021-08-09 15:58:32,969 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-09 15:58:34,866 basehttp 161 "POST /register/ HTTP/1.1" 200 12
