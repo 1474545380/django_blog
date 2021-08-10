@@ -13,6 +13,7 @@ from users.models import User
 from django.db import DatabaseError
 from django.shortcuts import redirect
 from django.urls import reverse
+from django.contrib.auth import login
 logger=logging.getLogger('django')
 # Create your views here.
 class RegisterView(View):
@@ -62,9 +63,15 @@ class RegisterView(View):
         except DatabaseError as e:
             logger.error(e)
             return HttpResponseBadRequest('注册失败')
+        #状态保持
+        login(request,user)
         #redirect重定向，reverse 通过namespace获取到视图对应的路由
         # return HttpResponse('注册成功')
-        return redirect(reverse('home:index'))
+        response= redirect(reverse('home:index'))
+        #设置cookie信息，在index展示用户信息
+        response.set_cookie('is_login',True)
+        response.set_cookie('username',user.username,max_age=7*24*3600)
+        return response
 #注册图片验证码
 class ImageCodeView(View):
     def get(self,request):

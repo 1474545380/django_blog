@@ -5011,3 +5011,541 @@ WARNING 2021-08-10 14:24:07,904 log 224 Not Found: /index.html
 WARNING 2021-08-10 14:24:07,904 basehttp 161 "GET /index.html HTTP/1.1" 404 2788
 WARNING 2021-08-10 14:24:11,384 log 224 Not Found: /index.html
 WARNING 2021-08-10 14:24:11,384 basehttp 161 "GET /index.html HTTP/1.1" 404 2788
+INFO 2021-08-10 15:58:50,458 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-10 15:58:52,415 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 15:58:52,804 basehttp 161 "GET / HTTP/1.1" 200 11962
+INFO 2021-08-10 16:04:30,991 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-10 16:04:32,826 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 16:05:21,329 basehttp 161 "GET /register/ HTTP/1.1" 200 5340
+ERROR 2021-08-10 16:05:47,429 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 88, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 256, in readline
+    self._read_from_socket()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+ERROR 2021-08-10 16:05:47,448 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 88, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 256, in readline
+    self._read_from_socket()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+ERROR 2021-08-10 16:05:47,466 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 88, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 256, in readline
+    self._read_from_socket()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+ERROR 2021-08-10 16:05:47,483 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 88, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 256, in readline
+    self._read_from_socket()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+ERROR 2021-08-10 16:05:47,500 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 88, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 256, in readline
+    self._read_from_socket()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+ERROR 2021-08-10 16:05:47,517 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 88, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 256, in readline
+    self._read_from_socket()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+ERROR 2021-08-10 16:05:47,535 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 88, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 256, in readline
+    self._read_from_socket()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+ERROR 2021-08-10 16:05:47,553 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 88, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 256, in readline
+    self._read_from_socket()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+ERROR 2021-08-10 16:05:47,570 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 88, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 256, in readline
+    self._read_from_socket()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+ERROR 2021-08-10 16:05:47,586 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 88, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 256, in readline
+    self._read_from_socket()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+ERROR 2021-08-10 16:05:47,603 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 88, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 256, in readline
+    self._read_from_socket()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+INFO 2021-08-10 16:05:47,605 basehttp 75 - Broken pipe from ('127.0.0.1', 7128)
+
+ERROR 2021-08-10 16:05:47,607 basehttp 161 "GET /imagecode/?uuid=9cb40ffa-4b54-4c12-b995-bdc7dbcd8dd4 HTTP/1.1" 500 124163
+ERROR 2021-08-10 16:05:47,609 basehttp 161 "GET /imagecode/?uuid=f3827e8b-8214-4e23-ad94-6f89f43a6cc9 HTTP/1.1" 500 124122
+INFO 2021-08-10 16:05:47,610 basehttp 75 - Broken pipe from ('127.0.0.1', 8152)
+
+INFO 2021-08-10 16:05:47,612 basehttp 75 - Broken pipe from ('127.0.0.1', 14340)
+
+INFO 2021-08-10 16:05:47,614 basehttp 75 - Broken pipe from ('127.0.0.1', 6966)
+
+INFO 2021-08-10 16:05:47,615 basehttp 75 - Broken pipe from ('127.0.0.1', 6721)
+
+INFO 2021-08-10 16:05:47,617 basehttp 75 - Broken pipe from ('127.0.0.1', 5360)
+
+INFO 2021-08-10 16:05:47,619 basehttp 75 - Broken pipe from ('127.0.0.1', 8204)
+
+INFO 2021-08-10 16:05:47,621 basehttp 75 - Broken pipe from ('127.0.0.1', 6864)
+
+INFO 2021-08-10 16:05:47,623 basehttp 75 - Broken pipe from ('127.0.0.1', 13876)
+
+ERROR 2021-08-10 16:05:50,618 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 88, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-10 16:05:50,620 basehttp 161 "GET /imagecode/?uuid=ac0b24ad-696b-4695-a236-09f1d3b29d27 HTTP/1.1" 500 115666
+ERROR 2021-08-10 16:05:50,791 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 88, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-10 16:05:50,793 basehttp 75 - Broken pipe from ('127.0.0.1', 10676)
+
+ERROR 2021-08-10 16:05:50,953 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 88, in get
+    redis_connection.setex('img:%s'%uuid,300,text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-10 16:05:50,954 basehttp 161 "GET /imagecode/?uuid=6e27cece-7dd6-46f1-83d6-6d8c8d339f37 HTTP/1.1" 500 115626
+INFO 2021-08-10 16:06:02,143 basehttp 161 "GET / HTTP/1.1" 200 11962
+INFO 2021-08-10 16:06:20,770 basehttp 161 "GET /register/ HTTP/1.1" 200 5340
+INFO 2021-08-10 16:06:20,887 basehttp 161 "GET /imagecode/?uuid=d86c401d-2595-4b9e-b163-2f64bb9d203c HTTP/1.1" 200 3323
+INFO 2021-08-10 16:06:23,960 basehttp 161 "GET /register/ HTTP/1.1" 200 5340
+INFO 2021-08-10 16:06:24,042 basehttp 161 "GET /imagecode/?uuid=700ff8c2-162c-484c-8750-39f24fd84c4a HTTP/1.1" 200 3172
+INFO 2021-08-10 16:06:47,883 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=gmsn&uuid=700ff8c2-162c-484c-8750-39f24fd84c4a HTTP/1.1" 200 72
+INFO 2021-08-10 16:06:47,902 basehttp 161 "GET /imagecode/?uuid=6b75286c-6371-4968-af4f-4bff30b11bca HTTP/1.1" 200 3073
+INFO 2021-08-10 16:06:56,086 views 132 082874
+INFO 2021-08-10 16:06:56,393 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=bhdq&uuid=6b75286c-6371-4968-af4f-4bff30b11bca HTTP/1.1" 200 63
+WARNING 2021-08-10 16:07:17,694 log 224 Bad Request: /register/
+WARNING 2021-08-10 16:07:17,695 basehttp 161 "POST /register/ HTTP/1.1" 400 21
+INFO 2021-08-10 16:07:22,281 basehttp 161 "GET /imagecode/?uuid=c112eba2-9f3d-441b-aff2-0a6b29026bd6 HTTP/1.1" 200 3158
+INFO 2021-08-10 16:07:44,207 views 132 097199
+INFO 2021-08-10 16:07:44,472 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=ggbl&uuid=c112eba2-9f3d-441b-aff2-0a6b29026bd6 HTTP/1.1" 200 63
+INFO 2021-08-10 16:07:57,550 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-08-10 16:07:57,557 basehttp 161 "GET / HTTP/1.1" 200 11962
