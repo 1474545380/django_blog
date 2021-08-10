@@ -5549,3 +5549,52 @@ INFO 2021-08-10 16:07:44,207 views 132 097199
 INFO 2021-08-10 16:07:44,472 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=ggbl&uuid=c112eba2-9f3d-441b-aff2-0a6b29026bd6 HTTP/1.1" 200 63
 INFO 2021-08-10 16:07:57,550 basehttp 161 "POST /register/ HTTP/1.1" 302 0
 INFO 2021-08-10 16:07:57,557 basehttp 161 "GET / HTTP/1.1" 200 11962
+INFO 2021-08-10 16:17:23,919 basehttp 161 "GET / HTTP/1.1" 200 11952
+INFO 2021-08-10 16:17:24,677 autoreload 251 F:\git ¿â\django_blog\new_pro\users\urls.py changed, reloading.
+INFO 2021-08-10 16:17:26,536 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 16:17:30,891 basehttp 161 "GET /login HTTP/1.1" 301 0
+INFO 2021-08-10 16:17:30,911 basehttp 161 "GET /login/ HTTP/1.1" 200 3082
+INFO 2021-08-10 16:18:41,039 basehttp 161 "GET /register/ HTTP/1.1" 200 5330
+INFO 2021-08-10 16:18:41,181 basehttp 161 "GET /imagecode/?uuid=8b5ab07e-74a2-4bcb-af2c-899b9a2f7c29 HTTP/1.1" 200 3163
+INFO 2021-08-10 16:18:44,969 basehttp 161 "GET /register/ HTTP/1.1" 200 5330
+INFO 2021-08-10 16:18:45,048 basehttp 161 "GET /imagecode/?uuid=5a11c0aa-40a7-49c7-a394-69bb02239986 HTTP/1.1" 200 2968
+INFO 2021-08-10 16:18:46,080 basehttp 161 "GET /register/ HTTP/1.1" 200 5330
+INFO 2021-08-10 16:18:46,153 basehttp 161 "GET /imagecode/?uuid=3809f112-7579-429a-befb-c8f4c726dfeb HTTP/1.1" 200 3027
+INFO 2021-08-10 16:18:51,275 basehttp 161 "GET /register/ HTTP/1.1" 200 5330
+INFO 2021-08-10 16:18:51,362 basehttp 161 "GET /imagecode/?uuid=e6d302f6-b366-49f3-b7ae-2f5da08db30d HTTP/1.1" 200 2924
+WARNING 2021-08-10 16:18:55,873 log 224 Not Found: /login/index.html
+WARNING 2021-08-10 16:18:55,873 basehttp 161 "GET /login/index.html HTTP/1.1" 404 2977
+WARNING 2021-08-10 16:20:34,086 log 224 Not Found: /login/index.html
+WARNING 2021-08-10 16:20:34,087 basehttp 161 "GET /login/index.html HTTP/1.1" 404 2977
+WARNING 2021-08-10 16:20:34,735 log 224 Not Found: /login/index.html
+WARNING 2021-08-10 16:20:34,735 basehttp 161 "GET /login/index.html HTTP/1.1" 404 2977
+WARNING 2021-08-10 16:20:35,237 log 224 Not Found: /login/index.html
+WARNING 2021-08-10 16:20:35,237 basehttp 161 "GET /login/index.html HTTP/1.1" 404 2977
+INFO 2021-08-10 16:20:36,786 basehttp 161 "GET /login/ HTTP/1.1" 200 3093
+INFO 2021-08-10 16:20:37,379 basehttp 161 "GET /login/ HTTP/1.1" 200 3093
+INFO 2021-08-10 16:20:37,988 basehttp 161 "GET / HTTP/1.1" 200 11961
+INFO 2021-08-10 16:20:42,256 basehttp 161 "GET /static/center.html HTTP/1.1" 200 4162
+WARNING 2021-08-10 16:20:46,288 log 224 Not Found: /templates/index.html
+WARNING 2021-08-10 16:20:46,288 basehttp 161 "GET /templates/index.html HTTP/1.1" 404 2989
+INFO 2021-08-10 16:20:52,229 basehttp 161 "GET /static/detail.html HTTP/1.1" 200 8853
+WARNING 2021-08-10 16:20:59,343 log 224 Not Found: /templates/index.html
+WARNING 2021-08-10 16:20:59,344 basehttp 161 "GET /templates/index.html HTTP/1.1" 404 2989
+INFO 2021-08-10 16:28:50,648 autoreload 251 F:\git ¿â\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-10 16:28:52,814 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 17:28:04,544 autoreload 251 F:\git ¿â\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-10 17:28:06,538 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 17:28:11,705 basehttp 161 "GET /login/ HTTP/1.1" 200 3093
+WARNING 2021-08-10 17:28:20,466 log 224 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-08-10 17:28:20,467 basehttp 161 "POST /login/ HTTP/1.1" 403 2514
+INFO 2021-08-10 17:28:54,670 autoreload 251 F:\git ¿â\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-10 17:28:56,487 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 17:28:57,467 basehttp 161 "GET /login/ HTTP/1.1" 200 3223
+WARNING 2021-08-10 17:29:03,164 log 224 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-08-10 17:29:03,165 basehttp 161 "POST /login/ HTTP/1.1" 403 2514
+WARNING 2021-08-10 17:29:51,156 log 224 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-08-10 17:29:51,156 basehttp 161 "POST /login/ HTTP/1.1" 403 2514
+INFO 2021-08-10 17:29:53,127 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+WARNING 2021-08-10 17:29:58,686 log 224 Bad Request: /login/
+WARNING 2021-08-10 17:29:58,687 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-08-10 17:35:26,256 autoreload 251 F:\git ¿â\django_blog\new_pro\users\models.py changed, reloading.
+INFO 2021-08-10 17:35:28,195 autoreload 637 Watching for file changes with StatReloader

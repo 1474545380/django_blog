@@ -13,7 +13,7 @@ from users.models import User
 from django.db import DatabaseError
 from django.shortcuts import redirect
 from django.urls import reverse
-from django.contrib.auth import login
+from django.contrib.auth import login,authenticate
 logger=logging.getLogger('django')
 # Create your views here.
 class RegisterView(View):
@@ -136,3 +136,56 @@ class SmsCodeView(View):
         CCP().send_template_sms(mobile,[sms_code,5],1)
         #返回响应
         return JsonResponse({'code':RETCODE.OK,'errmsg':'短信发送成功'})
+#登陆页面
+class LoginView(View):
+    def get(self,request):
+
+        return render(request,'login.html')
+    def post(self,request):
+        """
+               接收参数
+               参数验证
+                   手机号
+                   密码
+               用户认证登录
+               状态保持
+               根据用户选择的是否记住登陆状态进行判断
+               显示首页显示用的cookie信息
+               返回响应
+               :param request:
+               :return:
+               """
+        # 参数接受
+        mobile = request.POST.get('mobile')
+        password = request.POST.get('password')
+        remember = request.POST.get('remember')
+        #验证手机号
+        if not re.match(r'^1[3-9]\d{9}$',mobile):
+            return HttpResponseBadRequest('手机号不符合规则')
+        #验证密码
+        if not re.match(r'^[a-zA-Z0-9]{8,20}$',password):
+            return HttpResponseBadRequest('密码不符合规则')
+        #用户认证登录，采用django自带的认证方法认证
+        #用户名或密码正确返回user
+        #不正确返回None
+        #默认对于username进行用户名判断，当前是通过手机号进行判断、
+        #需要到user模型中进行修改
+        user=authenticate(mobile=mobile,password=password)
+        if user is None:
+            return HttpResponseBadRequest('用户名或密码错误')
+        #状态保持
+        # cookie信息
+        login(request,user)
+        response=redirect(reverse('home:index'))
+        #根据用户选择的是否记住登陆状态进行判断
+        if remember!='on':#否
+            request.session.set_expiry(0)#设置过期时间,浏览器关闭后
+            response.set_cookie('is_login',True)
+            response.set_cookie('username',user.username,max_age=14*24*3600)
+        else:           #记住
+            request.session.set_expiry(None)#默认记录两周
+            response.set_cookie('is_login',True,max_age=14*24*3600)
+            response.set_cookie('username',user.username,max_age=14*24*3600)
+
+        #返回响应
+        return response
