@@ -29,5 +29,8 @@ import logging
 urlpatterns = [
     path('admin/', admin.site.urls),
     #include((子应用路由，子应用名字),命名空间)
+    #注册页
     path('',include(('users.urls','users'),namespace='users')),
+    #首页
+    path('',include(('home.urls','home'),namespace='home')),
 ]

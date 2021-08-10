@@ -11,6 +11,8 @@ from libs.yuntongxun.sms import CCP
 import re
 from users.models import User
 from django.db import DatabaseError
+from django.shortcuts import redirect
+from django.urls import reverse
 logger=logging.getLogger('django')
 # Create your views here.
 class RegisterView(View):
@@ -56,11 +58,13 @@ class RegisterView(View):
             return HttpResponseBadRequest("短信验证码错误")
         #保存注册信息
         try:
-            user=User.objects.create_user(username=mobile,mobile=mobile,password=password)
+            user=User.objects.create_user(username=mobile,mobile=mobile, password=password)
         except DatabaseError as e:
             logger.error(e)
             return HttpResponseBadRequest('注册失败')
-        return HttpResponse("注册成功")
+        #redirect重定向，reverse 通过namespace获取到视图对应的路由
+        # return HttpResponse('注册成功')
+        return redirect(reverse('home:index'))
 #注册图片验证码
 class ImageCodeView(View):
     def get(self,request):

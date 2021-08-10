@@ -4570,3 +4570,444 @@ WARNING 2021-08-09 15:57:21,760 basehttp 161 "POST /register/ HTTP/1.1" 400 24
 INFO 2021-08-09 15:58:31,859 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
 INFO 2021-08-09 15:58:32,969 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-08-09 15:58:34,866 basehttp 161 "POST /register/ HTTP/1.1" 200 12
+INFO 2021-08-09 16:04:47,686 autoreload 251 F:\git 库\django_blog\new_pro\new_pro\settings.py changed, reloading.
+INFO 2021-08-09 16:04:48,701 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-09 16:10:17,111 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-09 16:18:40,913 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-09 16:18:56,618 autoreload 251 F:\git 库\django_blog\new_pro\new_pro\settings.py changed, reloading.
+INFO 2021-08-09 16:18:57,546 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-09 16:19:10,388 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-09 16:20:22,473 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-09 16:20:24,603 basehttp 161 "GET / HTTP/1.1" 200 11962
+INFO 2021-08-09 16:20:31,105 basehttp 161 "GET /static/detail.html HTTP/1.1" 200 8827
+INFO 2021-08-09 16:20:33,496 basehttp 161 "GET /static/login.html HTTP/1.1" 200 3100
+INFO 2021-08-09 16:20:36,870 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-09 16:20:36,966 basehttp 161 "GET /imagecode/?uuid=f88ffae0-8c6e-4a71-9cc1-a87ebcc6bb92 HTTP/1.1" 200 3191
+INFO 2021-08-09 16:20:38,888 basehttp 161 "GET /imagecode/?uuid=5cce5d62-7c5d-4a39-8c55-9f186e41ccaa HTTP/1.1" 200 3506
+WARNING 2021-08-09 16:20:48,449 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:20:48,450 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:23,007 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:23,007 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:23,443 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:23,443 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:23,704 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:23,704 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:23,914 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:23,915 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:24,064 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:24,065 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:24,221 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:24,221 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:24,360 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:24,360 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:24,550 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:24,551 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:25,443 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:25,443 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:25,558 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:25,558 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:41,209 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:41,209 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:41,719 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:41,720 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+INFO 2021-08-09 16:21:42,619 basehttp 161 "GET /imagecode/?uuid=18999356-008f-4c43-a533-421d32dd9088 HTTP/1.1" 200 3048
+WARNING 2021-08-09 16:21:43,272 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:43,273 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:45,544 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:45,544 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:45,626 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:45,626 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:45,805 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:45,806 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:45,941 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:45,942 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:46,422 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:46,422 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:46,564 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:46,565 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:21:59,166 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:21:59,166 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+INFO 2021-08-09 16:21:59,826 basehttp 161 "GET /imagecode/?uuid=a704aaca-869c-460e-88f8-44d086a7d2f5 HTTP/1.1" 200 3456
+WARNING 2021-08-09 16:22:00,447 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:22:00,448 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+INFO 2021-08-09 16:22:01,576 basehttp 161 "GET /imagecode/?uuid=9365e302-3a14-4649-b1b8-5facfd667420 HTTP/1.1" 200 3080
+WARNING 2021-08-09 16:22:02,233 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:22:02,233 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:22:18,970 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:22:18,971 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:22:19,377 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:22:19,377 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+INFO 2021-08-09 16:22:20,014 basehttp 161 "GET /imagecode/?uuid=d4877171-9604-44e0-ac87-70da51b55105 HTTP/1.1" 200 3228
+WARNING 2021-08-09 16:22:21,026 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:22:21,027 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:22:23,164 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:22:23,164 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:22:23,510 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:22:23,510 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:22:23,621 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:22:23,621 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:22:23,771 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:22:23,771 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:22:23,920 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:22:23,921 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:22:24,079 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:22:24,081 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:22:24,213 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:22:24,214 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+INFO 2021-08-09 16:22:31,986 basehttp 161 "GET / HTTP/1.1" 200 11962
+WARNING 2021-08-09 16:22:36,569 log 224 Not Found: /index.html
+WARNING 2021-08-09 16:22:36,569 basehttp 161 "GET /index.html HTTP/1.1" 404 2788
+WARNING 2021-08-09 16:22:40,692 log 224 Not Found: /index.html
+WARNING 2021-08-09 16:22:40,693 basehttp 161 "GET /index.html HTTP/1.1" 404 2788
+WARNING 2021-08-09 16:22:50,816 log 224 Not Found: /index.html
+WARNING 2021-08-09 16:22:50,817 basehttp 161 "GET /index.html HTTP/1.1" 404 2788
+INFO 2021-08-09 16:22:56,312 basehttp 161 "GET /static/detail.html HTTP/1.1" 304 0
+INFO 2021-08-09 16:22:58,157 basehttp 161 "GET /static/login.html HTTP/1.1" 304 0
+INFO 2021-08-09 16:23:00,359 basehttp 161 "GET /register/ HTTP/1.1" 200 5331
+INFO 2021-08-09 16:23:00,428 basehttp 161 "GET /imagecode/?uuid=5c9de3d1-f5aa-4adf-8781-a70322749df8 HTTP/1.1" 200 2944
+WARNING 2021-08-09 16:23:01,025 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:23:01,025 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:23:41,854 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:23:41,854 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:23:42,269 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:23:42,270 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:23:42,434 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:23:42,434 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+WARNING 2021-08-09 16:23:42,582 log 224 Not Found: /register/index.html
+WARNING 2021-08-09 16:23:42,582 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+INFO 2021-08-09 16:23:43,407 basehttp 161 "GET /imagecode/?uuid=a1da0aaf-f7d7-409f-903e-3f99ff621f33 HTTP/1.1" 200 3147
+INFO 2021-08-09 16:23:44,515 basehttp 161 "GET /register/ HTTP/1.1" 200 5342
+INFO 2021-08-09 16:23:44,582 basehttp 161 "GET /imagecode/?uuid=cf47a144-a44a-4f91-8820-0572c764aa26 HTTP/1.1" 200 3032
+WARNING 2021-08-09 16:23:45,657 log 224 Not Found: /templates/index.html
+WARNING 2021-08-09 16:23:45,657 basehttp 161 "GET /templates/index.html HTTP/1.1" 404 2818
+INFO 2021-08-09 16:23:54,048 basehttp 161 "GET / HTTP/1.1" 200 11962
+WARNING 2021-08-09 16:23:54,498 log 224 Not Found: /favicon.ico
+WARNING 2021-08-09 16:23:54,499 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2791
+WARNING 2021-08-09 16:23:56,113 log 224 Not Found: /index.html
+WARNING 2021-08-09 16:23:56,114 basehttp 161 "GET /index.html HTTP/1.1" 404 2788
+INFO 2021-08-09 16:28:09,601 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-09 16:28:11,394 basehttp 161 "GET / HTTP/1.1" 200 11962
+INFO 2021-08-09 16:28:18,347 basehttp 161 "GET /register/ HTTP/1.1" 200 5342
+INFO 2021-08-09 16:28:19,589 basehttp 161 "GET /imagecode/?uuid=9750fa72-9490-4e0e-8eae-3072bf2fbeb8 HTTP/1.1" 200 3364
+INFO 2021-08-09 16:28:46,534 views 124 066240
+INFO 2021-08-09 16:28:46,793 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=j6zx&uuid=9750fa72-9490-4e0e-8eae-3072bf2fbeb8 HTTP/1.1" 200 63
+ERROR 2021-08-09 16:29:06,903 views 63 (1062, "Duplicate entry '17553040983' for key 'tb_users.username'")
+WARNING 2021-08-09 16:29:06,904 log 224 Bad Request: /register/
+WARNING 2021-08-09 16:29:06,904 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+ERROR 2021-08-09 16:29:13,935 views 63 (1062, "Duplicate entry '17553040983' for key 'tb_users.username'")
+WARNING 2021-08-09 16:29:13,936 log 224 Bad Request: /register/
+WARNING 2021-08-09 16:29:13,936 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-08-09 16:29:15,749 basehttp 161 "GET /imagecode/?uuid=75f53278-b1c4-493e-9311-ad7fcc31723e HTTP/1.1" 200 2947
+INFO 2021-08-09 16:29:35,515 views 124 034999
+INFO 2021-08-09 16:29:35,794 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=gl7y&uuid=75f53278-b1c4-493e-9311-ad7fcc31723e HTTP/1.1" 200 63
+ERROR 2021-08-09 16:29:47,211 views 63 (1062, "Duplicate entry '17553040983' for key 'tb_users.username'")
+WARNING 2021-08-09 16:29:47,211 log 224 Bad Request: /register/
+WARNING 2021-08-09 16:29:47,213 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+ERROR 2021-08-09 16:32:24,719 views 63 (1062, "Duplicate entry '17553040983' for key 'tb_users.username'")
+WARNING 2021-08-09 16:32:24,719 log 224 Bad Request: /register/
+WARNING 2021-08-09 16:32:24,719 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-08-09 16:32:25,878 basehttp 161 "GET /imagecode/?uuid=d0446875-0311-4161-8d9d-22b096453235 HTTP/1.1" 200 3389
+INFO 2021-08-09 16:32:41,231 views 124 032218
+INFO 2021-08-09 16:32:41,449 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=pltf&uuid=d0446875-0311-4161-8d9d-22b096453235 HTTP/1.1" 200 63
+ERROR 2021-08-09 16:32:53,646 views 63 (1062, "Duplicate entry '17553040983' for key 'tb_users.username'")
+WARNING 2021-08-09 16:32:53,647 log 224 Bad Request: /register/
+WARNING 2021-08-09 16:32:53,647 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+WARNING 2021-08-09 16:38:04,974 log 224 Bad Request: /register/
+WARNING 2021-08-09 16:38:04,974 basehttp 161 "POST /register/ HTTP/1.1" 400 21
+INFO 2021-08-09 16:38:07,166 basehttp 161 "GET /imagecode/?uuid=17cd7c9c-4c13-4872-8c2e-9602a19d2035 HTTP/1.1" 200 3197
+INFO 2021-08-09 16:38:26,931 views 124 064710
+INFO 2021-08-09 16:38:27,127 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=6gro&uuid=17cd7c9c-4c13-4872-8c2e-9602a19d2035 HTTP/1.1" 200 63
+ERROR 2021-08-09 16:38:42,007 views 63 (1062, "Duplicate entry '17553040983' for key 'tb_users.username'")
+WARNING 2021-08-09 16:38:42,007 log 224 Bad Request: /register/
+WARNING 2021-08-09 16:38:42,007 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+ERROR 2021-08-09 16:38:54,021 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1198, in get_connection
+    if connection.can_read():
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 54, in post
+    redis_sms_code=redis_conn.get('sms:%s'%mobile)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1202, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-09 16:38:54,023 basehttp 161 "POST /register/ HTTP/1.1" 500 143519
+WARNING 2021-08-09 16:40:15,916 log 224 Bad Request: /register/
+WARNING 2021-08-09 16:40:15,916 basehttp 161 "POST /register/ HTTP/1.1" 400 21
+INFO 2021-08-09 16:40:18,146 basehttp 161 "GET /imagecode/?uuid=32f60421-51cc-44c2-bc33-6ab21143b6a3 HTTP/1.1" 200 3321
+INFO 2021-08-09 16:40:34,131 views 124 067900
+INFO 2021-08-09 16:40:34,353 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=al5y&uuid=32f60421-51cc-44c2-bc33-6ab21143b6a3 HTTP/1.1" 200 63
+ERROR 2021-08-09 16:40:45,518 views 63 (1062, "Duplicate entry '17553040983' for key 'tb_users.username'")
+WARNING 2021-08-09 16:40:45,518 log 224 Bad Request: /register/
+WARNING 2021-08-09 16:40:45,518 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+ERROR 2021-08-09 16:40:50,830 views 63 (1062, "Duplicate entry '17553040983' for key 'tb_users.username'")
+WARNING 2021-08-09 16:40:50,830 log 224 Bad Request: /register/
+WARNING 2021-08-09 16:40:50,831 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+ERROR 2021-08-09 16:40:52,994 views 63 (1062, "Duplicate entry '17553040983' for key 'tb_users.username'")
+WARNING 2021-08-09 16:40:52,994 log 224 Bad Request: /register/
+WARNING 2021-08-09 16:40:52,994 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+ERROR 2021-08-09 16:40:57,234 views 63 (1062, "Duplicate entry '17553040983' for key 'tb_users.username'")
+WARNING 2021-08-09 16:40:57,234 log 224 Bad Request: /register/
+WARNING 2021-08-09 16:40:57,234 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+ERROR 2021-08-09 16:41:00,051 views 63 (1062, "Duplicate entry '17553040983' for key 'tb_users.username'")
+WARNING 2021-08-09 16:41:00,052 log 224 Bad Request: /register/
+WARNING 2021-08-09 16:41:00,052 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+ERROR 2021-08-09 16:41:03,093 views 63 (1062, "Duplicate entry '17553040983' for key 'tb_users.username'")
+WARNING 2021-08-09 16:41:03,093 log 224 Bad Request: /register/
+WARNING 2021-08-09 16:41:03,094 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-08-09 18:12:07,788 basehttp 161 "GET / HTTP/1.1" 200 11962
+WARNING 2021-08-09 18:12:12,901 log 224 Bad Request: /register/
+WARNING 2021-08-09 18:12:12,901 basehttp 161 "POST /register/ HTTP/1.1" 400 21
+WARNING 2021-08-09 18:12:15,338 log 224 Bad Request: /register/
+WARNING 2021-08-09 18:12:15,339 basehttp 161 "POST /register/ HTTP/1.1" 400 21
+WARNING 2021-08-09 18:12:18,752 log 224 Not Found: /index.html
+WARNING 2021-08-09 18:12:18,752 basehttp 161 "GET /index.html HTTP/1.1" 404 2788
+INFO 2021-08-10 13:54:53,573 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 13:54:57,593 basehttp 161 "GET / HTTP/1.1" 200 11962
+WARNING 2021-08-10 13:54:58,395 log 224 Not Found: /favicon.ico
+WARNING 2021-08-10 13:54:58,396 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2791
+INFO 2021-08-10 13:55:04,971 basehttp 161 "GET /static/detail.html HTTP/1.1" 304 0
+INFO 2021-08-10 13:55:06,122 basehttp 161 "GET /static/login.html HTTP/1.1" 304 0
+INFO 2021-08-10 13:55:07,684 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-10 13:55:08,010 basehttp 161 "GET /imagecode/?uuid=8ace895d-ac0e-4a26-bc6c-4ab100f680b7 HTTP/1.1" 200 2980
+INFO 2021-08-10 13:55:30,025 views 125 061023
+INFO 2021-08-10 13:55:30,354 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=lvct&uuid=8ace895d-ac0e-4a26-bc6c-4ab100f680b7 HTTP/1.1" 200 63
+ERROR 2021-08-10 13:55:47,075 views 63 (1062, "Duplicate entry '17553040983' for key 'tb_users.username'")
+WARNING 2021-08-10 13:55:47,075 log 224 Bad Request: /register/
+WARNING 2021-08-10 13:55:47,076 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-08-10 13:58:35,966 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-10 13:58:37,930 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 13:59:41,539 basehttp 161 "GET /imagecode/?uuid=4466cefc-678c-4090-b8e9-b4ddb33bfb35 HTTP/1.1" 200 3090
+INFO 2021-08-10 14:00:47,171 views 125 052441
+INFO 2021-08-10 14:00:47,420 basehttp 161 "GET /smscode/?mobile=19963461981&image_code=eyab&uuid=4466cefc-678c-4090-b8e9-b4ddb33bfb35 HTTP/1.1" 200 63
+INFO 2021-08-10 14:01:13,327 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-10 14:01:13,455 basehttp 161 "GET /imagecode/?uuid=59d6b554-6f0b-4e6f-93f1-871e06b01753 HTTP/1.1" 200 3559
+INFO 2021-08-10 14:01:14,094 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-10 14:01:14,174 basehttp 161 "GET /imagecode/?uuid=264de52c-92f2-40ed-8b18-5296a813cda5 HTTP/1.1" 200 3330
+INFO 2021-08-10 14:01:14,293 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-10 14:01:14,367 basehttp 161 "GET /imagecode/?uuid=52933d8b-597c-41fa-90cb-7f5750bb61f4 HTTP/1.1" 200 3201
+INFO 2021-08-10 14:01:14,449 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-10 14:01:14,524 basehttp 161 "GET /imagecode/?uuid=bc84c102-464f-4d9a-9504-6d1113dc50ce HTTP/1.1" 200 3120
+INFO 2021-08-10 14:01:14,600 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-10 14:01:14,675 basehttp 161 "GET /imagecode/?uuid=3c10844c-c2a3-4e7a-8b73-89d62b1a97db HTTP/1.1" 200 3240
+INFO 2021-08-10 14:01:14,743 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-10 14:01:14,812 basehttp 161 "GET /imagecode/?uuid=5786eeb2-be79-4e35-bce2-404360c082e1 HTTP/1.1" 200 3516
+INFO 2021-08-10 14:01:39,575 views 125 097511
+INFO 2021-08-10 14:01:39,811 basehttp 161 "GET /smscode/?mobile=19963461981&image_code=chib&uuid=5786eeb2-be79-4e35-bce2-404360c082e1 HTTP/1.1" 200 63
+INFO 2021-08-10 14:02:55,702 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-10 14:02:55,814 basehttp 161 "GET /imagecode/?uuid=a988f48c-d43a-4fcb-bca3-15ac24af6888 HTTP/1.1" 200 3392
+INFO 2021-08-10 14:02:56,423 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-10 14:02:56,510 basehttp 161 "GET /imagecode/?uuid=7e63848f-8db2-4a93-8d57-6c65857d8d9e HTTP/1.1" 200 3301
+INFO 2021-08-10 14:02:56,547 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-10 14:02:56,624 basehttp 161 "GET /imagecode/?uuid=fd1f1cea-816d-4db0-941b-f25538219108 HTTP/1.1" 200 3121
+INFO 2021-08-10 14:02:56,697 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-10 14:02:56,773 basehttp 161 "GET /imagecode/?uuid=fcb531e8-4d8d-4421-b09f-f28f4bd3d384 HTTP/1.1" 200 3407
+INFO 2021-08-10 14:02:56,833 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-10 14:02:56,908 basehttp 161 "GET /imagecode/?uuid=8ef38951-98ba-4908-92d0-efb6559ebbb8 HTTP/1.1" 200 2853
+INFO 2021-08-10 14:04:13,368 views 125 090348
+INFO 2021-08-10 14:04:13,561 basehttp 161 "GET /smscode/?mobile=19963461981&image_code=dsfq&uuid=8ef38951-98ba-4908-92d0-efb6559ebbb8 HTTP/1.1" 200 63
+INFO 2021-08-10 14:04:53,100 basehttp 161 "GET /imagecode/?uuid=dd91143f-9ad7-41e6-add1-75f2a19bc659 HTTP/1.1" 200 3061
+INFO 2021-08-10 14:05:18,933 views 125 045210
+INFO 2021-08-10 14:05:19,181 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=uyvh&uuid=dd91143f-9ad7-41e6-add1-75f2a19bc659 HTTP/1.1" 200 63
+ERROR 2021-08-10 14:05:37,123 views 63 (1062, "Duplicate entry '17553040983' for key 'tb_users.username'")
+WARNING 2021-08-10 14:05:37,124 log 224 Bad Request: /register/
+WARNING 2021-08-10 14:05:37,124 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-08-10 14:07:15,470 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-10 14:07:17,303 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 14:07:18,002 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-08-10 14:07:18,012 basehttp 161 "GET / HTTP/1.1" 200 11962
+INFO 2021-08-10 14:07:21,203 basehttp 161 "GET / HTTP/1.1" 200 11962
+INFO 2021-08-10 14:07:36,454 basehttp 161 "GET /static/center.html HTTP/1.1" 200 4149
+INFO 2021-08-10 14:07:39,107 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-10 14:07:39,209 basehttp 161 "GET /imagecode/?uuid=f17c5eab-6a96-4404-b531-073d0f035667 HTTP/1.1" 200 3277
+WARNING 2021-08-10 14:07:40,145 log 224 Not Found: /register/index.html
+WARNING 2021-08-10 14:07:40,145 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+INFO 2021-08-10 14:07:43,176 basehttp 161 "GET /imagecode/?uuid=24f54eac-b7d2-4417-ae89-53ee9104d2da HTTP/1.1" 200 2825
+INFO 2021-08-10 14:11:23,337 autoreload 251 F:\git 库\django_blog\new_pro\users\urls.py changed, reloading.
+INFO 2021-08-10 14:11:25,203 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 14:11:25,602 basehttp 161 "GET /register/ HTTP/1.1" 200 5329
+INFO 2021-08-10 14:11:25,758 basehttp 161 "GET /imagecode/?uuid=5da8e485-0d14-4088-93f0-fa49a7e0f9d7 HTTP/1.1" 200 3073
+WARNING 2021-08-10 14:11:26,992 log 224 Not Found: /register/index.html
+WARNING 2021-08-10 14:11:26,993 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2798
+INFO 2021-08-10 14:12:44,547 autoreload 251 F:\git 库\django_blog\new_pro\users\urls.py changed, reloading.
+INFO 2021-08-10 14:12:46,403 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-10 14:15:17,424 log 224 Not Found: /register/index.html
+WARNING 2021-08-10 14:15:17,424 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+INFO 2021-08-10 14:15:18,340 basehttp 161 "GET /imagecode/?uuid=f5a5e1cd-8480-48fa-b5da-35f03fb24249 HTTP/1.1" 200 3187
+INFO 2021-08-10 14:15:19,102 basehttp 161 "GET /register/ HTTP/1.1" 200 5347
+INFO 2021-08-10 14:15:19,183 basehttp 161 "GET /imagecode/?uuid=bbb79260-d5e0-4a4b-819c-57630dde176e HTTP/1.1" 200 3256
+WARNING 2021-08-10 14:15:19,886 basehttp 161 "GET /static/templates/index.html HTTP/1.1" 404 1819
+WARNING 2021-08-10 14:16:23,717 basehttp 161 "GET /static/templates/index.html HTTP/1.1" 404 1819
+WARNING 2021-08-10 14:16:24,274 basehttp 161 "GET /static/templates/index.html HTTP/1.1" 404 1819
+WARNING 2021-08-10 14:16:24,641 basehttp 161 "GET /static/templates/index.html HTTP/1.1" 404 1819
+WARNING 2021-08-10 14:16:24,868 basehttp 161 "GET /static/templates/index.html HTTP/1.1" 404 1819
+WARNING 2021-08-10 14:16:25,069 basehttp 161 "GET /static/templates/index.html HTTP/1.1" 404 1819
+WARNING 2021-08-10 14:16:25,234 basehttp 161 "GET /static/templates/index.html HTTP/1.1" 404 1819
+WARNING 2021-08-10 14:16:25,399 basehttp 161 "GET /static/templates/index.html HTTP/1.1" 404 1819
+INFO 2021-08-10 14:16:26,124 basehttp 161 "GET /imagecode/?uuid=c2faa0ca-387c-4438-96d6-5bf9ba721955 HTTP/1.1" 200 3015
+ERROR 2021-08-10 14:16:31,377 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'templates'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 20, in get
+    return render(request,'register.html')
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'templates' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-08-10 14:16:31,381 basehttp 161 "GET /register/ HTTP/1.1" 500 158837
+INFO 2021-08-10 14:16:45,827 basehttp 161 "GET /register/ HTTP/1.1" 200 5348
+INFO 2021-08-10 14:16:45,963 basehttp 161 "GET /imagecode/?uuid=b99e8ba8-d3d4-4699-b67c-7407d7a36ba8 HTTP/1.1" 200 3314
+WARNING 2021-08-10 14:16:47,286 basehttp 161 "GET /static/templates/index.html HTTP/1.1" 404 1819
+WARNING 2021-08-10 14:17:09,671 basehttp 161 "GET /static/templates/index.html HTTP/1.1" 404 1819
+WARNING 2021-08-10 14:17:10,211 basehttp 161 "GET /static/templates/index.html HTTP/1.1" 404 1819
+WARNING 2021-08-10 14:17:10,401 basehttp 161 "GET /static/templates/index.html HTTP/1.1" 404 1819
+INFO 2021-08-10 14:17:12,669 basehttp 161 "GET /imagecode/?uuid=e1fb90f6-0606-4735-bf1b-936fe0d81438 HTTP/1.1" 200 3136
+INFO 2021-08-10 14:17:13,148 basehttp 161 "GET /register/ HTTP/1.1" 200 5342
+INFO 2021-08-10 14:17:13,222 basehttp 161 "GET /imagecode/?uuid=fd5fff94-2f6d-4834-9d8f-0f892baec896 HTTP/1.1" 200 3156
+WARNING 2021-08-10 14:17:13,978 log 224 Not Found: /templates/index.html
+WARNING 2021-08-10 14:17:13,978 basehttp 161 "GET /templates/index.html HTTP/1.1" 404 2818
+INFO 2021-08-10 14:17:44,771 basehttp 161 "GET /imagecode/?uuid=054e721c-2511-4110-8a8d-044800818f82 HTTP/1.1" 200 3652
+INFO 2021-08-10 14:17:45,281 basehttp 161 "GET /register/ HTTP/1.1" 200 5324
+INFO 2021-08-10 14:17:45,354 basehttp 161 "GET /imagecode/?uuid=abb8583c-69ce-4e59-a8f1-c1b2dd448219 HTTP/1.1" 200 3377
+WARNING 2021-08-10 14:17:46,988 log 224 Not Found: /register/index
+WARNING 2021-08-10 14:17:46,988 basehttp 161 "GET /register/index HTTP/1.1" 404 2800
+WARNING 2021-08-10 14:20:08,967 log 224 Not Found: /register/index
+WARNING 2021-08-10 14:20:08,967 basehttp 161 "GET /register/index HTTP/1.1" 404 2800
+INFO 2021-08-10 14:20:09,591 basehttp 161 "GET /imagecode/?uuid=4e70f6b8-e7a6-4c0c-b787-dbe17f591b1a HTTP/1.1" 200 3212
+INFO 2021-08-10 14:20:10,489 basehttp 161 "GET /register/ HTTP/1.1" 200 5323
+INFO 2021-08-10 14:20:10,573 basehttp 161 "GET /imagecode/?uuid=d2d58f14-cd3b-42d1-bab7-d3e91aa24eb8 HTTP/1.1" 200 3323
+WARNING 2021-08-10 14:20:11,316 log 224 Not Found: /register/home
+WARNING 2021-08-10 14:20:11,316 basehttp 161 "GET /register/home HTTP/1.1" 404 2797
+INFO 2021-08-10 14:20:32,886 basehttp 161 "GET /imagecode/?uuid=92095ddb-2498-4474-abf5-0d088426b403 HTTP/1.1" 200 3029
+INFO 2021-08-10 14:20:33,491 basehttp 161 "GET /register/ HTTP/1.1" 200 5331
+INFO 2021-08-10 14:20:33,570 basehttp 161 "GET /imagecode/?uuid=214d431d-2ec8-40d9-8ff4-f1de3e7f6282 HTTP/1.1" 200 3196
+WARNING 2021-08-10 14:20:34,381 log 224 Not Found: /register/index.html
+WARNING 2021-08-10 14:20:34,381 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2815
+INFO 2021-08-10 14:20:58,005 basehttp 161 "GET /imagecode/?uuid=da4516e0-ec28-4b0b-85f4-91962b5d28f5 HTTP/1.1" 200 3175
+INFO 2021-08-10 14:20:58,466 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-08-10 14:20:58,549 basehttp 161 "GET /imagecode/?uuid=156578e1-d98e-4605-9a08-e3bdd20dcab0 HTTP/1.1" 200 2997
+INFO 2021-08-10 14:20:59,066 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-08-10 14:20:59,134 basehttp 161 "GET /imagecode/?uuid=e61338dd-e462-42df-a6c6-b9dc3e0f24f8 HTTP/1.1" 200 3268
+INFO 2021-08-10 14:20:59,816 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-08-10 14:20:59,899 basehttp 161 "GET /imagecode/?uuid=62fe23d4-195e-429a-b622-cb9bb245cfd4 HTTP/1.1" 200 3317
+INFO 2021-08-10 14:21:00,522 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-08-10 14:21:00,592 basehttp 161 "GET /imagecode/?uuid=5ed425e7-726c-4ba6-abd1-80256d9b5fa7 HTTP/1.1" 200 3141
+INFO 2021-08-10 14:21:01,067 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-08-10 14:21:01,149 basehttp 161 "GET /imagecode/?uuid=d5675e5a-f686-4db9-a78b-af654bb13900 HTTP/1.1" 200 2915
+INFO 2021-08-10 14:21:01,488 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-08-10 14:21:01,567 basehttp 161 "GET /imagecode/?uuid=0ad1146a-5b4c-495a-9f2e-477f3ca82ad0 HTTP/1.1" 200 3228
+INFO 2021-08-10 14:21:01,887 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-08-10 14:21:01,958 basehttp 161 "GET /imagecode/?uuid=f6bb4f2d-a069-4dc2-bef2-989ad75a998e HTTP/1.1" 200 2742
+INFO 2021-08-10 14:21:02,402 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-08-10 14:21:02,478 basehttp 161 "GET /imagecode/?uuid=c8e3216d-fce1-4c08-b4ab-3066843f8f56 HTTP/1.1" 200 3405
+INFO 2021-08-10 14:21:02,859 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-08-10 14:21:02,928 basehttp 161 "GET /imagecode/?uuid=556316d5-dcd2-4850-af2f-d10bc430ec16 HTTP/1.1" 200 3333
+INFO 2021-08-10 14:21:16,705 basehttp 161 "GET /register/ HTTP/1.1" 200 5321
+INFO 2021-08-10 14:21:16,829 basehttp 161 "GET /imagecode/?uuid=6897060c-6db4-40db-8a62-574a6fc4ed99 HTTP/1.1" 200 3180
+INFO 2021-08-10 14:21:17,591 basehttp 161 "GET /register/ HTTP/1.1" 200 5321
+INFO 2021-08-10 14:21:17,663 basehttp 161 "GET /imagecode/?uuid=97c370d9-fb51-45fd-beb6-e66c6953e6c2 HTTP/1.1" 200 2488
+INFO 2021-08-10 14:21:18,835 basehttp 161 "GET /register/ HTTP/1.1" 200 5321
+INFO 2021-08-10 14:21:18,914 basehttp 161 "GET /imagecode/?uuid=ded4e000-5d5b-4aed-b812-99438b23dcdc HTTP/1.1" 200 3188
+INFO 2021-08-10 14:23:31,931 basehttp 161 "GET /register/ HTTP/1.1" 200 5340
+INFO 2021-08-10 14:23:32,061 basehttp 161 "GET /imagecode/?uuid=2e5d704a-b622-45a8-88cd-79cf4b71a31a HTTP/1.1" 200 3447
+WARNING 2021-08-10 14:23:32,618 log 224 Not Found: /templates/index.html
+WARNING 2021-08-10 14:23:32,618 basehttp 161 "GET /templates/index.html HTTP/1.1" 404 2818
+INFO 2021-08-10 14:24:05,580 basehttp 161 "GET /imagecode/?uuid=49de9865-9663-4d4b-af91-663568b4ae5d HTTP/1.1" 200 2950
+INFO 2021-08-10 14:24:06,065 basehttp 161 "GET /register/ HTTP/1.1" 200 5340
+INFO 2021-08-10 14:24:06,146 basehttp 161 "GET /imagecode/?uuid=7ba17cfb-f7b1-479c-b172-0b2a12ac2424 HTTP/1.1" 200 3168
+INFO 2021-08-10 14:24:06,621 basehttp 161 "GET / HTTP/1.1" 200 11962
+WARNING 2021-08-10 14:24:07,904 log 224 Not Found: /index.html
+WARNING 2021-08-10 14:24:07,904 basehttp 161 "GET /index.html HTTP/1.1" 404 2788
+WARNING 2021-08-10 14:24:11,384 log 224 Not Found: /index.html
+WARNING 2021-08-10 14:24:11,384 basehttp 161 "GET /index.html HTTP/1.1" 404 2788
