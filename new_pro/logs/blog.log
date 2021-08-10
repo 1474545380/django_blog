@@ -5598,3 +5598,7 @@ WARNING 2021-08-10 17:29:58,686 log 224 Bad Request: /login/
 WARNING 2021-08-10 17:29:58,687 basehttp 161 "POST /login/ HTTP/1.1" 400 24
 INFO 2021-08-10 17:35:26,256 autoreload 251 F:\git ¿â\django_blog\new_pro\users\models.py changed, reloading.
 INFO 2021-08-10 17:35:28,195 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 17:35:33,221 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-10 17:35:33,230 basehttp 161 "GET / HTTP/1.1" 200 11961
+INFO 2021-08-10 17:47:19,909 autoreload 251 F:\git ¿â\django_blog\new_pro\libs\yuntongxun\sms.py changed, reloading.
+INFO 2021-08-10 17:47:21,805 autoreload 637 Watching for file changes with StatReloader
