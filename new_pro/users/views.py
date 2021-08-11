@@ -13,17 +13,18 @@ from users.models import User
 from django.db import DatabaseError
 from django.shortcuts import redirect
 from django.urls import reverse
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, authenticate, logout
 
 logger = logging.getLogger('django')
 
 
 # Create your views here.
-def get(request):
-    return render(request, 'register.html')
+
 
 
 class RegisterView(View):
+    def get(self,request):
+        return render(request, 'register.html')
 
     def post(self, request):
         """
@@ -58,7 +59,7 @@ class RegisterView(View):
             return HttpResponseBadRequest('两次密码不一致')
         # 短信和reids中的是否一致
         redis_conn = get_redis_connection('default')
-        redis_sms_code = get('sms:%s' % mobile)
+        redis_sms_code = redis_conn.get('sms:%s' % mobile)
         if redis_sms_code is None:
             return HttpResponseBadRequest("短信验证码过期")
         if smscode != redis_sms_code.decode():
@@ -126,7 +127,7 @@ class SmsCodeView(View):
             return JsonResponse({'code': RETCODE.NECESSARYPARAMERR, 'errmsg': '缺少必要参数'})
         # 验证图片验证码
         redis_conn = get_redis_connection('default')
-        redis_image_code = get('img:%s' % uuid)
+        redis_image_code = redis_conn.get('img:%s' % uuid)
         if redis_image_code is None:
             return JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '图片验证码已过期'})
         # 若图片验证码未过期获取后直接删除
@@ -149,12 +150,10 @@ class SmsCodeView(View):
 
 
 # 登陆页面
-def get(request):
-
-    return render(request, 'login.html')
-
-
 class LoginView(View):
+    def get(self,request):
+
+        return render(request, 'login.html')
 
     def post(self, request):
         """
@@ -203,4 +202,75 @@ class LoginView(View):
             response.set_cookie('username', user.username, max_age=14 * 24 * 3600)
 
         # 返回响应
+        return response
+
+
+#登出
+class LogoutView(View):
+
+    def get(self,request):
+        # 1.session数据清除
+        logout(request)
+        # 2.删除部分cookie数据
+        response=redirect(reverse('home:index'))
+        response.delete_cookie('is_login')
+        response.delete_cookie('username')
+        #3.跳转到首页
+        return response
+#忘记密码
+class ForgetPasswordView(View):
+    def get(self,request):
+        return render(request,'forget_password.html')
+    def post(self, request):
+        """
+        接收数据
+        验证数据
+            参数是否齐全
+            手机号格式是否正确
+            密码是否符合格式
+            两个密码是否一致
+            短信验证码和Reids中的是否相同
+        保存注册信息
+        返回响应跳转到页面
+        :param request:
+        :return:
+        """
+        # 接收数据
+        mobile = request.POST.get('mobile')
+        password = request.POST.get('password')
+        password2 = request.POST.get('password2')
+        smscode = request.POST.get('sms_code')
+        # 验证参数是否齐全
+        if not all([mobile, password, password2, smscode]):
+            return HttpResponseBadRequest('缺少必要参数')
+        # 判断手机号格式
+        if not re.match(r'^1[3-9]\d{9}$', mobile):
+            return HttpResponseBadRequest("手机号不符合规则")
+        # 验证密码
+        if not re.match(r'^[0-9A-Za-z]{8,20}$', password):
+            return HttpResponseBadRequest("请输入8-20位密码")
+        # 两个密码是否一致
+        if password != password2:
+            return HttpResponseBadRequest('两次密码不一致')
+        # 短信和reids中的是否一致
+        redis_conn = get_redis_connection('default')
+        redis_sms_code = redis_conn.get('sms:%s' % mobile)
+        if redis_sms_code is None:
+            return HttpResponseBadRequest("短信验证码过期")
+        if smscode != redis_sms_code.decode():
+            return HttpResponseBadRequest("短信验证码错误")
+        # 在数据库中查询
+        try:
+            user = User.objects.get(mobile=mobile)
+        except User.DoesNotExist:
+            #新用户创建
+            try:
+                User.objects.create_user(username=mobile,mobile=mobile,password=password)
+            except Exception:
+                return HttpResponseBadRequest("修改失败")
+        else:
+            #修改密码
+            user.set_password(password)
+            user.save()
+        response=redirect(reverse('users:login'))
         return response

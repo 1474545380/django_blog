@@ -5602,3 +5602,1449 @@ INFO 2021-08-10 17:35:33,221 basehttp 161 "POST /login/ HTTP/1.1" 302 0
 INFO 2021-08-10 17:35:33,230 basehttp 161 "GET / HTTP/1.1" 200 11961
 INFO 2021-08-10 17:47:19,909 autoreload 251 F:\git 库\django_blog\new_pro\libs\yuntongxun\sms.py changed, reloading.
 INFO 2021-08-10 17:47:21,805 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 17:47:40,100 basehttp 161 "GET / HTTP/1.1" 200 11961
+INFO 2021-08-10 17:47:40,920 basehttp 161 "GET / HTTP/1.1" 200 11961
+INFO 2021-08-10 18:00:17,164 basehttp 161 "GET / HTTP/1.1" 200 11968
+INFO 2021-08-10 18:00:20,120 basehttp 161 "GET /static/write_blog.html HTTP/1.1" 200 5748
+INFO 2021-08-10 18:00:23,495 basehttp 161 "GET /static/center.html HTTP/1.1" 304 0
+INFO 2021-08-11 22:05:01,802 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 22:05:30,453 basehttp 161 "GET / HTTP/1.1" 200 11968
+WARNING 2021-08-11 22:05:31,503 log 224 Not Found: /favicon.ico
+WARNING 2021-08-11 22:05:31,504 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2962
+INFO 2021-08-11 22:05:39,995 basehttp 161 "GET /static/write_blog.html HTTP/1.1" 304 0
+INFO 2021-08-11 22:06:47,840 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-11 22:06:49,270 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 22:06:49,946 basehttp 161 "GET /static/detail.html HTTP/1.1" 304 0
+WARNING 2021-08-11 22:06:51,423 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 22:06:51,423 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 2989
+WARNING 2021-08-11 22:06:53,532 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 22:06:53,533 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 2989
+WARNING 2021-08-11 22:06:54,146 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 22:06:54,147 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 2989
+WARNING 2021-08-11 22:06:54,717 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 22:06:54,717 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 2989
+WARNING 2021-08-11 22:06:54,965 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 22:06:54,966 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 2989
+WARNING 2021-08-11 22:06:55,166 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 22:06:55,167 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 2989
+WARNING 2021-08-11 22:06:55,309 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 22:06:55,309 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 2989
+WARNING 2021-08-11 22:06:55,482 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 22:06:55,482 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 2989
+WARNING 2021-08-11 22:06:55,684 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 22:06:55,684 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 2989
+WARNING 2021-08-11 22:07:09,681 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:07:09,682 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:07:09,682 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:07:11,658 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:07:11,658 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:07:11,659 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:07:11,862 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:07:11,862 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:07:11,863 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:07:12,021 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:07:12,021 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:07:12,021 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+INFO 2021-08-11 22:07:16,957 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-11 22:07:18,654 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-11 22:07:22,012 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:07:22,012 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:07:22,013 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:07:22,507 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:07:22,507 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:07:22,508 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:07:22,662 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:07:22,662 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:07:22,663 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:07:22,758 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:07:22,758 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:07:22,759 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:07:23,570 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:07:23,570 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:07:23,571 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:07:23,749 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:07:23,750 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:07:23,750 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:07:23,939 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:07:23,939 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:07:23,940 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:07:24,081 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:07:24,081 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:07:24,082 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:07:24,240 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:07:24,241 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:07:24,241 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:07:24,387 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:07:24,388 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:07:24,389 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:08:22,704 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:08:22,704 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:08:22,705 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:08:22,851 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:08:22,851 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:08:22,852 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:08:23,017 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:08:23,017 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:08:23,018 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+WARNING 2021-08-11 22:08:23,175 base 101 Method Not Allowed (GET): /login/
+WARNING 2021-08-11 22:08:23,176 log 224 Method Not Allowed: /login/
+WARNING 2021-08-11 22:08:23,176 basehttp 161 "GET /login/ HTTP/1.1" 405 0
+INFO 2021-08-11 22:09:39,619 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-11 22:09:41,323 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 22:09:46,488 basehttp 161 "GET / HTTP/1.1" 200 11968
+ERROR 2021-08-11 22:09:48,273 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2021-08-11 22:09:48,286 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2021-08-11 22:09:48,301 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2021-08-11 22:09:48,316 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO 2021-08-11 22:09:48,319 basehttp 75 - Broken pipe from ('127.0.0.1', 7830)
+
+ERROR 2021-08-11 22:09:48,331 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2021-08-11 22:09:48,348 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO 2021-08-11 22:09:48,349 basehttp 75 - Broken pipe from ('127.0.0.1', 12060)
+
+INFO 2021-08-11 22:09:48,354 basehttp 75 - Broken pipe from ('127.0.0.1', 7758)
+
+ERROR 2021-08-11 22:09:48,366 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO 2021-08-11 22:09:48,368 basehttp 75 - Broken pipe from ('127.0.0.1', 5604)
+
+ERROR 2021-08-11 22:09:48,370 basehttp 161 "GET /login/ HTTP/1.1" 500 74107
+INFO 2021-08-11 22:09:48,373 basehttp 75 - Broken pipe from ('127.0.0.1', 11226)
+
+INFO 2021-08-11 22:09:48,374 basehttp 75 - Broken pipe from ('127.0.0.1', 9087)
+
+ERROR 2021-08-11 22:09:52,381 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2021-08-11 22:09:52,382 basehttp 161 "GET /login/ HTTP/1.1" 500 73964
+INFO 2021-08-11 22:11:14,436 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-11 22:11:15,885 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 22:12:36,799 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-11 22:12:38,111 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 22:12:38,553 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 22:12:39,432 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 22:12:43,991 basehttp 161 "GET /register/ HTTP/1.1" 200 5330
+INFO 2021-08-11 22:12:45,002 basehttp 161 "GET /imagecode/?uuid=d2688fbb-9e46-424e-9ebe-fcabf54151ea HTTP/1.1" 200 3044
+INFO 2021-08-11 22:12:45,814 basehttp 161 "GET /imagecode/?uuid=0208cc8e-3f79-48c3-bddb-b46c86958081 HTTP/1.1" 200 3143
+INFO 2021-08-11 22:12:46,382 basehttp 161 "GET /imagecode/?uuid=47b352a3-31f6-4e2c-ac3f-32d2a09939a8 HTTP/1.1" 200 3179
+INFO 2021-08-11 22:20:04,702 autoreload 251 F:\git 库\django_blog\new_pro\users\urls.py changed, reloading.
+INFO 2021-08-11 22:20:06,804 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 22:20:08,128 basehttp 161 "GET / HTTP/1.1" 200 11989
+WARNING 2021-08-11 22:20:08,500 log 224 Not Found: /favicon.ico
+WARNING 2021-08-11 22:20:08,501 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3131
+INFO 2021-08-11 22:20:10,928 basehttp 161 "GET / HTTP/1.1" 200 11989
+INFO 2021-08-11 22:20:13,216 basehttp 161 "GET / HTTP/1.1" 200 11989
+INFO 2021-08-11 22:20:22,709 basehttp 161 "GET / HTTP/1.1" 200 11967
+INFO 2021-08-11 22:20:24,830 basehttp 161 "GET / HTTP/1.1" 200 11967
+INFO 2021-08-11 22:21:02,167 basehttp 161 "GET / HTTP/1.1" 200 11996
+INFO 2021-08-11 22:21:02,766 basehttp 161 "GET / HTTP/1.1" 200 11996
+INFO 2021-08-11 22:21:02,976 basehttp 161 "GET / HTTP/1.1" 200 11996
+INFO 2021-08-11 22:21:03,103 basehttp 161 "GET / HTTP/1.1" 200 11996
+INFO 2021-08-11 22:21:03,591 basehttp 161 "GET / HTTP/1.1" 200 11996
+INFO 2021-08-11 22:21:03,951 basehttp 161 "GET / HTTP/1.1" 200 11996
+INFO 2021-08-11 22:21:13,748 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 22:21:13,753 basehttp 161 "GET / HTTP/1.1" 200 11996
+INFO 2021-08-11 22:26:12,698 basehttp 161 "GET / HTTP/1.1" 200 11955
+INFO 2021-08-11 22:26:13,537 basehttp 161 "GET / HTTP/1.1" 200 11955
+INFO 2021-08-11 22:26:13,795 basehttp 161 "GET / HTTP/1.1" 200 11955
+INFO 2021-08-11 22:26:14,010 basehttp 161 "GET / HTTP/1.1" 200 11955
+INFO 2021-08-11 22:26:15,585 basehttp 161 "GET / HTTP/1.1" 200 11955
+INFO 2021-08-11 22:26:15,722 basehttp 161 "GET / HTTP/1.1" 200 11955
+INFO 2021-08-11 22:26:15,877 basehttp 161 "GET / HTTP/1.1" 200 11955
+INFO 2021-08-11 22:26:15,992 basehttp 161 "GET / HTTP/1.1" 200 11955
+INFO 2021-08-11 22:27:31,352 basehttp 161 "GET / HTTP/1.1" 200 11980
+INFO 2021-08-11 22:27:32,221 basehttp 161 "GET / HTTP/1.1" 200 11980
+INFO 2021-08-11 22:27:32,452 basehttp 161 "GET / HTTP/1.1" 200 11980
+INFO 2021-08-11 22:27:32,634 basehttp 161 "GET / HTTP/1.1" 200 11980
+INFO 2021-08-11 22:27:35,746 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 22:27:35,753 basehttp 161 "GET / HTTP/1.1" 200 11980
+ERROR 2021-08-11 22:33:07,270 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\home\views.py", line 8, in get
+    return render(request,'index.html')
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2021-08-11 22:33:07,272 basehttp 161 "GET / HTTP/1.1" 500 135659
+INFO 2021-08-11 22:34:15,267 basehttp 161 "GET / HTTP/1.1" 200 11936
+INFO 2021-08-11 22:40:08,012 basehttp 161 "GET /static/center.html HTTP/1.1" 304 0
+WARNING 2021-08-11 22:40:10,157 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 22:40:10,157 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 3158
+INFO 2021-08-11 22:40:23,683 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 22:40:29,185 basehttp 161 "GET /register/ HTTP/1.1" 200 5330
+INFO 2021-08-11 22:40:29,294 basehttp 161 "GET /imagecode/?uuid=c24c87a6-7f3e-47e5-96e8-2b19af8e9f74 HTTP/1.1" 200 3309
+INFO 2021-08-11 22:40:33,582 basehttp 161 "GET /static/forget_password.html HTTP/1.1" 200 5277
+INFO 2021-08-11 22:40:33,663 basehttp 161 "GET /static/js/forget_password.js HTTP/1.1" 200 6567
+INFO 2021-08-11 22:42:20,585 basehttp 161 "GET / HTTP/1.1" 200 11936
+INFO 2021-08-11 22:42:23,694 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 22:42:23,700 basehttp 161 "GET / HTTP/1.1" 200 11936
+INFO 2021-08-11 22:42:25,738 basehttp 161 "GET / HTTP/1.1" 200 11936
+INFO 2021-08-11 22:42:25,949 basehttp 161 "GET / HTTP/1.1" 200 11936
+INFO 2021-08-11 22:42:26,098 basehttp 161 "GET / HTTP/1.1" 200 11936
+INFO 2021-08-11 22:42:26,461 basehttp 161 "GET / HTTP/1.1" 200 11936
+ERROR 2021-08-11 22:46:02,911 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\home\views.py", line 8, in get
+    return render(request,'index.html')
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2021-08-11 22:46:02,913 basehttp 161 "GET / HTTP/1.1" 500 135657
+ERROR 2021-08-11 22:46:03,307 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\home\views.py", line 8, in get
+    return render(request,'index.html')
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2021-08-11 22:46:03,308 basehttp 161 "GET / HTTP/1.1" 500 135657
+ERROR 2021-08-11 22:46:03,906 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\home\views.py", line 8, in get
+    return render(request,'index.html')
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2021-08-11 22:46:03,908 basehttp 161 "GET / HTTP/1.1" 500 135657
+ERROR 2021-08-11 22:46:04,095 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\home\views.py", line 8, in get
+    return render(request,'index.html')
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2021-08-11 22:46:04,097 basehttp 161 "GET / HTTP/1.1" 500 135657
+ERROR 2021-08-11 22:46:04,539 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\home\views.py", line 8, in get
+    return render(request,'index.html')
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2021-08-11 22:46:04,541 basehttp 161 "GET / HTTP/1.1" 500 135657
+ERROR 2021-08-11 22:46:04,754 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\home\views.py", line 8, in get
+    return render(request,'index.html')
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2021-08-11 22:46:04,756 basehttp 161 "GET / HTTP/1.1" 500 135657
+INFO 2021-08-11 22:47:21,853 autoreload 251 F:\git 库\django_blog\new_pro\users\urls.py changed, reloading.
+INFO 2021-08-11 22:47:23,218 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 22:47:23,745 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:47:26,808 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 22:47:26,815 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:47:28,870 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 22:47:28,877 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:47:30,024 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 22:47:30,030 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:47:31,464 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:47:31,622 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:47:31,815 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:47:31,995 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:06,471 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:07,093 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:07,353 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:07,510 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:07,646 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:08,074 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:17,704 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:19,648 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:21,132 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 22:53:21,138 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:23,171 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:23,336 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:23,462 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:23,644 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:23,772 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:53:23,959 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:54:03,273 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:54:03,755 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:54:04,180 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:54:15,468 basehttp 161 "GET / HTTP/1.1" 200 11933
+WARNING 2021-08-11 22:54:15,949 log 224 Not Found: /favicon.ico
+WARNING 2021-08-11 22:54:15,949 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3127
+WARNING 2021-08-11 22:54:19,051 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 22:54:19,052 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 3154
+INFO 2021-08-11 22:54:24,973 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 22:54:24,979 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:54:26,584 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:54:26,778 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:54:26,913 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:54:27,087 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:54:27,197 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:54:27,821 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:54:40,278 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 22:54:42,631 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 22:54:42,639 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:54:45,512 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 22:54:45,518 basehttp 161 "GET / HTTP/1.1" 200 11933
+WARNING 2021-08-11 22:54:49,754 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-11 22:54:50,451 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-11 22:55:12,254 basehttp 161 "GET / HTTP/1.1" 200 11933
+WARNING 2021-08-11 22:55:12,385 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-11 22:55:12,403 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-11 22:55:13,310 basehttp 161 "GET / HTTP/1.1" 200 11933
+WARNING 2021-08-11 22:55:13,431 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-11 22:55:13,445 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-11 22:55:13,654 basehttp 161 "GET / HTTP/1.1" 200 11933
+WARNING 2021-08-11 22:55:13,779 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-11 22:55:13,789 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-11 22:55:17,435 basehttp 161 "GET / HTTP/1.1" 200 11933
+WARNING 2021-08-11 22:55:17,566 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-11 22:55:17,579 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-11 22:55:21,425 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 22:55:21,432 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:56:29,849 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-11 22:56:31,153 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 22:56:31,780 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:56:31,969 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:56:32,172 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:56:34,820 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 22:56:34,826 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:57:43,620 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-11 22:57:44,919 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 22:57:45,210 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:57:45,530 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:57:50,323 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:58:56,454 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-11 22:58:57,838 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 22:58:58,285 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:59:00,170 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:59:00,521 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:59:04,626 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:59:05,021 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:59:14,876 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 22:59:17,942 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 22:59:17,949 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 22:59:20,379 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 22:59:20,386 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:02:10,359 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-11 23:02:11,713 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 23:02:12,105 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:02:12,620 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:02:12,802 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:02:13,005 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:02:13,153 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:02:19,774 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:02:22,432 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:02:22,439 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:02:53,871 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-11 23:02:55,208 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 23:02:55,516 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:03:00,195 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:03:00,517 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:03:18,359 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:03:18,366 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:06:14,226 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:06:16,209 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:06:16,563 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:06:16,701 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:06:18,273 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:06:18,621 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:06:18,765 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:06:21,158 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:06:21,315 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:08:01,996 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:08:02,296 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:08:02,452 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:08:04,381 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:08:04,387 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:08:06,077 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:08:06,083 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:10:58,133 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-11 23:10:59,504 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 23:11:01,599 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:01,773 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:01,896 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:02,065 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:02,180 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:02,889 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:03,413 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:14,872 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-11 23:11:16,249 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 23:11:16,684 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:18,998 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:20,536 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:20,680 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:20,837 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:22,605 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:11:22,613 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:24,527 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:24,678 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:11:28,832 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:11:28,839 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:12:57,794 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-11 23:12:59,097 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 23:12:59,884 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:13:00,326 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:13:00,581 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:13:00,777 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:13:00,924 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:13:01,186 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:13:01,391 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:13:03,438 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:13:03,564 basehttp 161 "GET / HTTP/1.1" 200 11933
+WARNING 2021-08-11 23:13:06,526 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 23:13:06,526 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 3154
+WARNING 2021-08-11 23:13:08,494 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 23:13:08,494 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 3154
+WARNING 2021-08-11 23:13:14,455 log 224 Not Found: /login.html
+WARNING 2021-08-11 23:13:14,455 basehttp 161 "GET /login.html HTTP/1.1" 404 3124
+INFO 2021-08-11 23:13:18,722 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:13:21,469 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:13:21,476 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:13:23,369 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:13:23,375 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:13:25,848 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:13:25,856 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:13:26,973 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:13:26,979 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:13:40,891 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:13:40,898 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:14:42,798 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:14:43,512 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:14:43,809 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:14:43,968 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:14:44,133 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:14:45,602 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:14:45,608 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:14:47,096 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:14:47,267 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:14:47,492 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:14:47,705 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:14:47,920 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:18:56,797 basehttp 161 "GET / HTTP/1.1" 200 11927
+INFO 2021-08-11 23:18:57,425 basehttp 161 "GET / HTTP/1.1" 200 11927
+INFO 2021-08-11 23:18:57,613 basehttp 161 "GET / HTTP/1.1" 200 11927
+INFO 2021-08-11 23:18:57,762 basehttp 161 "GET / HTTP/1.1" 200 11927
+WARNING 2021-08-11 23:19:03,081 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 23:19:03,082 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 3154
+INFO 2021-08-11 23:19:11,017 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:19:13,543 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:19:13,552 basehttp 161 "GET / HTTP/1.1" 200 11927
+INFO 2021-08-11 23:20:00,913 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:20:01,129 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:20:01,319 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:20:01,475 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:20:01,663 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:20:03,497 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:20:03,503 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:20:04,842 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:20:04,849 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:20:05,825 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:20:05,831 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:22:32,288 basehttp 161 "GET / HTTP/1.1" 200 11917
+INFO 2021-08-11 23:22:32,818 basehttp 161 "GET / HTTP/1.1" 200 11917
+INFO 2021-08-11 23:22:33,005 basehttp 161 "GET / HTTP/1.1" 200 11917
+INFO 2021-08-11 23:22:33,193 basehttp 161 "GET / HTTP/1.1" 200 11917
+INFO 2021-08-11 23:22:33,388 basehttp 161 "GET / HTTP/1.1" 200 11917
+INFO 2021-08-11 23:22:35,135 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:22:35,141 basehttp 161 "GET / HTTP/1.1" 200 11917
+INFO 2021-08-11 23:22:36,388 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:22:36,398 basehttp 161 "GET / HTTP/1.1" 200 11917
+INFO 2021-08-11 23:22:37,318 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:22:37,326 basehttp 161 "GET / HTTP/1.1" 200 11917
+INFO 2021-08-11 23:26:38,117 basehttp 161 "GET / HTTP/1.1" 200 11917
+INFO 2021-08-11 23:26:38,722 basehttp 161 "GET / HTTP/1.1" 200 11917
+INFO 2021-08-11 23:26:43,483 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:26:47,960 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:26:47,967 basehttp 161 "GET / HTTP/1.1" 200 11917
+INFO 2021-08-11 23:27:10,493 basehttp 161 "GET / HTTP/1.1" 200 11924
+INFO 2021-08-11 23:27:14,250 basehttp 161 "GET / HTTP/1.1" 200 11924
+INFO 2021-08-11 23:27:14,429 basehttp 161 "GET / HTTP/1.1" 200 11924
+INFO 2021-08-11 23:27:14,571 basehttp 161 "GET / HTTP/1.1" 200 11924
+INFO 2021-08-11 23:27:14,746 basehttp 161 "GET / HTTP/1.1" 200 11924
+INFO 2021-08-11 23:27:20,985 basehttp 161 "GET / HTTP/1.1" 200 11923
+INFO 2021-08-11 23:27:21,442 basehttp 161 "GET / HTTP/1.1" 200 11923
+INFO 2021-08-11 23:27:21,602 basehttp 161 "GET / HTTP/1.1" 200 11923
+INFO 2021-08-11 23:27:21,742 basehttp 161 "GET / HTTP/1.1" 200 11923
+INFO 2021-08-11 23:27:30,929 basehttp 161 "GET / HTTP/1.1" 200 11924
+INFO 2021-08-11 23:27:32,138 basehttp 161 "GET / HTTP/1.1" 200 11924
+INFO 2021-08-11 23:27:32,363 basehttp 161 "GET / HTTP/1.1" 200 11924
+INFO 2021-08-11 23:27:32,550 basehttp 161 "GET / HTTP/1.1" 200 11924
+INFO 2021-08-11 23:27:35,728 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:27:35,735 basehttp 161 "GET / HTTP/1.1" 200 11924
+INFO 2021-08-11 23:27:38,130 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:27:38,137 basehttp 161 "GET / HTTP/1.1" 200 11924
+INFO 2021-08-11 23:28:48,661 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:28:49,249 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:28:49,425 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:28:53,790 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:28:54,188 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:28:55,120 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:28:56,822 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:28:56,829 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:29:14,522 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:29:15,925 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:29:15,931 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:29:25,200 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:29:26,915 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:29:26,923 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:32:12,940 basehttp 161 "GET / HTTP/1.1" 200 11714
+INFO 2021-08-11 23:32:13,696 basehttp 161 "GET / HTTP/1.1" 200 11714
+INFO 2021-08-11 23:32:48,916 basehttp 161 "GET / HTTP/1.1" 200 11918
+INFO 2021-08-11 23:32:49,307 basehttp 161 "GET / HTTP/1.1" 200 11918
+WARNING 2021-08-11 23:32:50,967 basehttp 161 "GET /static/ HTTP/1.1" 404 1755
+WARNING 2021-08-11 23:33:33,409 basehttp 161 "GET /static/ HTTP/1.1" 404 1755
+ERROR 2021-08-11 23:33:35,449 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'urls'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\home\views.py", line 8, in get
+    return render(request,'index.html')
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'urls' is not a registered namespace
+ERROR 2021-08-11 23:33:35,452 basehttp 161 "GET / HTTP/1.1" 500 137054
+INFO 2021-08-11 23:34:01,765 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:34:05,122 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:34:05,129 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:35:16,360 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:35:16,989 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:35:32,298 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:35:32,304 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:35:45,740 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:35:46,247 basehttp 161 "GET / HTTP/1.1" 200 11933
+WARNING 2021-08-11 23:35:48,868 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 23:35:48,868 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 3154
+INFO 2021-08-11 23:35:53,116 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:35:53,123 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:36:35,186 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:36:35,724 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:36:35,876 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:36:35,990 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:36:37,894 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:36:37,901 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:36:39,168 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:36:39,174 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:36:45,456 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:36:48,076 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:36:48,083 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:36:57,098 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:36:57,106 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:36:58,563 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:36:58,568 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:37:00,171 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:37:00,178 basehttp 161 "GET / HTTP/1.1" 200 11933
+INFO 2021-08-11 23:39:22,297 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:39:22,820 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:39:23,028 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:39:23,192 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:39:23,351 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:39:25,947 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:39:25,954 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:39:26,869 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:39:26,875 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:40:04,864 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:40:07,246 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:40:07,253 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:40:32,466 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:40:32,876 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:40:33,058 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:40:36,983 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:40:36,990 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:40:38,703 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:40:38,709 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:40:40,406 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:40:40,412 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:43:14,217 basehttp 161 "GET / HTTP/1.1" 200 11928
+INFO 2021-08-11 23:43:14,835 basehttp 161 "GET / HTTP/1.1" 200 11928
+INFO 2021-08-11 23:43:17,083 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:43:17,090 basehttp 161 "GET / HTTP/1.1" 200 11928
+INFO 2021-08-11 23:43:39,442 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:44:09,928 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:44:10,483 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:44:10,648 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:44:11,975 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:44:11,981 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:44:13,192 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:44:13,199 basehttp 161 "GET / HTTP/1.1" 200 11935
+INFO 2021-08-11 23:50:23,241 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 23:50:26,434 basehttp 161 "GET / HTTP/1.1" 200 11931
+WARNING 2021-08-11 23:50:27,281 log 224 Not Found: /favicon.ico
+WARNING 2021-08-11 23:50:27,281 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3127
+INFO 2021-08-11 23:50:29,817 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:50:29,824 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:50:31,342 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:50:31,348 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:52:02,766 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:52:03,139 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:52:03,568 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:52:04,152 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:52:05,487 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:52:05,493 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:52:14,573 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+ERROR 2021-08-11 23:52:24,179 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django_redis\cache.py", line 31, in _decorator
+    return method(self, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django_redis\cache.py", line 137, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django_redis\client\default.py", line 650, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 192, in post
+    login(request, user)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\contrib\auth\__init__.py", line 111, in login
+    request.session.cycle_key()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 344, in cycle_key
+    self.create()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 196, in _get_new_session_key
+    if not self.exists(session_key):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\cache\backends\base.py", line 212, in __contains__
+    return self.has_key(key)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django_redis\cache.py", line 38, in _decorator
+    raise e.__cause__
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django_redis\client\default.py", line 648, in has_key
+    return client.exists(key) == 1
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-11 23:52:24,196 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django_redis\cache.py", line 31, in _decorator
+    return method(self, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django_redis\cache.py", line 137, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django_redis\client\default.py", line 650, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 192, in post
+    login(request, user)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\contrib\auth\__init__.py", line 111, in login
+    request.session.cycle_key()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 344, in cycle_key
+    self.create()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 196, in _get_new_session_key
+    if not self.exists(session_key):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\cache\backends\base.py", line 212, in __contains__
+    return self.has_key(key)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django_redis\cache.py", line 38, in _decorator
+    raise e.__cause__
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django_redis\client\default.py", line 648, in has_key
+    return client.exists(key) == 1
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-11 23:52:24,202 basehttp 75 - Broken pipe from ('127.0.0.1', 8795)
+
+ERROR 2021-08-11 23:52:24,205 basehttp 161 "POST /login/ HTTP/1.1" 500 143222
+INFO 2021-08-11 23:53:16,878 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:53:16,886 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:53:18,756 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:53:20,732 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:53:20,739 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:53:22,153 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:53:24,098 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:53:24,106 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:53:40,597 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:53:42,160 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:53:42,166 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:53:43,669 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:53:43,675 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:53:44,787 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:53:44,795 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:54:37,574 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 23:54:39,080 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:54:40,418 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:54:43,435 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:54:43,444 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:55:33,771 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:55:44,793 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:55:44,800 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:55:47,038 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:55:47,045 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:56:43,829 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:56:43,852 basehttp 161 "GET / HTTP/1.1" 200 11931
+WARNING 2021-08-11 23:56:52,370 log 224 Not Found: /templates/login.html
+WARNING 2021-08-11 23:56:52,370 basehttp 161 "GET /templates/login.html HTTP/1.1" 404 3154
+INFO 2021-08-11 23:57:19,687 basehttp 161 "GET / HTTP/1.1" 200 11942
+INFO 2021-08-11 23:57:21,097 basehttp 161 "GET / HTTP/1.1" 200 11942
+INFO 2021-08-11 23:57:21,750 basehttp 161 "GET / HTTP/1.1" 200 11942
+INFO 2021-08-11 23:57:22,027 basehttp 161 "GET / HTTP/1.1" 200 11942
+INFO 2021-08-11 23:57:22,207 basehttp 161 "GET / HTTP/1.1" 200 11942
+INFO 2021-08-11 23:57:22,357 basehttp 161 "GET / HTTP/1.1" 200 11942
+INFO 2021-08-11 23:57:25,613 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:57:25,620 basehttp 161 "GET / HTTP/1.1" 200 11942
+INFO 2021-08-11 23:57:51,839 basehttp 161 "GET / HTTP/1.1" 200 11943
+INFO 2021-08-11 23:57:52,545 basehttp 161 "GET / HTTP/1.1" 200 11943
+INFO 2021-08-11 23:57:53,988 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:57:56,188 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:57:56,195 basehttp 161 "GET / HTTP/1.1" 200 11943
+INFO 2021-08-11 23:57:58,201 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:57:59,428 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:57:59,436 basehttp 161 "GET / HTTP/1.1" 200 11943
+INFO 2021-08-11 23:58:18,120 basehttp 161 "GET /login/ HTTP/1.1" 200 3236
+INFO 2021-08-11 23:58:20,135 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:58:20,142 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:58:30,467 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:58:32,308 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 23:58:32,314 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:58:33,569 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:58:33,781 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-11 23:58:33,900 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-12 00:00:01,438 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-12 00:00:02,911 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 00:03:01,580 autoreload 251 F:\git 库\django_blog\new_pro\users\urls.py changed, reloading.
+INFO 2021-08-12 00:03:02,887 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 00:03:03,199 basehttp 161 "GET / HTTP/1.1" 200 11931
+WARNING 2021-08-12 00:03:18,792 log 224 Not Found: /forgetpassword
+WARNING 2021-08-12 00:03:18,793 basehttp 161 "GET /forgetpassword HTTP/1.1" 404 3321
+INFO 2021-08-12 00:03:34,552 autoreload 251 F:\git 库\django_blog\new_pro\users\urls.py changed, reloading.
+INFO 2021-08-12 00:03:35,836 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-12 00:03:36,139 log 224 Not Found: /forgetpassword
+WARNING 2021-08-12 00:03:36,139 basehttp 161 "GET /forgetpassword HTTP/1.1" 404 3321
+WARNING 2021-08-12 00:03:38,749 log 224 Not Found: /forgetpassword
+WARNING 2021-08-12 00:03:38,750 basehttp 161 "GET /forgetpassword HTTP/1.1" 404 3321
+WARNING 2021-08-12 00:03:38,914 log 224 Not Found: /forgetpassword
+WARNING 2021-08-12 00:03:38,914 basehttp 161 "GET /forgetpassword HTTP/1.1" 404 3321
+WARNING 2021-08-12 00:03:39,109 log 224 Not Found: /forgetpassword
+WARNING 2021-08-12 00:03:39,110 basehttp 161 "GET /forgetpassword HTTP/1.1" 404 3321
+WARNING 2021-08-12 00:03:39,410 log 224 Not Found: /forgetpassword
+WARNING 2021-08-12 00:03:39,410 basehttp 161 "GET /forgetpassword HTTP/1.1" 404 3321
+INFO 2021-08-12 00:03:49,378 basehttp 161 "GET /frogetpassword HTTP/1.1" 301 0
+INFO 2021-08-12 00:03:49,386 basehttp 161 "GET /frogetpassword/ HTTP/1.1" 200 5214
+INFO 2021-08-12 00:04:06,535 autoreload 251 F:\git 库\django_blog\new_pro\users\urls.py changed, reloading.
+INFO 2021-08-12 00:04:07,794 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-12 00:04:08,913 log 224 Not Found: /frogetpassword/
+WARNING 2021-08-12 00:04:08,913 basehttp 161 "GET /frogetpassword/ HTTP/1.1" 404 3324
+INFO 2021-08-12 00:04:19,701 basehttp 161 "GET /forgetpassword/ HTTP/1.1" 200 5214
+ERROR 2021-08-12 00:08:35,877 log 224 Internal Server Error: /forgetpassword/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 223, in get
+    return render(request,'forget_password.html')
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'user' is not a registered namespace
+ERROR 2021-08-12 00:08:35,879 basehttp 161 "GET /forgetpassword/ HTTP/1.1" 500 130316
+INFO 2021-08-12 00:09:54,799 basehttp 161 "GET /forgetpassword/ HTTP/1.1" 200 5189
+WARNING 2021-08-12 00:09:54,831 log 224 Not Found: /forgetpassword/image_code_url
+WARNING 2021-08-12 00:09:54,832 basehttp 161 "GET /forgetpassword/image_code_url HTTP/1.1" 404 3366
+WARNING 2021-08-12 00:09:54,924 log 224 Not Found: /forgetpassword/image_code_url
+WARNING 2021-08-12 00:09:54,925 basehttp 161 "GET /forgetpassword/image_code_url HTTP/1.1" 404 3366
+INFO 2021-08-12 00:10:05,991 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-12 00:10:08,989 basehttp 161 "GET /forgetpassword/ HTTP/1.1" 200 5189
+WARNING 2021-08-12 00:10:09,017 log 224 Not Found: /forgetpassword/image_code_url
+WARNING 2021-08-12 00:10:09,017 basehttp 161 "GET /forgetpassword/image_code_url HTTP/1.1" 404 3366
+WARNING 2021-08-12 00:10:09,106 log 224 Not Found: /forgetpassword/image_code_url
+WARNING 2021-08-12 00:10:09,107 basehttp 161 "GET /forgetpassword/image_code_url HTTP/1.1" 404 3366
+INFO 2021-08-12 00:10:09,559 basehttp 161 "GET /forgetpassword/ HTTP/1.1" 200 5189
+WARNING 2021-08-12 00:10:09,584 log 224 Not Found: /forgetpassword/image_code_url
+WARNING 2021-08-12 00:10:09,584 basehttp 161 "GET /forgetpassword/image_code_url HTTP/1.1" 404 3366
+WARNING 2021-08-12 00:10:09,624 log 224 Not Found: /forgetpassword/image_code_url
+WARNING 2021-08-12 00:10:09,624 basehttp 161 "GET /forgetpassword/image_code_url HTTP/1.1" 404 3366
+INFO 2021-08-12 00:11:26,758 basehttp 161 "GET /forgetpassword/ HTTP/1.1" 200 5190
+INFO 2021-08-12 00:11:28,609 basehttp 161 "GET /forgetpassword/ HTTP/1.1" 200 5190
+ERROR 2021-08-12 00:11:29,336 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 97, in get
+    redis_connection.setex('img:%s' % uuid, 300, text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-12 00:11:29,338 basehttp 75 - Broken pipe from ('127.0.0.1', 13294)
+
+ERROR 2021-08-12 00:11:30,732 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 97, in get
+    redis_connection.setex('img:%s' % uuid, 300, text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-12 00:11:30,733 basehttp 161 "GET /imagecode/?uuid=b66ca616-a20a-4350-8120-0dc44e6fd090 HTTP/1.1" 500 115979
+ERROR 2021-08-12 00:11:34,056 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 97, in get
+    redis_connection.setex('img:%s' % uuid, 300, text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-12 00:11:34,057 basehttp 161 "GET /imagecode/?uuid=50c25a3e-97c7-4eff-921d-18c895b3f3f5 HTTP/1.1" 500 115949
+ERROR 2021-08-12 00:11:34,597 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 97, in get
+    redis_connection.setex('img:%s' % uuid, 300, text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-12 00:11:34,598 basehttp 75 - Broken pipe from ('127.0.0.1', 10888)
+
+ERROR 2021-08-12 00:11:35,027 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 97, in get
+    redis_connection.setex('img:%s' % uuid, 300, text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-12 00:11:35,028 basehttp 75 - Broken pipe from ('127.0.0.1', 8161)
+
+ERROR 2021-08-12 00:11:35,282 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 97, in get
+    redis_connection.setex('img:%s' % uuid, 300, text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-12 00:11:35,283 basehttp 161 "GET /imagecode/?uuid=abda6fbf-0a97-4666-986d-229b6ebe58f9 HTTP/1.1" 500 115960
+INFO 2021-08-12 00:11:41,414 basehttp 161 "GET /register/ HTTP/1.1" 200 5330
+ERROR 2021-08-12 00:11:44,031 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 97, in get
+    redis_connection.setex('img:%s' % uuid, 300, text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-08-12 00:11:44,031 basehttp 75 - Broken pipe from ('127.0.0.1', 5250)
+
+ERROR 2021-08-12 00:11:45,944 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 97, in get
+    redis_connection.setex('img:%s' % uuid, 300, text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-12 00:11:45,945 basehttp 161 "GET /imagecode/?uuid=deda8d63-dd9e-459b-8ba9-b1f24aadf5ed HTTP/1.1" 500 115976
+ERROR 2021-08-12 00:11:46,114 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\git 库\django_blog\new_pro\users\views.py", line 97, in get
+    redis_connection.setex('img:%s' % uuid, 300, text)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "F:\git 库\django_blog\new_pro\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-08-12 00:11:46,116 basehttp 161 "GET /imagecode/?uuid=4e439e2c-bf27-4df3-a2e0-09da76c605b5 HTTP/1.1" 500 115965
+INFO 2021-08-12 00:11:54,538 basehttp 161 "GET /register/ HTTP/1.1" 200 5330
+INFO 2021-08-12 00:11:54,670 basehttp 161 "GET /imagecode/?uuid=2a811c5a-b7ce-4c52-a5a0-79960a016136 HTTP/1.1" 200 3401
+INFO 2021-08-12 00:11:56,755 basehttp 161 "GET /forgetpassword/ HTTP/1.1" 200 5190
+INFO 2021-08-12 00:11:56,882 basehttp 161 "GET /imagecode/?uuid=c0dd093c-256d-4d61-9d79-bab5f6f8b699 HTTP/1.1" 200 3480
+INFO 2021-08-12 00:11:58,385 basehttp 161 "GET /imagecode/?uuid=f6a86b76-8c0f-4477-8450-5f673e957e09 HTTP/1.1" 200 3173
+INFO 2021-08-12 00:11:58,896 basehttp 161 "GET /imagecode/?uuid=add92273-5ee0-40e4-92d8-e3b85192572c HTTP/1.1" 200 3060
+INFO 2021-08-12 00:12:19,110 basehttp 161 "GET /login/ HTTP/1.1" 200 3226
+WARNING 2021-08-12 00:12:20,905 log 224 Not Found: /login/forget_password.html
+WARNING 2021-08-12 00:12:20,905 basehttp 161 "GET /login/forget_password.html HTTP/1.1" 404 3357
+WARNING 2021-08-12 00:13:27,001 log 224 Not Found: /login/forget_password.html
+WARNING 2021-08-12 00:13:27,002 basehttp 161 "GET /login/forget_password.html HTTP/1.1" 404 3357
+WARNING 2021-08-12 00:13:27,812 log 224 Not Found: /login/forget_password.html
+WARNING 2021-08-12 00:13:27,812 basehttp 161 "GET /login/forget_password.html HTTP/1.1" 404 3357
+WARNING 2021-08-12 00:13:28,336 log 224 Not Found: /login/forget_password.html
+WARNING 2021-08-12 00:13:28,336 basehttp 161 "GET /login/forget_password.html HTTP/1.1" 404 3357
+WARNING 2021-08-12 00:13:28,772 log 224 Not Found: /login/forget_password.html
+WARNING 2021-08-12 00:13:28,772 basehttp 161 "GET /login/forget_password.html HTTP/1.1" 404 3357
+WARNING 2021-08-12 00:13:28,944 log 224 Not Found: /login/forget_password.html
+WARNING 2021-08-12 00:13:28,945 basehttp 161 "GET /login/forget_password.html HTTP/1.1" 404 3357
+WARNING 2021-08-12 00:13:29,078 log 224 Not Found: /login/forget_password.html
+WARNING 2021-08-12 00:13:29,078 basehttp 161 "GET /login/forget_password.html HTTP/1.1" 404 3357
+WARNING 2021-08-12 00:13:54,797 log 224 Not Found: /login/forget_password.html
+WARNING 2021-08-12 00:13:54,797 basehttp 161 "GET /login/forget_password.html HTTP/1.1" 404 3357
+WARNING 2021-08-12 00:13:55,066 log 224 Not Found: /login/forget_password.html
+WARNING 2021-08-12 00:13:55,066 basehttp 161 "GET /login/forget_password.html HTTP/1.1" 404 3357
+WARNING 2021-08-12 00:13:55,216 log 224 Not Found: /login/forget_password.html
+WARNING 2021-08-12 00:13:55,216 basehttp 161 "GET /login/forget_password.html HTTP/1.1" 404 3357
+WARNING 2021-08-12 00:14:13,433 log 224 Not Found: /forget_password.html
+WARNING 2021-08-12 00:14:13,433 basehttp 161 "GET /forget_password.html HTTP/1.1" 404 3339
+WARNING 2021-08-12 00:14:18,674 log 224 Not Found: /forget_password
+WARNING 2021-08-12 00:14:18,674 basehttp 161 "GET /forget_password HTTP/1.1" 404 3324
+INFO 2021-08-12 00:14:29,275 basehttp 161 "GET /forgetpassword HTTP/1.1" 301 0
+INFO 2021-08-12 00:14:29,281 basehttp 161 "GET /forgetpassword/ HTTP/1.1" 200 5190
+INFO 2021-08-12 00:14:29,413 basehttp 161 "GET /imagecode/?uuid=900f1704-7a8f-47d1-8000-fdcde96df3c9 HTTP/1.1" 200 3134
+INFO 2021-08-12 00:14:47,461 basehttp 161 "GET /imagecode/?uuid=dea35336-26aa-4048-9885-ff4e269f6651 HTTP/1.1" 200 3030
+INFO 2021-08-12 00:14:50,106 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-12 00:14:50,113 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-12 00:14:52,477 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-12 00:14:52,485 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-12 00:14:58,505 basehttp 161 "GET /login/ HTTP/1.1" 200 3222
+INFO 2021-08-12 00:15:00,085 basehttp 161 "GET /forgetpassword/ HTTP/1.1" 200 5190
+INFO 2021-08-12 00:15:00,160 basehttp 161 "GET /imagecode/?uuid=560ffef9-c0fd-43c8-b389-f7efdc705581 HTTP/1.1" 200 3123
+INFO 2021-08-12 00:26:44,306 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-12 00:26:45,658 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 00:31:01,944 autoreload 251 F:\git 库\django_blog\new_pro\users\views.py changed, reloading.
+INFO 2021-08-12 00:31:03,203 autoreload 637 Watching for file changes with StatReloader
