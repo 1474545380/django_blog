@@ -1,5 +1,5 @@
 from django.urls import path
-from new_pro.users.views import RegisterView, ImageCodeView, SmsCodeView, LoginView,LogoutView,ForgetPasswordView
+from users.views import RegisterView, ImageCodeView, SmsCodeView, LoginView,LogoutView,ForgetPasswordView
 
 urlpatterns=[
     #(路由，视图函数名)

@@ -7177,3 +7177,221 @@ INFO 2021-08-18 22:57:05,134 basehttp 161 "GET /smscode/?mobile=17553040983&imag
 INFO 2021-08-18 22:57:05,156 basehttp 161 "GET /imagecode/?uuid=d5170de2-b82f-424b-b829-40c7f4253484 HTTP/1.1" 200 3728
 INFO 2021-08-18 22:57:05,304 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=lnja&uuid=d5170de2-b82f-424b-b829-40c7f4253484 HTTP/1.1" 200 72
 INFO 2021-08-18 22:57:05,324 basehttp 161 "GET /imagecode/?uuid=609ab3a7-a44e-4b34-b465-3cc361213d5d HTTP/1.1" 200 3432
+INFO 2021-08-18 23:41:30,284 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 23:42:36,197 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/users/urls.py changed, reloading.
+INFO 2021-08-18 23:42:36,409 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 23:43:07,859 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/users/views.py changed, reloading.
+INFO 2021-08-18 23:43:08,075 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 23:43:17,240 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/libs/yuntongxun/sms.py changed, reloading.
+INFO 2021-08-18 23:43:17,436 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 23:43:25,617 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/urls.py changed, reloading.
+INFO 2021-08-18 23:43:25,789 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 23:44:12,877 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-18 23:44:12,908 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2021-08-18 23:44:12,912 basehttp 161 "GET /static/common/common.css HTTP/1.1" 304 0
+INFO 2021-08-18 23:44:12,912 basehttp 161 "GET /static/common/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2021-08-18 23:44:12,913 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 304 0
+INFO 2021-08-18 23:44:12,918 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:44:12,920 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:44:12,921 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:44:12,929 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:44:12,932 basehttp 161 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:44:12,937 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:44:12,937 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:44:12,938 basehttp 161 "GET /static/img/1.jpg HTTP/1.1" 304 0
+WARNING 2021-08-18 23:44:13,008 log 224 Not Found: /favicon.ico
+WARNING 2021-08-18 23:44:13,008 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3312
+INFO 2021-08-18 23:44:16,408 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-18 23:44:16,413 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-18 23:44:22,082 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-18 23:44:28,054 basehttp 161 "GET /login/ HTTP/1.1" 200 3222
+INFO 2021-08-18 23:44:28,071 basehttp 161 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:44:30,408 basehttp 161 "GET /register/ HTTP/1.1" 200 5330
+INFO 2021-08-18 23:44:30,428 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:44:30,478 basehttp 161 "GET /imagecode/?uuid=aa69013c-3619-4103-a43e-e965815150af HTTP/1.1" 200 3631
+WARNING 2021-08-18 23:44:34,504 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:44:34,504 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+INFO 2021-08-18 23:45:18,527 basehttp 161 "GET /imagecode/?uuid=3a09b457-8665-44ef-8c56-b026431320fd HTTP/1.1" 200 3042
+WARNING 2021-08-18 23:46:10,783 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:46:10,784 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:47:22,986 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:47:22,987 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:47:23,836 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:47:23,837 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:47:24,061 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:47:24,062 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:47:24,254 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:47:24,254 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:47:24,793 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:47:24,793 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:47:25,176 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:47:25,176 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+INFO 2021-08-18 23:47:25,999 basehttp 161 "GET /imagecode/?uuid=940b6f65-cb62-4448-bf36-240652c663e2 HTTP/1.1" 200 3213
+WARNING 2021-08-18 23:47:28,225 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:47:28,226 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:48:00,646 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:48:00,646 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:48:01,257 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:48:01,257 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:48:02,569 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:48:02,570 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+INFO 2021-08-18 23:48:03,754 basehttp 161 "GET /imagecode/?uuid=70df2508-5ec4-4136-87da-7e559813c7b4 HTTP/1.1" 200 3206
+WARNING 2021-08-18 23:48:05,406 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:48:05,407 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:48:13,936 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:48:13,937 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:48:14,145 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:48:14,146 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:48:14,315 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:48:14,315 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:48:14,446 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:48:14,447 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+INFO 2021-08-18 23:48:28,417 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-18 23:48:28,423 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:48:28,423 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2021-08-18 23:48:28,423 basehttp 161 "GET /static/common/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2021-08-18 23:48:28,424 basehttp 161 "GET /static/common/common.css HTTP/1.1" 304 0
+INFO 2021-08-18 23:48:28,424 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 304 0
+INFO 2021-08-18 23:48:28,424 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:48:28,424 basehttp 161 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:48:28,425 basehttp 161 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-08-18 23:48:28,425 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:48:28,426 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:48:28,426 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:48:28,427 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-08-18 23:48:34,412 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-18 23:48:34,726 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-18 23:48:34,736 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-18 23:48:38,324 basehttp 161 "GET /login HTTP/1.1" 301 0
+INFO 2021-08-18 23:48:38,333 basehttp 161 "GET /login/ HTTP/1.1" 200 3222
+INFO 2021-08-18 23:48:38,351 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2021-08-18 23:48:45,889 basehttp 161 "GET /register HTTP/1.1" 301 0
+INFO 2021-08-18 23:48:45,896 basehttp 161 "GET /register/ HTTP/1.1" 200 5347
+INFO 2021-08-18 23:48:45,907 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2021-08-18 23:48:45,968 basehttp 161 "GET /imagecode/?uuid=7557e01f-ec14-48b0-8607-5ab0bf5e2e18 HTTP/1.1" 200 3084
+INFO 2021-08-18 23:48:47,108 basehttp 161 "GET /login/ HTTP/1.1" 200 3222
+WARNING 2021-08-18 23:49:02,680 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:49:02,681 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:49:03,020 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:49:03,020 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:49:03,182 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:49:03,182 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+WARNING 2021-08-18 23:49:03,339 log 224 Not Found: /register/login.html
+WARNING 2021-08-18 23:49:03,339 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3336
+INFO 2021-08-18 23:49:04,101 basehttp 161 "GET /imagecode/?uuid=2cbda009-fe98-47bf-ab7f-d34c2457e459 HTTP/1.1" 200 3430
+INFO 2021-08-18 23:49:05,431 basehttp 161 "GET /register/ HTTP/1.1" 200 5347
+INFO 2021-08-18 23:49:05,479 basehttp 161 "GET /imagecode/?uuid=d8eb1585-92b6-4ba7-9a76-221c6fdbc6e8 HTTP/1.1" 200 3675
+INFO 2021-08-18 23:49:06,198 basehttp 161 "GET /register/ HTTP/1.1" 200 5347
+INFO 2021-08-18 23:49:06,243 basehttp 161 "GET /imagecode/?uuid=c45f2636-e1be-4e55-b473-66ac7613a642 HTTP/1.1" 200 3215
+INFO 2021-08-18 23:49:06,410 basehttp 161 "GET /register/ HTTP/1.1" 200 5347
+INFO 2021-08-18 23:49:06,455 basehttp 161 "GET /imagecode/?uuid=373e92f6-e209-4921-9ce4-1d30c128e049 HTTP/1.1" 200 3436
+INFO 2021-08-18 23:49:06,624 basehttp 161 "GET /register/ HTTP/1.1" 200 5347
+INFO 2021-08-18 23:49:06,671 basehttp 161 "GET /imagecode/?uuid=e32e0d0b-548a-4475-b2f6-187920cf79f1 HTTP/1.1" 200 2978
+INFO 2021-08-18 23:49:06,893 basehttp 161 "GET /register/ HTTP/1.1" 200 5347
+INFO 2021-08-18 23:49:06,939 basehttp 161 "GET /imagecode/?uuid=5be8b4a4-9187-40f4-b400-7632f48cdb7f HTTP/1.1" 200 3213
+INFO 2021-08-18 23:49:08,382 basehttp 161 "GET /login/ HTTP/1.1" 200 3222
+INFO 2021-08-18 23:49:10,486 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-18 23:49:15,853 basehttp 161 "GET /register/ HTTP/1.1" 200 5347
+INFO 2021-08-18 23:49:15,902 basehttp 161 "GET /imagecode/?uuid=05a31e55-349a-4b71-9fcf-897a49c38f6c HTTP/1.1" 200 3491
+INFO 2021-08-18 23:49:17,133 basehttp 161 "GET /login/ HTTP/1.1" 200 3222
+INFO 2021-08-18 23:49:20,484 basehttp 161 "GET /imagecode/?uuid=74b159fa-c81f-4b76-b06c-5cbcfeaa1e02 HTTP/1.1" 200 3445
+INFO 2021-08-18 23:49:23,680 basehttp 161 "GET /register/ HTTP/1.1" 200 5347
+INFO 2021-08-18 23:49:23,735 basehttp 161 "GET /imagecode/?uuid=9ca9327b-075e-40fa-992c-1a206f53fd3f HTTP/1.1" 200 3032
+INFO 2021-08-18 23:49:37,934 basehttp 161 "GET /imagecode/?uuid=9904ba30-7a6c-4493-90bb-dfdf19fa3844 HTTP/1.1" 200 3622
+INFO 2021-08-18 23:49:43,397 views 143 083482
+ERROR 2021-08-18 23:49:43,466 log 224 Internal Server Error: /smscode/
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/users/views.py", line 147, in get
+    CCP().send_template_sms(mobile, [sms_code, 5], 1)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/libs/yuntongxun/sms.py", line 64, in send_template_sms
+    if result.get("statusCode") == "000000":
+AttributeError: 'REST' object has no attribute 'get'
+ERROR 2021-08-18 23:49:43,467 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=bhyb&uuid=9904ba30-7a6c-4493-90bb-dfdf19fa3844 HTTP/1.1" 500 77386
+INFO 2021-08-18 23:49:44,262 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=bhyb&uuid=9904ba30-7a6c-4493-90bb-dfdf19fa3844 HTTP/1.1" 200 78
+INFO 2021-08-18 23:49:44,282 basehttp 161 "GET /imagecode/?uuid=cd75bd37-e63e-48fd-be0c-eace883b34cb HTTP/1.1" 200 3330
+INFO 2021-08-18 23:49:44,642 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=bhyb&uuid=cd75bd37-e63e-48fd-be0c-eace883b34cb HTTP/1.1" 200 72
+INFO 2021-08-18 23:49:44,665 basehttp 161 "GET /imagecode/?uuid=1fc08cda-00a3-4b23-ba11-f268b4de1afe HTTP/1.1" 200 3164
+INFO 2021-08-18 23:49:45,174 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=bhyb&uuid=1fc08cda-00a3-4b23-ba11-f268b4de1afe HTTP/1.1" 200 72
+INFO 2021-08-18 23:49:45,197 basehttp 161 "GET /imagecode/?uuid=afae5375-2289-4281-a57d-6e0421db2f25 HTTP/1.1" 200 2959
+INFO 2021-08-18 23:49:45,703 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=bhyb&uuid=afae5375-2289-4281-a57d-6e0421db2f25 HTTP/1.1" 200 72
+INFO 2021-08-18 23:49:45,723 basehttp 161 "GET /imagecode/?uuid=a893cbad-6b7c-4556-b1a2-ff3a05a524a8 HTTP/1.1" 200 3084
+INFO 2021-08-18 23:49:48,755 basehttp 161 "GET /imagecode/?uuid=00a6e0b2-463b-45b7-9db7-027f05c5d113 HTTP/1.1" 200 3508
+INFO 2021-08-18 23:49:53,260 views 143 074288
+ERROR 2021-08-18 23:49:53,301 log 224 Internal Server Error: /smscode/
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/users/views.py", line 147, in get
+    CCP().send_template_sms(mobile, [sms_code, 5], 1)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/libs/yuntongxun/sms.py", line 64, in send_template_sms
+    if result.get("statusCode") == "000000":
+AttributeError: 'REST' object has no attribute 'get'
+ERROR 2021-08-18 23:49:53,301 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=xdqe&uuid=00a6e0b2-463b-45b7-9db7-027f05c5d113 HTTP/1.1" 500 77386
+INFO 2021-08-18 23:51:01,707 basehttp 161 "GET /imagecode/?uuid=6718771d-25c2-4076-aaa8-837c026be73a HTTP/1.1" 200 3407
+INFO 2021-08-19 00:14:12,363 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-19 00:14:17,844 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-19 00:14:18,248 basehttp 161 "GET /login/ HTTP/1.1" 200 3222
+INFO 2021-08-19 00:14:22,011 basehttp 161 "GET /register/ HTTP/1.1" 200 5347
+INFO 2021-08-19 00:14:22,098 basehttp 161 "GET /imagecode/?uuid=9930dd37-fb17-4882-bdf8-95b4f15fbc70 HTTP/1.1" 200 2779
+INFO 2021-08-19 00:14:45,158 views 143 065054
+ERROR 2021-08-19 00:14:45,201 log 224 Internal Server Error: /smscode/
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/users/views.py", line 147, in get
+    CCP().send_template_sms(mobile, [sms_code, 5], 1)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/libs/yuntongxun/sms.py", line 64, in send_template_sms
+    if result.get("statusCode") == "000000":
+AttributeError: 'REST' object has no attribute 'get'
+ERROR 2021-08-19 00:14:45,201 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=yjvm&uuid=9930dd37-fb17-4882-bdf8-95b4f15fbc70 HTTP/1.1" 500 76583
+INFO 2021-08-19 00:14:48,927 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=yjvm&uuid=9930dd37-fb17-4882-bdf8-95b4f15fbc70 HTTP/1.1" 200 78
+INFO 2021-08-19 00:14:48,948 basehttp 161 "GET /imagecode/?uuid=0353f631-fa44-4e99-8e7e-474ca6d6da3d HTTP/1.1" 200 3441
+INFO 2021-08-19 00:15:09,261 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-19 00:26:11,650 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-19 00:26:13,829 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-19 00:26:13,832 basehttp 161 "GET /static/common/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2021-08-19 00:26:13,833 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 304 0
+INFO 2021-08-19 00:26:13,835 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-08-19 00:26:13,835 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-08-19 00:26:13,835 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-08-19 00:26:13,835 basehttp 161 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-08-19 00:26:13,839 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2021-08-19 00:26:13,840 basehttp 161 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-08-19 00:26:13,840 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-08-19 00:26:13,840 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-08-19 00:26:13,841 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-08-19 00:26:13,842 basehttp 161 "GET /static/common/common.css HTTP/1.1" 304 0
+INFO 2021-08-19 00:26:33,209 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-19 00:26:37,915 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-19 00:26:38,196 basehttp 161 "GET /login/ HTTP/1.1" 200 3222
+INFO 2021-08-19 00:26:38,198 basehttp 161 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2021-08-19 00:26:40,743 basehttp 161 "GET /register/ HTTP/1.1" 200 5347
+INFO 2021-08-19 00:26:40,745 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-08-19 00:26:40,826 basehttp 161 "GET /imagecode/?uuid=03f6d97d-18d1-460d-8416-ab9917874c1e HTTP/1.1" 200 3351
+INFO 2021-08-19 00:26:57,425 basehttp 161 "GET /imagecode/?uuid=dd101220-6264-4b86-aefd-7b543ecfb335 HTTP/1.1" 200 3471
+INFO 2021-08-19 00:27:02,202 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=msk7&uuid=dd101220-6264-4b86-aefd-7b543ecfb335 HTTP/1.1" 200 72
+INFO 2021-08-19 00:27:02,223 basehttp 161 "GET /imagecode/?uuid=3cc009f3-13c8-47f2-b1f3-78b1c819084f HTTP/1.1" 200 3034
+INFO 2021-08-19 00:27:09,376 views 143 075647
+INFO 2021-08-19 00:27:09,467 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=b9yq&uuid=3cc009f3-13c8-47f2-b1f3-78b1c819084f HTTP/1.1" 200 63
+INFO 2021-08-19 00:28:04,626 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-08-19 00:28:04,635 basehttp 161 "GET / HTTP/1.1" 200 11931

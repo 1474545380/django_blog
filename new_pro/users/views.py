@@ -1,13 +1,13 @@
 from django.shortcuts import render
 from django.views import View
 from django.http.response import HttpResponseBadRequest, JsonResponse
-from new_pro.libs.captcha.captcha import captcha
+from libs.captcha.captcha import captcha
 from django_redis import get_redis_connection
 from django.http import HttpResponse
-from new_pro.utils.response_code import RETCODE
+from utils.response_code import RETCODE
 import logging
 from random import randint
-from new_pro.libs.yuntongxun.sms import CCP
+from libs.yuntongxun.sms import CCP
 import re
 from users.models import User
 from django.db import DatabaseError
