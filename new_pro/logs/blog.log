@@ -7048,3 +7048,132 @@ INFO 2021-08-12 00:26:44,306 autoreload 251 F:\git ¿â\django_blog\new_pro\users\
 INFO 2021-08-12 00:26:45,658 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-08-12 00:31:01,944 autoreload 251 F:\git ¿â\django_blog\new_pro\users\views.py changed, reloading.
 INFO 2021-08-12 00:31:03,203 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 18:00:04,734 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 22:51:17,114 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 22:52:11,147 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/new_pro/settings.py changed, reloading.
+INFO 2021-08-18 22:52:11,436 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 22:52:42,383 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 22:52:54,144 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-18 22:52:54,162 basehttp 161 "GET /static/common/common.css HTTP/1.1" 200 368
+INFO 2021-08-18 22:52:54,163 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 200 4048
+INFO 2021-08-18 22:52:54,163 basehttp 161 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-08-18 22:52:54,165 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-08-18 22:52:54,165 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-08-18 22:52:54,166 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-08-18 22:52:54,166 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-08-18 22:52:54,167 basehttp 161 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2021-08-18 22:52:54,167 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-08-18 22:52:54,168 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140936
+INFO 2021-08-18 22:52:54,168 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-08-18 22:52:54,168 basehttp 161 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+WARNING 2021-08-18 22:53:03,322 log 224 Not Found: /favicon.ico
+WARNING 2021-08-18 22:53:03,322 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3312
+INFO 2021-08-18 22:53:05,384 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-18 22:53:05,392 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-18 22:53:07,214 basehttp 161 "GET /static/write_blog.html HTTP/1.1" 200 5618
+INFO 2021-08-18 22:53:07,228 basehttp 161 "GET /static/js/write_blog.js HTTP/1.1" 200 500
+INFO 2021-08-18 22:53:07,229 basehttp 161 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2021-08-18 22:53:07,232 basehttp 161 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+INFO 2021-08-18 22:53:07,286 basehttp 161 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2021-08-18 22:53:07,357 basehttp 161 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 200 18818
+INFO 2021-08-18 22:53:07,357 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46917
+INFO 2021-08-18 22:53:07,362 basehttp 161 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5446
+INFO 2021-08-18 22:53:07,369 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 356
+INFO 2021-08-18 22:53:07,370 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 396
+INFO 2021-08-18 22:53:07,370 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1263
+INFO 2021-08-18 22:53:07,370 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1050
+INFO 2021-08-18 22:53:07,371 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1468
+INFO 2021-08-18 22:53:07,387 basehttp 161 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2747
+INFO 2021-08-18 22:53:07,395 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png?t=95e5d83 HTTP/1.1" 200 40265
+INFO 2021-08-18 22:55:41,321 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 22:55:43,447 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-18 22:55:58,009 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-18 22:55:58,077 basehttp 161 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-08-18 22:55:58,080 basehttp 161 "GET /static/common/common.css HTTP/1.1" 200 368
+INFO 2021-08-18 22:55:58,080 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 200 4048
+INFO 2021-08-18 22:55:58,081 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-08-18 22:55:58,081 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140936
+INFO 2021-08-18 22:55:58,082 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-08-18 22:55:58,082 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-08-18 22:55:58,102 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-08-18 22:55:58,103 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-08-18 22:55:58,105 basehttp 161 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2021-08-18 22:55:58,106 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-08-18 22:55:58,108 basehttp 161 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+WARNING 2021-08-18 22:56:02,072 log 224 Not Found: /favicon.ico
+WARNING 2021-08-18 22:56:02,073 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3312
+INFO 2021-08-18 22:56:06,735 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-18 22:56:06,741 basehttp 161 "GET / HTTP/1.1" 200 11931
+INFO 2021-08-18 22:56:09,346 basehttp 161 "GET /static/center.html HTTP/1.1" 200 4062
+INFO 2021-08-18 22:56:09,366 basehttp 161 "GET /static/js/center.js HTTP/1.1" 200 501
+INFO 2021-08-18 22:56:09,367 basehttp 161 "GET /static/img/mei.png HTTP/1.1" 200 230847
+INFO 2021-08-18 22:56:18,281 basehttp 161 "GET /login HTTP/1.1" 301 0
+INFO 2021-08-18 22:56:18,286 basehttp 161 "GET /login/ HTTP/1.1" 200 3222
+INFO 2021-08-18 22:56:18,305 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2021-08-18 22:56:22,068 basehttp 161 "GET /register HTTP/1.1" 301 0
+INFO 2021-08-18 22:56:22,074 basehttp 161 "GET /register/ HTTP/1.1" 200 5330
+INFO 2021-08-18 22:56:22,093 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2021-08-18 22:56:22,147 basehttp 161 "GET /imagecode/?uuid=17daa310-6216-40b5-b180-b1b0640498fb HTTP/1.1" 200 3023
+INFO 2021-08-18 22:56:43,248 basehttp 161 "GET /imagecode/?uuid=ecb1ac03-610b-4526-ad10-a55259e8636a HTTP/1.1" 200 3154
+INFO 2021-08-18 22:56:49,263 views 143 069894
+ERROR 2021-08-18 22:56:49,333 log 224 Internal Server Error: /smscode/
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/users/views.py", line 147, in get
+    CCP().send_template_sms(mobile, [sms_code, 5], 1)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/libs/yuntongxun/sms.py", line 64, in send_template_sms
+    if result.get("statusCode") == "000000":
+AttributeError: 'REST' object has no attribute 'get'
+ERROR 2021-08-18 22:56:49,334 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=incj&uuid=ecb1ac03-610b-4526-ad10-a55259e8636a HTTP/1.1" 500 77378
+INFO 2021-08-18 22:56:53,205 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=incj&uuid=ecb1ac03-610b-4526-ad10-a55259e8636a HTTP/1.1" 200 78
+INFO 2021-08-18 22:56:53,226 basehttp 161 "GET /imagecode/?uuid=987ccea3-2e1d-4b84-95e1-f6844f90a21f HTTP/1.1" 200 3661
+INFO 2021-08-18 22:56:54,355 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=incj&uuid=987ccea3-2e1d-4b84-95e1-f6844f90a21f HTTP/1.1" 200 72
+INFO 2021-08-18 22:56:54,370 basehttp 161 "GET /imagecode/?uuid=a832e0f1-b95d-470d-9cc0-1ec44877368e HTTP/1.1" 200 3224
+INFO 2021-08-18 22:56:54,598 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=incj&uuid=a832e0f1-b95d-470d-9cc0-1ec44877368e HTTP/1.1" 200 72
+INFO 2021-08-18 22:56:54,618 basehttp 161 "GET /imagecode/?uuid=7892b15f-8454-4dfd-916a-512039e3ddb3 HTTP/1.1" 200 3077
+INFO 2021-08-18 22:56:54,840 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=incj&uuid=7892b15f-8454-4dfd-916a-512039e3ddb3 HTTP/1.1" 200 72
+INFO 2021-08-18 22:56:54,857 basehttp 161 "GET /imagecode/?uuid=0375f691-9596-47c0-9ac6-c21d19e64401 HTTP/1.1" 200 2970
+INFO 2021-08-18 22:57:02,762 views 143 040646
+ERROR 2021-08-18 22:57:02,802 log 224 Internal Server Error: /smscode/
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/users/views.py", line 147, in get
+    CCP().send_template_sms(mobile, [sms_code, 5], 1)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/libs/yuntongxun/sms.py", line 64, in send_template_sms
+    if result.get("statusCode") == "000000":
+AttributeError: 'REST' object has no attribute 'get'
+ERROR 2021-08-18 22:57:02,803 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=lnja&uuid=0375f691-9596-47c0-9ac6-c21d19e64401 HTTP/1.1" 500 77378
+INFO 2021-08-18 22:57:03,530 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=lnja&uuid=0375f691-9596-47c0-9ac6-c21d19e64401 HTTP/1.1" 200 78
+INFO 2021-08-18 22:57:03,550 basehttp 161 "GET /imagecode/?uuid=d3f28bce-8b34-4130-aec6-dfd6e252d10a HTTP/1.1" 200 3085
+INFO 2021-08-18 22:57:03,714 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=lnja&uuid=d3f28bce-8b34-4130-aec6-dfd6e252d10a HTTP/1.1" 200 72
+INFO 2021-08-18 22:57:03,732 basehttp 161 "GET /imagecode/?uuid=ea016ab5-2a47-4eb1-9ed4-3de6601f4437 HTTP/1.1" 200 3458
+INFO 2021-08-18 22:57:03,896 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=lnja&uuid=ea016ab5-2a47-4eb1-9ed4-3de6601f4437 HTTP/1.1" 200 72
+INFO 2021-08-18 22:57:03,916 basehttp 161 "GET /imagecode/?uuid=4dac4042-c83f-4c9d-a4aa-0b600d962e7a HTTP/1.1" 200 3197
+INFO 2021-08-18 22:57:04,255 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=lnja&uuid=4dac4042-c83f-4c9d-a4aa-0b600d962e7a HTTP/1.1" 200 72
+INFO 2021-08-18 22:57:04,274 basehttp 161 "GET /imagecode/?uuid=1d42360a-5fc6-471c-834e-7e4f58cad3a4 HTTP/1.1" 200 3037
+INFO 2021-08-18 22:57:04,449 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=lnja&uuid=1d42360a-5fc6-471c-834e-7e4f58cad3a4 HTTP/1.1" 200 72
+INFO 2021-08-18 22:57:04,468 basehttp 161 "GET /imagecode/?uuid=37914735-8c44-406e-b4a1-dc714d448662 HTTP/1.1" 200 3041
+INFO 2021-08-18 22:57:04,626 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=lnja&uuid=37914735-8c44-406e-b4a1-dc714d448662 HTTP/1.1" 200 72
+INFO 2021-08-18 22:57:04,647 basehttp 161 "GET /imagecode/?uuid=688fa215-e66d-4d11-8a9e-61f58bd318d2 HTTP/1.1" 200 3206
+INFO 2021-08-18 22:57:04,804 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=lnja&uuid=688fa215-e66d-4d11-8a9e-61f58bd318d2 HTTP/1.1" 200 72
+INFO 2021-08-18 22:57:04,823 basehttp 161 "GET /imagecode/?uuid=d5f45c99-71a1-4b16-a356-7d00d29fadc1 HTTP/1.1" 200 3399
+INFO 2021-08-18 22:57:04,973 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=lnja&uuid=d5f45c99-71a1-4b16-a356-7d00d29fadc1 HTTP/1.1" 200 72
+INFO 2021-08-18 22:57:04,993 basehttp 161 "GET /imagecode/?uuid=0db9c902-c05c-4797-a398-9b9321f54b3a HTTP/1.1" 200 3022
+INFO 2021-08-18 22:57:05,134 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=lnja&uuid=0db9c902-c05c-4797-a398-9b9321f54b3a HTTP/1.1" 200 72
+INFO 2021-08-18 22:57:05,156 basehttp 161 "GET /imagecode/?uuid=d5170de2-b82f-424b-b829-40c7f4253484 HTTP/1.1" 200 3728
+INFO 2021-08-18 22:57:05,304 basehttp 161 "GET /smscode/?mobile=17553040983&image_code=lnja&uuid=d5170de2-b82f-424b-b829-40c7f4253484 HTTP/1.1" 200 72
+INFO 2021-08-18 22:57:05,324 basehttp 161 "GET /imagecode/?uuid=609ab3a7-a44e-4b34-b465-3cc361213d5d HTTP/1.1" 200 3432

@@ -1,13 +1,13 @@
 from django.shortcuts import render
 from django.views import View
 from django.http.response import HttpResponseBadRequest, JsonResponse
-from libs.captcha.captcha import captcha
+from new_pro.libs.captcha.captcha import captcha
 from django_redis import get_redis_connection
 from django.http import HttpResponse
-from utils.response_code import RETCODE
+from new_pro.utils.response_code import RETCODE
 import logging
 from random import randint
-from libs.yuntongxun.sms import CCP
+from new_pro.libs.yuntongxun.sms import CCP
 import re
 from users.models import User
 from django.db import DatabaseError
@@ -217,6 +217,8 @@ class LogoutView(View):
         response.delete_cookie('username')
         #3.跳转到首页
         return response
+
+
 #忘记密码
 class ForgetPasswordView(View):
     def get(self,request):
