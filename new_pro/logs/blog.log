@@ -8341,3 +8341,13 @@ INFO 2021-08-19 20:03:04,994 basehttp 161 "GET / HTTP/1.1" 200 11908
 INFO 2021-08-19 20:03:05,874 basehttp 161 "GET / HTTP/1.1" 200 11908
 INFO 2021-08-19 20:03:07,356 basehttp 161 "GET / HTTP/1.1" 200 11908
 INFO 2021-08-19 20:03:25,870 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5670
+INFO 2021-08-19 21:49:53,009 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-19 21:50:04,911 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 21:50:04,923 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-08-19 21:50:04,926 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-08-19 21:50:04,926 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-08-19 21:50:04,927 basehttp 161 "GET /static/js/common.js HTTP/1.1" 304 0
+WARNING 2021-08-19 21:50:08,843 log 224 Not Found: /favicon.ico
+WARNING 2021-08-19 21:50:08,843 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3782
+INFO 2021-08-19 23:11:24,661 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/new_pro/settings.py changed, reloading.
+INFO 2021-08-19 23:11:24,869 autoreload 637 Watching for file changes with StatReloader
