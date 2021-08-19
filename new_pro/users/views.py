@@ -14,6 +14,7 @@ from django.db import DatabaseError
 from django.shortcuts import redirect
 from django.urls import reverse
 from django.contrib.auth import login, authenticate, logout
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 logger = logging.getLogger('django')
 
@@ -25,6 +26,11 @@ logger = logging.getLogger('django')
 class RegisterView(View):
     def get(self,request):
         return render(request, 'register.html')
+    def setCookies(response, key, queryCollection):
+        if key in queryCollection:
+            response.set_cookie(key.lower(), bytes(queryCollection[key], 'utf-8').decode("ISO-8859-1"))
+        else:
+            response.set_cookie(key.lower(), "")
 
     def post(self, request):
         """
@@ -154,7 +160,11 @@ class LoginView(View):
     def get(self,request):
 
         return render(request, 'login.html')
-
+    def setCookies(response, key, queryCollection):
+        if key in queryCollection:
+            response.set_cookie(key.lower(), bytes(queryCollection[key], 'utf-8').decode("ISO-8859-1"))
+        else:
+            response.set_cookie(key.lower(), "")
     def post(self, request):
         """
                接收参数
@@ -190,7 +200,13 @@ class LoginView(View):
         # 状态保持
         # cookie信息
         login(request, user)
-        response = redirect(reverse('home:index'))
+
+        #根据next参数来进行对页面的跳转
+        next_page = request.GET.get('next')
+        if next_page:
+            response = redirect(next_page)
+        else:
+            response = redirect(reverse('home:index'))
         # 根据用户选择的是否记住登陆状态进行判断
         if remember != 'on':  # 否
             request.session.set_expiry(0)  # 设置过期时间,浏览器关闭后
@@ -207,7 +223,11 @@ class LoginView(View):
 
 #登出
 class LogoutView(View):
-
+    def setCookies(response, key, queryCollection):
+        if key in queryCollection:
+            response.set_cookie(key.lower(), bytes(queryCollection[key], 'utf-8').decode("ISO-8859-1"))
+        else:
+            response.set_cookie(key.lower(), "")
     def get(self,request):
         # 1.session数据清除
         logout(request)
@@ -221,6 +241,11 @@ class LogoutView(View):
 
 #忘记密码
 class ForgetPasswordView(View):
+    def setCookies(response, key, queryCollection):
+        if key in queryCollection:
+            response.set_cookie(key.lower(), bytes(queryCollection[key], 'utf-8').decode("ISO-8859-1"))
+        else:
+            response.set_cookie(key.lower(), "")
     def get(self,request):
         return render(request,'forget_password.html')
     def post(self, request):
@@ -275,4 +300,44 @@ class ForgetPasswordView(View):
             user.set_password(password)
             user.save()
         response=redirect(reverse('users:login'))
+        return response
+
+
+#用户个人中心
+class UserCenterView(LoginRequiredMixin,View):
+    # 若用户未登录则会通过django自带的检测进行跳转到http://127.0.0.1:8000/accounts/login/?next=/center/
+    def get(self,request):
+        #获得用户信息
+        user=request.user
+        #组织获取用户信息
+        context={'username':user.username,'mobile':user.mobile,'avatar':user.avatar.url if user.avatar else None,'user_desc':user.user_desc}
+        return render(request,'center.html',context=context)
+
+    def setCookies(response, key, queryCollection):
+        if key in queryCollection:
+            response.set_cookie(key.lower(), bytes(queryCollection[key], 'utf-8').decode("ISO-8859-1"))
+        else:
+            response.set_cookie(key.lower(), "")
+
+    def post(self,request):
+        #接收
+        user=request.user
+        username=request.POST.get('username',user.username)
+        user_desc=request.POST.get('desc',user.user_desc)
+        avatar=request.FILES.get('avatar')
+        #保存
+        try:
+            user.username=username
+            user.user_desc=user_desc
+            if avatar:
+                user.avatar=avatar
+            user.save()
+        except Exception as e:
+            logger.error(e)
+            return HttpResponseBadRequest('修改失败')
+        #更新cookie信息
+        #刷新页面
+        response=redirect(reverse('users:center'))
+        response.set_cookie('username',user.username,max_age=14*3600*24)
+        #返回响应
         return response

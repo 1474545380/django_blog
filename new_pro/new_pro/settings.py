@@ -206,3 +206,12 @@ LOGGING={
 }
 #替换自带的user模型
 AUTH_USER_MODEL='users.User'
+
+#修改系统自动跳转链接
+LOGIN_URL='/login/'
+
+#设置上传图片保存路径
+MEDIA_ROOT=os.path.join(BASE_DIR,'media/')
+
+#设置图片访问的同一路由
+MEDIA_URL='/media/'
