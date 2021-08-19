@@ -8198,3 +8198,146 @@ INFO 2021-08-19 15:36:39,796 basehttp 161 "GET /center/ HTTP/1.1" 200 4295
 INFO 2021-08-19 15:36:39,869 basehttp 161 "GET /media/avatar/20210819/F1580D0F-65AF-4A31-B938-F17D71E7C98E.jpeg HTTP/1.1" 200 7217644
 INFO 2021-08-19 15:38:47,094 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/new_pro/urls.py changed, reloading.
 INFO 2021-08-19 15:38:47,302 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-19 19:27:09,576 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-19 19:27:16,940 basehttp 161 "GET / HTTP/1.1" 200 11922
+INFO 2021-08-19 19:27:16,970 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2021-08-19 19:27:16,970 basehttp 161 "GET /static/common/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2021-08-19 19:27:16,970 basehttp 161 "GET /static/common/common.css HTTP/1.1" 304 0
+INFO 2021-08-19 19:27:16,973 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 304 0
+INFO 2021-08-19 19:27:16,974 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-08-19 19:27:16,974 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-08-19 19:27:16,975 basehttp 161 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-08-19 19:27:16,975 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-08-19 19:27:16,985 basehttp 161 "GET /static/js/index.js HTTP/1.1" 200 903
+INFO 2021-08-19 19:27:16,985 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 13315
+INFO 2021-08-19 19:27:16,985 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 1265
+INFO 2021-08-19 19:27:16,986 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 3309
+WARNING 2021-08-19 19:27:21,527 log 224 Not Found: /favicon.ico
+WARNING 2021-08-19 19:27:21,528 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3607
+INFO 2021-08-19 19:31:01,395 basehttp 161 "GET / HTTP/1.1" 200 11922
+INFO 2021-08-19 19:38:40,670 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/users/views.py changed, reloading.
+INFO 2021-08-19 19:38:41,014 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-19 19:39:12,584 basehttp 161 "GET /writeblog HTTP/1.1" 301 0
+INFO 2021-08-19 19:39:12,595 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5680
+INFO 2021-08-19 19:39:12,619 basehttp 161 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2021-08-19 19:39:12,619 basehttp 161 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2021-08-19 19:39:12,619 basehttp 161 "GET /static/js/write_blog.js HTTP/1.1" 304 0
+WARNING 2021-08-19 19:39:12,676 log 224 Not Found: /writeblog/ckeditor/ckeditor/config.js
+WARNING 2021-08-19 19:39:12,676 basehttp 161 "GET /writeblog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3863
+WARNING 2021-08-19 19:39:12,711 log 224 Not Found: /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-08-19 19:39:12,713 log 224 Not Found: /writeblog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2021-08-19 19:39:12,713 basehttp 161 "GET /writeblog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3875
+WARNING 2021-08-19 19:39:12,714 basehttp 161 "GET /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3917
+INFO 2021-08-19 19:59:36,607 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/users/urls.py changed, reloading.
+INFO 2021-08-19 19:59:36,868 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-19 19:59:38,893 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5662
+INFO 2021-08-19 19:59:38,920 basehttp 161 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-08-19 19:59:38,920 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+WARNING 2021-08-19 19:59:38,969 log 224 Not Found: /writeblog/ckeditor/ckeditor/config.js
+WARNING 2021-08-19 19:59:38,969 basehttp 161 "GET /writeblog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3867
+WARNING 2021-08-19 19:59:38,982 log 224 Not Found: /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-08-19 19:59:38,983 log 224 Not Found: /writeblog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2021-08-19 19:59:38,984 basehttp 161 "GET /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3921
+WARNING 2021-08-19 19:59:38,984 basehttp 161 "GET /writeblog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3879
+INFO 2021-08-19 19:59:39,611 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5662
+WARNING 2021-08-19 19:59:39,669 log 224 Not Found: /writeblog/ckeditor/ckeditor/config.js
+WARNING 2021-08-19 19:59:39,670 basehttp 161 "GET /writeblog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3867
+WARNING 2021-08-19 19:59:39,681 log 224 Not Found: /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-08-19 19:59:39,683 log 224 Not Found: /writeblog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2021-08-19 19:59:39,684 basehttp 161 "GET /writeblog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3879
+WARNING 2021-08-19 19:59:39,684 basehttp 161 "GET /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3921
+INFO 2021-08-19 19:59:39,977 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5662
+WARNING 2021-08-19 19:59:40,022 log 224 Not Found: /writeblog/ckeditor/ckeditor/config.js
+WARNING 2021-08-19 19:59:40,023 basehttp 161 "GET /writeblog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3867
+WARNING 2021-08-19 19:59:40,039 log 224 Not Found: /writeblog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2021-08-19 19:59:40,039 basehttp 161 "GET /writeblog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3879
+WARNING 2021-08-19 19:59:40,042 log 224 Not Found: /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-08-19 19:59:40,042 basehttp 161 "GET /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3921
+INFO 2021-08-19 19:59:40,669 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5662
+WARNING 2021-08-19 19:59:40,716 log 224 Not Found: /writeblog/ckeditor/ckeditor/config.js
+WARNING 2021-08-19 19:59:40,716 basehttp 161 "GET /writeblog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3867
+WARNING 2021-08-19 19:59:40,729 log 224 Not Found: /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-08-19 19:59:40,731 log 224 Not Found: /writeblog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2021-08-19 19:59:40,731 basehttp 161 "GET /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3921
+WARNING 2021-08-19 19:59:40,731 basehttp 161 "GET /writeblog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3879
+INFO 2021-08-19 19:59:42,604 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5662
+WARNING 2021-08-19 19:59:42,649 log 224 Not Found: /writeblog/ckeditor/ckeditor/config.js
+WARNING 2021-08-19 19:59:42,650 basehttp 161 "GET /writeblog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3867
+WARNING 2021-08-19 19:59:42,664 log 224 Not Found: /writeblog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2021-08-19 19:59:42,666 log 224 Not Found: /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-08-19 19:59:42,667 basehttp 161 "GET /writeblog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3879
+WARNING 2021-08-19 19:59:42,667 basehttp 161 "GET /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3921
+INFO 2021-08-19 19:59:55,798 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 19:59:55,819 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 200 4048
+INFO 2021-08-19 19:59:55,821 basehttp 161 "GET /static/common/common.css HTTP/1.1" 304 0
+INFO 2021-08-19 19:59:55,822 basehttp 161 "GET /static/common/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2021-08-19 19:59:55,822 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2021-08-19 19:59:55,822 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 1265
+INFO 2021-08-19 19:59:55,823 basehttp 161 "GET /static/js/index.js HTTP/1.1" 200 903
+INFO 2021-08-19 19:59:55,823 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 3309
+INFO 2021-08-19 19:59:55,823 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 13315
+INFO 2021-08-19 19:59:55,823 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-08-19 19:59:55,824 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-08-19 19:59:55,824 basehttp 161 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-08-19 19:59:55,824 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-08-19 20:00:11,381 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-19 20:00:11,400 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 20:00:12,324 basehttp 161 "GET /login/ HTTP/1.1" 200 3222
+INFO 2021-08-19 20:00:12,326 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1049
+INFO 2021-08-19 20:00:25,367 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5662
+WARNING 2021-08-19 20:00:25,424 log 224 Not Found: /writeblog/ckeditor/ckeditor/config.js
+WARNING 2021-08-19 20:00:25,424 basehttp 161 "GET /writeblog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3867
+WARNING 2021-08-19 20:00:25,438 log 224 Not Found: /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-08-19 20:00:25,441 log 224 Not Found: /writeblog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2021-08-19 20:00:25,441 basehttp 161 "GET /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3921
+WARNING 2021-08-19 20:00:25,442 basehttp 161 "GET /writeblog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3879
+INFO 2021-08-19 20:00:25,928 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5662
+WARNING 2021-08-19 20:00:25,972 log 224 Not Found: /writeblog/ckeditor/ckeditor/config.js
+WARNING 2021-08-19 20:00:25,973 basehttp 161 "GET /writeblog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3867
+WARNING 2021-08-19 20:00:25,987 log 224 Not Found: /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-08-19 20:00:25,989 log 224 Not Found: /writeblog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2021-08-19 20:00:25,989 basehttp 161 "GET /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3921
+WARNING 2021-08-19 20:00:25,990 basehttp 161 "GET /writeblog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3879
+INFO 2021-08-19 20:00:26,082 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5662
+WARNING 2021-08-19 20:00:26,126 log 224 Not Found: /writeblog/ckeditor/ckeditor/config.js
+WARNING 2021-08-19 20:00:26,127 basehttp 161 "GET /writeblog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3867
+WARNING 2021-08-19 20:00:26,141 log 224 Not Found: /writeblog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2021-08-19 20:00:26,142 log 224 Not Found: /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-08-19 20:00:26,143 basehttp 161 "GET /writeblog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3879
+WARNING 2021-08-19 20:00:26,143 basehttp 161 "GET /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3921
+INFO 2021-08-19 20:00:30,087 basehttp 161 "GET /center/ HTTP/1.1" 200 4278
+INFO 2021-08-19 20:00:30,108 basehttp 161 "GET /media/avatar/20210819/F1580D0F-65AF-4A31-B938-F17D71E7C98E.jpeg HTTP/1.1" 304 0
+INFO 2021-08-19 20:00:30,109 basehttp 161 "GET /static/js/center.js HTTP/1.1" 200 875
+INFO 2021-08-19 20:00:33,735 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5662
+WARNING 2021-08-19 20:00:33,795 log 224 Not Found: /writeblog/ckeditor/ckeditor/config.js
+WARNING 2021-08-19 20:00:33,795 basehttp 161 "GET /writeblog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3867
+WARNING 2021-08-19 20:00:33,809 log 224 Not Found: /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-08-19 20:00:33,811 log 224 Not Found: /writeblog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2021-08-19 20:00:33,811 basehttp 161 "GET /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3921
+WARNING 2021-08-19 20:00:33,812 basehttp 161 "GET /writeblog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3879
+INFO 2021-08-19 20:01:25,268 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5670
+INFO 2021-08-19 20:01:25,327 basehttp 161 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2021-08-19 20:01:25,335 basehttp 161 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2021-08-19 20:01:25,335 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2021-08-19 20:01:25,340 basehttp 161 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2021-08-19 20:01:25,346 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 304 0
+INFO 2021-08-19 20:01:25,347 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 304 0
+INFO 2021-08-19 20:01:25,347 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+INFO 2021-08-19 20:01:25,347 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 304 0
+INFO 2021-08-19 20:01:25,349 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+INFO 2021-08-19 20:01:25,373 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png?t=95e5d83 HTTP/1.1" 304 0
+INFO 2021-08-19 20:01:25,393 basehttp 161 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2021-08-19 20:01:43,046 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 20:01:45,542 basehttp 161 "GET /login/ HTTP/1.1" 200 3222
+INFO 2021-08-19 20:01:56,778 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-19 20:01:56,785 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 20:02:56,183 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 20:02:56,210 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-08-19 20:02:56,212 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-08-19 20:02:58,885 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 20:03:00,618 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 20:03:03,520 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 20:03:04,994 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 20:03:05,874 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 20:03:07,356 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 20:03:25,870 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5670
