@@ -8351,3 +8351,168 @@ WARNING 2021-08-19 21:50:08,843 log 224 Not Found: /favicon.ico
 WARNING 2021-08-19 21:50:08,843 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3782
 INFO 2021-08-19 23:11:24,661 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/new_pro/settings.py changed, reloading.
 INFO 2021-08-19 23:11:24,869 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-19 23:19:01,782 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-19 23:19:07,161 basehttp 161 "GET /admin HTTP/1.1" 301 0
+INFO 2021-08-19 23:19:07,197 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-08-19 23:19:07,287 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2357
+INFO 2021-08-19 23:19:07,318 basehttp 161 "GET /static/admin/css/login.css HTTP/1.1" 200 939
+INFO 2021-08-19 23:19:07,318 basehttp 161 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-08-19 23:19:07,319 basehttp 161 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-08-19 23:19:07,319 basehttp 161 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-08-19 23:19:07,320 basehttp 161 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-08-19 23:19:07,324 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-08-19 23:19:07,352 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-08-19 23:19:07,376 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-08-19 23:19:07,377 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-08-19 23:21:01,428 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2487
+INFO 2021-08-19 23:21:05,645 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2487
+INFO 2021-08-19 23:21:09,911 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2487
+INFO 2021-08-19 23:23:33,105 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/users/models.py changed, reloading.
+INFO 2021-08-19 23:23:33,325 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-19 23:24:11,451 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2492
+INFO 2021-08-19 23:24:13,436 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2492
+INFO 2021-08-19 23:24:15,887 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2492
+INFO 2021-08-19 23:24:16,965 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2492
+INFO 2021-08-19 23:24:22,173 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-08-19 23:24:22,191 basehttp 161 "GET /admin/ HTTP/1.1" 200 2879
+INFO 2021-08-19 23:24:22,206 basehttp 161 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-08-19 23:24:22,212 basehttp 161 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-08-19 23:24:22,212 basehttp 161 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-08-19 23:24:28,818 basehttp 161 "GET /admin/auth/group/ HTTP/1.1" 200 4418
+INFO 2021-08-19 23:24:28,843 basehttp 161 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-08-19 23:24:28,848 basehttp 161 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-08-19 23:24:28,849 basehttp 161 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-08-19 23:24:28,849 basehttp 161 "GET /static/admin/js/actions.js HTTP/1.1" 200 7664
+INFO 2021-08-19 23:24:28,851 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-19 23:24:28,853 basehttp 161 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-08-19 23:24:28,855 basehttp 161 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-08-19 23:24:28,856 basehttp 161 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-08-19 23:24:28,858 basehttp 161 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-08-19 23:24:28,859 basehttp 161 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-08-19 23:24:28,862 basehttp 161 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2021-08-19 23:24:28,880 basehttp 161 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-08-19 23:24:31,811 basehttp 161 "GET /admin/ HTTP/1.1" 200 2879
+INFO 2021-08-19 23:28:06,931 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/admin.py changed, reloading.
+INFO 2021-08-19 23:28:07,161 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-19 23:28:08,348 basehttp 161 "GET /admin/ HTTP/1.1" 200 3560
+INFO 2021-08-19 23:28:09,674 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 4696
+INFO 2021-08-19 23:28:09,703 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-19 23:28:12,860 basehttp 161 "GET /admin/auth/group/ HTTP/1.1" 200 4962
+INFO 2021-08-19 23:28:12,882 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-19 23:28:14,600 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 4696
+INFO 2021-08-19 23:28:14,624 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-19 23:28:19,241 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 23:28:19,261 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2021-08-19 23:28:19,262 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 304 0
+INFO 2021-08-19 23:28:19,263 basehttp 161 "GET /static/common/common.css HTTP/1.1" 304 0
+INFO 2021-08-19 23:28:19,263 basehttp 161 "GET /static/common/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2021-08-19 23:28:19,265 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-08-19 23:28:19,265 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-08-19 23:28:19,266 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-08-19 23:28:19,271 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-08-19 23:28:19,274 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-08-19 23:28:19,275 basehttp 161 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-08-19 23:28:19,284 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-08-19 23:28:19,284 basehttp 161 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-08-19 23:28:35,141 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-08-19 23:28:35,173 basehttp 161 "GET /admin/ HTTP/1.1" 200 3560
+INFO 2021-08-19 23:28:41,496 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 4696
+INFO 2021-08-19 23:28:41,523 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-19 23:28:44,525 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6340
+INFO 2021-08-19 23:28:44,565 basehttp 161 "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2021-08-19 23:28:44,565 basehttp 161 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2021-08-19 23:28:44,566 basehttp 161 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2021-08-19 23:28:44,566 basehttp 161 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO 2021-08-19 23:28:44,569 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-19 23:28:44,570 basehttp 161 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2021-08-19 23:28:44,572 basehttp 161 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2021-08-19 23:28:44,593 basehttp 161 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2021-08-19 23:28:44,595 basehttp 161 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2021-08-19 23:29:08,459 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-08-19 23:29:08,511 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6590
+INFO 2021-08-19 23:29:08,538 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-19 23:29:08,554 basehttp 161 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2021-08-19 23:29:26,379 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-08-19 23:29:26,421 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6590
+INFO 2021-08-19 23:29:26,443 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-19 23:29:33,850 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-08-19 23:29:33,905 basehttp 161 "GET /admin/home/articlecategory/3/change/ HTTP/1.1" 200 6795
+INFO 2021-08-19 23:29:33,931 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-19 23:29:36,092 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 6289
+INFO 2021-08-19 23:29:36,119 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-19 23:29:41,955 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 23:29:43,787 basehttp 161 "GET /center/ HTTP/1.1" 200 4193
+INFO 2021-08-19 23:29:43,806 basehttp 161 "GET /static/js/center.js HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:45,021 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5670
+INFO 2021-08-19 23:29:45,041 basehttp 161 "GET /static/js/write_blog.js HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:45,041 basehttp 161 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:45,041 basehttp 161 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:45,089 basehttp 161 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:45,096 basehttp 161 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:45,097 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:45,100 basehttp 161 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:45,106 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:45,107 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:45,107 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:45,108 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:45,108 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:45,125 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png?t=95e5d83 HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:45,141 basehttp 161 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2021-08-19 23:29:57,441 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-08-19 23:29:57,475 basehttp 161 "GET /admin/ HTTP/1.1" 200 4482
+INFO 2021-08-19 23:29:59,393 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 6289
+INFO 2021-08-19 23:29:59,420 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-19 23:30:02,362 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6340
+INFO 2021-08-19 23:30:02,385 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-19 23:30:11,252 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 6289
+INFO 2021-08-19 23:30:11,279 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-19 23:31:16,283 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 23:31:18,723 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5670
+INFO 2021-08-19 23:37:54,628 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/users/views.py changed, reloading.
+INFO 2021-08-19 23:37:54,881 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-19 23:37:58,856 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5362
+INFO 2021-08-19 23:39:14,117 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-19 23:39:16,757 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5362
+INFO 2021-08-19 23:39:24,555 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-08-19 23:39:24,620 basehttp 161 "GET /admin/ HTTP/1.1" 200 4482
+INFO 2021-08-19 23:39:26,888 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 6289
+INFO 2021-08-19 23:39:26,918 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-19 23:40:15,445 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/users/views.py changed, reloading.
+INFO 2021-08-19 23:40:15,664 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-19 23:40:18,576 basehttp 161 "GET /admin/ HTTP/1.1" 200 4482
+INFO 2021-08-19 23:40:19,943 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5622
+INFO 2021-08-19 23:49:37,691 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-19 23:50:28,518 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5622
+INFO 2021-08-19 23:56:48,801 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/models.py changed, reloading.
+INFO 2021-08-19 23:56:49,098 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-19 23:58:56,037 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/models.py changed, reloading.
+INFO 2021-08-19 23:58:56,316 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 00:00:57,566 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/models.py changed, reloading.
+INFO 2021-08-20 00:00:57,887 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 00:01:49,133 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/models.py changed, reloading.
+INFO 2021-08-20 00:01:49,383 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 00:04:28,352 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/models.py changed, reloading.
+INFO 2021-08-20 00:04:28,638 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 00:10:49,914 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/models.py changed, reloading.
+INFO 2021-08-20 00:10:50,191 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 00:12:34,231 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/models.py changed, reloading.
+INFO 2021-08-20 00:12:34,515 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 00:24:57,888 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/users/views.py changed, reloading.
+INFO 2021-08-20 00:24:58,147 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 00:30:05,194 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/users/views.py changed, reloading.
+INFO 2021-08-20 00:30:05,506 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 00:35:16,839 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/users/views.py changed, reloading.
+INFO 2021-08-20 00:35:17,100 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 00:35:23,406 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5622
+INFO 2021-08-20 00:35:23,445 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-08-20 00:35:23,446 basehttp 161 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-08-20 00:36:49,190 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5756
+ERROR 2021-08-20 00:39:06,927 views 382 Article() got an unexpected keyword argument 'author'
+WARNING 2021-08-20 00:39:06,928 log 224 Bad Request: /writeblog/
+WARNING 2021-08-20 00:39:06,928 basehttp 161 "POST /writeblog/ HTTP/1.1" 400 12
+INFO 2021-08-20 00:41:49,528 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/users/views.py changed, reloading.
+INFO 2021-08-20 00:41:49,777 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 00:41:54,579 basehttp 161 "POST /writeblog/ HTTP/1.1" 302 0
+INFO 2021-08-20 00:41:54,589 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-20 00:41:54,616 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-08-20 00:41:54,621 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
