@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from django.views import View
-from home.models import ArticleCategory,Article
+from home.models import ArticleCategory
 from django.http.response import HttpResponseNotFound
 from django.core.paginator import Paginator,EmptyPage
+from home.models import Article
 
 # Create your views here.
 
@@ -41,3 +42,20 @@ class IndexView(View):
             'page_num':page_num
         }
         return render(request,'index.html',context=context)
+
+#文章详情页面
+class DetailView(View):
+    def get(self,request):
+        id=request.GET.get('id')
+        article = Article
+        try:
+            article=Article.objects.get(id=id)
+        except Article.DoesNotExist:
+            pass
+        categorties=ArticleCategory.objects.all()
+        context={
+            'categories':categorties,
+            'category':article.category,
+            'article':article
+        }
+        return render(request,'detail.html',context=context)

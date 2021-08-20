@@ -305,6 +305,11 @@ class ForgetPasswordView(View):
 
 #用户个人中心
 class UserCenterView(LoginRequiredMixin,View):
+    def setCookies(response, key, queryCollection):
+        if key in queryCollection:
+            response.set_cookie(key.lower(), bytes(queryCollection[key], 'utf-8').decode("ISO-8859-1"))
+        else:
+            response.set_cookie(key.lower(), "")
     # 若用户未登录则会通过django自带的检测进行跳转到http://127.0.0.1:8000/accounts/login/?next=/center/
     def get(self,request):
         #获得用户信息
@@ -313,11 +318,7 @@ class UserCenterView(LoginRequiredMixin,View):
         context={'username':user.username,'mobile':user.mobile,'avatar':user.avatar.url if user.avatar else None,'user_desc':user.user_desc}
         return render(request,'center.html',context=context)
 
-    def setCookies(response, key, queryCollection):
-        if key in queryCollection:
-            response.set_cookie(key.lower(), bytes(queryCollection[key], 'utf-8').decode("ISO-8859-1"))
-        else:
-            response.set_cookie(key.lower(), "")
+
 
     def post(self,request):
         #接收
