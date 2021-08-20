@@ -18,19 +18,6 @@ class ArticleCategory(models.Model):
         verbose_name_plural=verbose_name
 #文章模型
 class Article(models.Model):
-    """
-    定义作者
-    定义标题图
-    定义标题
-    分类
-    标签
-    摘要
-    文章正文
-    浏览量
-    评论量
-    创建时间
-    修改时间
-    """
     #作者，on_delete：当user表中数据删除后，文章信息也同步删除
     auth=models.ForeignKey(User,on_delete=models.CASCADE)
     #标题图

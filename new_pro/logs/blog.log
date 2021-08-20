@@ -8516,3 +8516,925 @@ INFO 2021-08-20 00:41:54,579 basehttp 161 "POST /writeblog/ HTTP/1.1" 302 0
 INFO 2021-08-20 00:41:54,589 basehttp 161 "GET / HTTP/1.1" 200 11908
 INFO 2021-08-20 00:41:54,616 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
 INFO 2021-08-20 00:41:54,621 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-08-20 10:02:08,687 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 10:02:13,093 basehttp 161 "GET / HTTP/1.1" 200 11908
+INFO 2021-08-20 10:02:13,107 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 304 0
+INFO 2021-08-20 10:02:13,108 basehttp 161 "GET /static/common/common.css HTTP/1.1" 304 0
+INFO 2021-08-20 10:02:13,109 basehttp 161 "GET /static/common/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2021-08-20 10:02:13,110 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2021-08-20 10:02:13,111 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-08-20 10:02:13,113 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-08-20 10:02:13,113 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-08-20 10:02:13,114 basehttp 161 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-08-20 10:02:13,115 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-08-20 10:02:13,117 basehttp 161 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-08-20 10:02:13,118 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-08-20 10:02:13,120 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+WARNING 2021-08-20 10:02:14,231 log 224 Not Found: /favicon.ico
+WARNING 2021-08-20 10:02:14,231 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3782
+INFO 2021-08-20 10:02:40,414 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py changed, reloading.
+INFO 2021-08-20 10:02:40,609 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 10:04:13,331 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py changed, reloading.
+INFO 2021-08-20 10:04:13,518 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 10:09:31,608 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py changed, reloading.
+INFO 2021-08-20 10:09:31,803 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-08-20 10:14:26,875 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'cat.id==category.id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py", line 23, in get
+    return render(request,'index.html',context=context)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '==category.id' from 'cat.id==category.id'
+ERROR 2021-08-20 10:14:26,876 basehttp 161 "GET / HTTP/1.1" 500 191834
+ERROR 2021-08-20 10:14:59,649 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'cat.id==category.id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py", line 23, in get
+    return render(request,'index.html',context=context)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '==category.id' from 'cat.id==category.id'
+ERROR 2021-08-20 10:14:59,650 basehttp 161 "GET / HTTP/1.1" 500 191834
+ERROR 2021-08-20 10:15:00,277 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'cat.id==category.id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py", line 23, in get
+    return render(request,'index.html',context=context)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '==category.id' from 'cat.id==category.id'
+ERROR 2021-08-20 10:15:00,277 basehttp 161 "GET / HTTP/1.1" 500 191834
+ERROR 2021-08-20 10:15:00,434 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'cat.id==category.id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py", line 23, in get
+    return render(request,'index.html',context=context)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '==category.id' from 'cat.id==category.id'
+ERROR 2021-08-20 10:15:00,434 basehttp 161 "GET / HTTP/1.1" 500 191834
+ERROR 2021-08-20 10:15:00,606 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'cat.id==category.id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py", line 23, in get
+    return render(request,'index.html',context=context)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '==category.id' from 'cat.id==category.id'
+ERROR 2021-08-20 10:15:00,606 basehttp 161 "GET / HTTP/1.1" 500 191834
+ERROR 2021-08-20 10:15:00,746 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'cat.id==category.id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py", line 23, in get
+    return render(request,'index.html',context=context)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '==category.id' from 'cat.id==category.id'
+ERROR 2021-08-20 10:15:00,746 basehttp 161 "GET / HTTP/1.1" 500 191834
+ERROR 2021-08-20 10:15:00,904 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'cat.id==category.id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py", line 23, in get
+    return render(request,'index.html',context=context)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '==category.id' from 'cat.id==category.id'
+ERROR 2021-08-20 10:15:00,905 basehttp 161 "GET / HTTP/1.1" 500 191834
+INFO 2021-08-20 10:20:41,619 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py changed, reloading.
+INFO 2021-08-20 10:20:41,884 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-08-20 10:20:49,091 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'cat.id=category.id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py", line 23, in get
+    return render(request,'index.html',context=context)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '=category.id' from 'cat.id=category.id'
+ERROR 2021-08-20 10:20:49,092 basehttp 161 "GET / HTTP/1.1" 500 191877
+ERROR 2021-08-20 10:20:58,303 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'cat.id==category.id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py", line 23, in get
+    return render(request,'index.html',context=context)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '==category.id' from 'cat.id==category.id'
+ERROR 2021-08-20 10:20:58,303 basehttp 161 "GET / HTTP/1.1" 500 191902
+ERROR 2021-08-20 10:23:25,965 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py", line 23, in get
+    return render(request,'index.html',context=context)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'endfor', expected 'endif'. Did you forget to register or load this tag?
+ERROR 2021-08-20 10:23:25,966 basehttp 161 "GET / HTTP/1.1" 500 179202
+ERROR 2021-08-20 10:23:26,891 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py", line 23, in get
+    return render(request,'index.html',context=context)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'endfor', expected 'endif'. Did you forget to register or load this tag?
+ERROR 2021-08-20 10:23:26,891 basehttp 161 "GET / HTTP/1.1" 500 179202
+ERROR 2021-08-20 10:23:27,339 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py", line 23, in get
+    return render(request,'index.html',context=context)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'endfor', expected 'endif'. Did you forget to register or load this tag?
+ERROR 2021-08-20 10:23:27,340 basehttp 161 "GET / HTTP/1.1" 500 179202
+ERROR 2021-08-20 10:23:27,513 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py", line 23, in get
+    return render(request,'index.html',context=context)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'endfor', expected 'endif'. Did you forget to register or load this tag?
+ERROR 2021-08-20 10:23:27,514 basehttp 161 "GET / HTTP/1.1" 500 179202
+ERROR 2021-08-20 10:25:49,366 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py", line 23, in get
+    return render(request,'index.html',context=context)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/liulongxin/PycharmProjects/django_blog/venv/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'endfor', expected 'endif'. Did you forget to register or load this tag?
+ERROR 2021-08-20 10:25:49,367 basehttp 161 "GET / HTTP/1.1" 500 179202
+INFO 2021-08-20 10:27:06,597 basehttp 161 "GET / HTTP/1.1" 200 12110
+INFO 2021-08-20 10:27:08,630 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 12110
+INFO 2021-08-20 10:27:09,291 basehttp 161 "GET /?cat_id=3 HTTP/1.1" 200 12110
+INFO 2021-08-20 10:27:09,808 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 12110
+INFO 2021-08-20 10:27:10,327 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 12110
+INFO 2021-08-20 10:27:10,806 basehttp 161 "GET /?cat_id=3 HTTP/1.1" 200 12110
+INFO 2021-08-20 10:27:11,472 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 12110
+INFO 2021-08-20 11:09:00,667 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/models.py changed, reloading.
+INFO 2021-08-20 11:09:00,977 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 11:18:45,420 autoreload 251 /Users/liulongxin/PycharmProjects/django_blog/new_pro/home/views.py changed, reloading.
+INFO 2021-08-20 11:18:45,725 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-20 11:18:48,559 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-20 11:18:48,562 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-20 11:27:11,951 basehttp 161 "GET / HTTP/1.1" 200 4349
+INFO 2021-08-20 11:27:13,951 basehttp 161 "GET / HTTP/1.1" 200 4349
+INFO 2021-08-20 11:27:14,459 basehttp 161 "GET / HTTP/1.1" 200 4349
+INFO 2021-08-20 11:27:16,815 basehttp 161 "GET / HTTP/1.1" 200 4349
+INFO 2021-08-20 11:27:17,070 basehttp 161 "GET / HTTP/1.1" 200 4349
+INFO 2021-08-20 11:27:17,210 basehttp 161 "GET / HTTP/1.1" 200 4349
+INFO 2021-08-20 11:27:17,357 basehttp 161 "GET / HTTP/1.1" 200 4349
+INFO 2021-08-20 11:27:38,633 basehttp 161 "GET / HTTP/1.1" 200 4349
+INFO 2021-08-20 11:27:38,957 basehttp 161 "GET / HTTP/1.1" 200 4349
+INFO 2021-08-20 11:27:39,102 basehttp 161 "GET / HTTP/1.1" 200 4349
+INFO 2021-08-20 11:27:39,252 basehttp 161 "GET / HTTP/1.1" 200 4349
+INFO 2021-08-20 11:30:04,273 basehttp 161 "GET / HTTP/1.1" 200 4389
+INFO 2021-08-20 11:30:05,835 basehttp 161 "GET / HTTP/1.1" 200 4389
+INFO 2021-08-20 11:30:05,981 basehttp 161 "GET / HTTP/1.1" 200 4389
+INFO 2021-08-20 11:30:06,124 basehttp 161 "GET / HTTP/1.1" 200 4389
+INFO 2021-08-20 11:30:06,274 basehttp 161 "GET / HTTP/1.1" 200 4389
+INFO 2021-08-20 11:30:06,409 basehttp 161 "GET / HTTP/1.1" 200 4389
+INFO 2021-08-20 11:30:06,538 basehttp 161 "GET / HTTP/1.1" 200 4389
+INFO 2021-08-20 11:30:06,686 basehttp 161 "GET / HTTP/1.1" 200 4389
+INFO 2021-08-20 11:30:40,832 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 5893
+INFO 2021-08-20 11:30:40,896 basehttp 161 "GET /media/artice/20210820/F1580D0F-65AF-4A31-B938-F17D71E7C98E.jpeg HTTP/1.1" 200 7217644
+INFO 2021-08-20 11:30:42,857 basehttp 161 "GET /static/detail.html HTTP/1.1" 200 8675
+INFO 2021-08-20 11:30:42,878 basehttp 161 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2021-08-20 11:30:42,880 basehttp 161 "GET /static/prism/prism.css HTTP/1.1" 200 3865
+INFO 2021-08-20 11:30:42,881 basehttp 161 "GET /static/js/detail.js HTTP/1.1" 200 1272
+INFO 2021-08-20 11:30:42,881 basehttp 161 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2021-08-20 11:30:42,882 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+INFO 2021-08-20 11:30:42,964 basehttp 161 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2021-08-20 11:30:42,970 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2021-08-20 11:30:42,971 basehttp 161 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19035
+INFO 2021-08-20 11:30:42,978 basehttp 161 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2021-08-20 11:30:42,982 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4203
+INFO 2021-08-20 11:30:42,983 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3824
+INFO 2021-08-20 11:30:42,989 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 304 0
+INFO 2021-08-20 11:30:42,990 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 304 0
+INFO 2021-08-20 11:30:42,990 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 304 0
+INFO 2021-08-20 11:30:42,990 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 369
+INFO 2021-08-20 11:30:42,990 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+INFO 2021-08-20 11:30:42,995 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+INFO 2021-08-20 11:30:43,008 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png?t=95e5d83 HTTP/1.1" 304 0
+INFO 2021-08-20 11:30:43,008 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/hidpi/codesnippet.png?t=I3I8 HTTP/1.1" 200 1887
+INFO 2021-08-20 11:30:43,023 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2062
+INFO 2021-08-20 11:30:43,024 basehttp 161 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 304 0
